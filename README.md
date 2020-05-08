@@ -13,3 +13,4 @@ In order to use this project in your game with LittleOrionEngine, follow this st
 - Open the project with Wwise launcher.
 - Once the project is open go to Project->Project settings..
 - Set the SoundBanks path in the settings to the Assets folder in your game:
+![](Images/tuto2.PNG)
