@@ -14,6 +14,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Click_fordward" ID="{3A35FF60-3D59-4D4A-BDDA-381423E3B4A5}">
+					<ChildrenList>
+						<Action Name="" ID="{3DECC5D9-7D7E-45B9-8AF0-6E31F44DB720}" ShortID="378403255">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fordward" ID="{CDC28CEA-5EFE-49EF-BCC9-264D2B65ADF5}" WorkUnitID="{A4E2A787-2884-424B-A98F-680B3DFD8919}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Click_backward" ID="{1723CF4A-0875-42CF-8213-F969BC3FF43B}">
+					<ChildrenList>
+						<Action Name="" ID="{10455245-75FA-46A0-BAC8-B2933AF0D745}" ShortID="227545391">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Backward" ID="{1D10F91E-0476-4605-922D-34AB5B603E01}" WorkUnitID="{A4E2A787-2884-424B-A98F-680B3DFD8919}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ingame_music" ID="{D56ED24F-21F0-418A-BD73-13344949BE99}">
+					<ChildrenList>
+						<Action Name="" ID="{3A619E41-B6AE-41E1-AA51-AB230BA65B28}" ShortID="239591016">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwinlightSouls_Menu_InGame_Ambient" ID="{70F8CFFA-505C-4A20-8794-90F5B278A7E5}" WorkUnitID="{1FC44F0F-507F-4E50-9187-88C36CE1C65C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
