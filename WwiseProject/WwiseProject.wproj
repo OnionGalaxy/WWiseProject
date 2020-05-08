@@ -30,7 +30,7 @@
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
-						<Value Platform="Windows">..\..\Game\Assets\Wwise\</Value>
+						<Value Platform="Windows">..\..\LittleOrionEngine\Game\Assets\Wwise\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">

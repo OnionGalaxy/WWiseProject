@@ -14,6 +14,9 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="Test-Orquestration_Potential" ID="{B9A4F0B8-3287-4117-9826-DA5B85D304D6}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Test-Orquestration_Potential.wav</AudioFile>
 							<MediaIDList>
