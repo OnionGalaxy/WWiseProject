@@ -1,0 +1,5 @@
+## Ignore Wwise settings files
+
+WwiseProject.*.wsettings
+
+
