@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ED528E8E-507D-4625-8185-F13489202DA0}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Combat" ID="{ED528E8E-507D-4625-8185-F13489202DA0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Music_TwinlightSouls_StartingCombat" ID="{00E5E5D1-870F-424C-82DE-1F344F5982BC}" ShortID="541966822">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Music_TwinlightSouls_StartingCombat" ID="{9C7BF0D5-C08C-4A29-8ACC-ACAC5D7B2804}">
+							<Language>SFX</Language>
+							<AudioFile>Music_TwinlightSouls_StartingCombat.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="223251098"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Music_TwinlightSouls_StartingCombat" ID="{9C7BF0D5-C08C-4A29-8ACC-ACAC5D7B2804}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

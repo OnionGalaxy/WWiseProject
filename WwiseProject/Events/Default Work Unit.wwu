@@ -47,6 +47,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Start_Combat_Music" ID="{166FE75C-4183-4783-94E5-BCBAEC053483}">
+					<ChildrenList>
+						<Action Name="" ID="{8BAEA2EE-2F0F-428A-9343-2FB394F4DC99}" ShortID="410514022">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_TwinlightSouls_StartingCombat" ID="{00E5E5D1-870F-424C-82DE-1F344F5982BC}" WorkUnitID="{ED528E8E-507D-4625-8185-F13489202DA0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

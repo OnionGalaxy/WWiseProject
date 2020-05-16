@@ -19,6 +19,13 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Combat" ID="{67ECB4CA-4E0E-4332-8476-7338C09E0B7C}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Start_Combat_Music" ID="{166FE75C-4183-4783-94E5-BCBAEC053483}" WorkUnitID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
