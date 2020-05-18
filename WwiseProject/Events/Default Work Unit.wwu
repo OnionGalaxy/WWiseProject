@@ -58,6 +58,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Footstep" ID="{3022FD51-0871-4114-8CD6-F9158481A397}">
+					<ChildrenList>
+						<Action Name="" ID="{1DFAE7C8-7B23-4B0D-90EA-32A0C74AB21C}" ShortID="1062917901">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mushdoom" ID="{29EADFC6-B581-4CF2-B7AE-CD1C5C34ED17}" WorkUnitID="{3783200D-4045-4395-AB3A-43AA3CE50197}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
