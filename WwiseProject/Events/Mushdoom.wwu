@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8EAFBABF-AE2B-436D-A28B-FC0D41986278}" SchemaVersion="97" RootDocumentID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}">
+	<Events>
+		<WorkUnit Name="Mushdoom" ID="{8EAFBABF-AE2B-436D-A28B-FC0D41986278}" OwnerID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="play_footstep" ID="{3022FD51-0871-4114-8CD6-F9158481A397}">
+					<ChildrenList>
+						<Action Name="" ID="{1DFAE7C8-7B23-4B0D-90EA-32A0C74AB21C}" ShortID="1062917901">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{29EADFC6-B581-4CF2-B7AE-CD1C5C34ED17}" WorkUnitID="{7C0657F4-04C7-421C-8964-3D98F101F1AD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_idle" ID="{59E35D39-20B6-4F61-9D66-E809B7D873F0}">
+					<ChildrenList>
+						<Action Name="" ID="{A58CAAC6-8CCB-4BF6-94E5-52F17CCCB135}" ShortID="696772424">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Character_Mushdoom_Idle" ID="{6856C2B5-2396-4696-80C7-CBA5141A4EB6}" WorkUnitID="{7C0657F4-04C7-421C-8964-3D98F101F1AD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_make_attack" ID="{4C735559-8731-4E18-B222-956A0E7BE750}">
+					<ChildrenList>
+						<Action Name="" ID="{03D5C114-999F-40EA-B03E-1621C4D7D5A6}" ShortID="940964608">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Character_Mushdoom_Attack" ID="{74E04CC1-19D3-49C6-A651-576C7E3747F4}" WorkUnitID="{7C0657F4-04C7-421C-8964-3D98F101F1AD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_attack_hits" ID="{925507ED-0309-47FC-B4B2-AA22F3C3406C}">
+					<ChildrenList>
+						<Action Name="" ID="{1551FD80-894F-415D-9022-E6EFD0AA220E}" ShortID="253500671">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Character_Mushdoom_AttackHitsPlayer" ID="{717A6600-E047-4270-AC1E-0D7041E1A860}" WorkUnitID="{7C0657F4-04C7-421C-8964-3D98F101F1AD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

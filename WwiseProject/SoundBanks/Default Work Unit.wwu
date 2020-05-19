@@ -5,30 +5,40 @@
 			<ChildrenList>
 				<SoundBank Name="Play_main" ID="{845B4AEA-E786-49F6-BEA8-8BC22C4E0473}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_main" ID="{C5992B2B-2E06-41C9-9A01-DD9553DD2E9F}" WorkUnitID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_main" ID="{C5992B2B-2E06-41C9-9A01-DD9553DD2E9F}" WorkUnitID="{EACCB140-2EB0-4CAA-A465-467A47EAAC46}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="Menu_main" ID="{BBEB2095-8A7C-4F26-972D-93B731FC5630}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_ingame_music" ID="{D56ED24F-21F0-418A-BD73-13344949BE99}" WorkUnitID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Click_backward" ID="{1723CF4A-0875-42CF-8213-F969BC3FF43B}" WorkUnitID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Click_fordward" ID="{3A35FF60-3D59-4D4A-BDDA-381423E3B4A5}" WorkUnitID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_ingame_music" ID="{D56ED24F-21F0-418A-BD73-13344949BE99}" WorkUnitID="{779A7A03-D48B-4FA2-A8F4-2B217329329A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Click_backward" ID="{1723CF4A-0875-42CF-8213-F969BC3FF43B}" WorkUnitID="{779A7A03-D48B-4FA2-A8F4-2B217329329A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Click_fordward" ID="{3A35FF60-3D59-4D4A-BDDA-381423E3B4A5}" WorkUnitID="{779A7A03-D48B-4FA2-A8F4-2B217329329A}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="Combat" ID="{67ECB4CA-4E0E-4332-8476-7338C09E0B7C}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Start_Combat_Music" ID="{166FE75C-4183-4783-94E5-BCBAEC053483}" WorkUnitID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Start_Combat_Music" ID="{166FE75C-4183-4783-94E5-BCBAEC053483}" WorkUnitID="{EACCB140-2EB0-4CAA-A465-467A47EAAC46}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="Footsteps" ID="{723CB31D-B091-410E-AE1F-FB048E7BA1AA}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_Footstep" ID="{3022FD51-0871-4114-8CD6-F9158481A397}" WorkUnitID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_footstep" ID="{3022FD51-0871-4114-8CD6-F9158481A397}" WorkUnitID="{8EAFBABF-AE2B-436D-A28B-FC0D41986278}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Mushdoom" ID="{4CF7CD79-F61C-4D84-8C0D-D45A387F90F1}">
+					<ObjectInclusionList>
+						<ObjectRef Name="play_footstep" ID="{3022FD51-0871-4114-8CD6-F9158481A397}" WorkUnitID="{8EAFBABF-AE2B-436D-A28B-FC0D41986278}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_attack_hits" ID="{925507ED-0309-47FC-B4B2-AA22F3C3406C}" WorkUnitID="{8EAFBABF-AE2B-436D-A28B-FC0D41986278}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_make_attack" ID="{4C735559-8731-4E18-B222-956A0E7BE750}" WorkUnitID="{8EAFBABF-AE2B-436D-A28B-FC0D41986278}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_idle" ID="{59E35D39-20B6-4F61-9D66-E809B7D873F0}" WorkUnitID="{8EAFBABF-AE2B-436D-A28B-FC0D41986278}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

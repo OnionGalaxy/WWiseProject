@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{1FC44F0F-507F-4E50-9187-88C36CE1C65C}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{1FC44F0F-507F-4E50-9187-88C36CE1C65C}" SchemaVersion="97" RootDocumentID="{9F9D1B30-200B-4927-8410-CAADE617AD84}">
 	<AudioObjects>
-		<WorkUnit Name="Menu" ID="{1FC44F0F-507F-4E50-9187-88C36CE1C65C}" PersistMode="Standalone">
+		<WorkUnit Name="Menu" ID="{1FC44F0F-507F-4E50-9187-88C36CE1C65C}" OwnerID="{9F9D1B30-200B-4927-8410-CAADE617AD84}" PersistMode="Nested">
 			<ChildrenList>
 				<WorkUnit Name="Menu_Clicks" ID="{A4E2A787-2884-424B-A98F-680B3DFD8919}" PersistMode="Reference"/>
 				<Sound Name="TwinlightSouls_Menu_InGame_Ambient" ID="{70F8CFFA-505C-4A20-8794-90F5B278A7E5}" ShortID="743079672">

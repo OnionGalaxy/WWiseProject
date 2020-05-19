@@ -3,72 +3,10 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_main" ID="{C5992B2B-2E06-41C9-9A01-DD9553DD2E9F}">
-					<ChildrenList>
-						<Action Name="" ID="{9F4674C8-0264-4039-B8AB-4C094134A23D}" ShortID="581719747">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Test-Orquestration_Potential" ID="{BAFA6634-759F-4E81-86D1-ACA1473C16A0}" WorkUnitID="{9F9D1B30-200B-4927-8410-CAADE617AD84}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Click_fordward" ID="{3A35FF60-3D59-4D4A-BDDA-381423E3B4A5}">
-					<ChildrenList>
-						<Action Name="" ID="{3DECC5D9-7D7E-45B9-8AF0-6E31F44DB720}" ShortID="378403255">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Fordward" ID="{CDC28CEA-5EFE-49EF-BCC9-264D2B65ADF5}" WorkUnitID="{A4E2A787-2884-424B-A98F-680B3DFD8919}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Click_backward" ID="{1723CF4A-0875-42CF-8213-F969BC3FF43B}">
-					<ChildrenList>
-						<Action Name="" ID="{10455245-75FA-46A0-BAC8-B2933AF0D745}" ShortID="227545391">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Backward" ID="{1D10F91E-0476-4605-922D-34AB5B603E01}" WorkUnitID="{A4E2A787-2884-424B-A98F-680B3DFD8919}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_ingame_music" ID="{D56ED24F-21F0-418A-BD73-13344949BE99}">
-					<ChildrenList>
-						<Action Name="" ID="{3A619E41-B6AE-41E1-AA51-AB230BA65B28}" ShortID="239591016">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="TwinlightSouls_Menu_InGame_Ambient" ID="{70F8CFFA-505C-4A20-8794-90F5B278A7E5}" WorkUnitID="{1FC44F0F-507F-4E50-9187-88C36CE1C65C}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Start_Combat_Music" ID="{166FE75C-4183-4783-94E5-BCBAEC053483}">
-					<ChildrenList>
-						<Action Name="" ID="{8BAEA2EE-2F0F-428A-9343-2FB394F4DC99}" ShortID="410514022">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Music_TwinlightSouls_StartingCombat" ID="{00E5E5D1-870F-424C-82DE-1F344F5982BC}" WorkUnitID="{ED528E8E-507D-4625-8185-F13489202DA0}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Footstep" ID="{3022FD51-0871-4114-8CD6-F9158481A397}">
-					<ChildrenList>
-						<Action Name="" ID="{1DFAE7C8-7B23-4B0D-90EA-32A0C74AB21C}" ShortID="1062917901">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Mushdoom" ID="{29EADFC6-B581-4CF2-B7AE-CD1C5C34ED17}" WorkUnitID="{3783200D-4045-4395-AB3A-43AA3CE50197}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
+				<WorkUnit Name="Player" ID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" PersistMode="Reference"/>
+				<WorkUnit Name="Music" ID="{EACCB140-2EB0-4CAA-A465-467A47EAAC46}" PersistMode="Reference"/>
+				<WorkUnit Name="Menu" ID="{779A7A03-D48B-4FA2-A8F4-2B217329329A}" PersistMode="Reference"/>
+				<WorkUnit Name="Mushdoom" ID="{8EAFBABF-AE2B-436D-A28B-FC0D41986278}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

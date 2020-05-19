@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{54A59ECD-4E16-468B-93DF-A400057BF407}" SchemaVersion="97" RootDocumentID="{9F9D1B30-200B-4927-8410-CAADE617AD84}">
+	<AudioObjects>
+		<WorkUnit Name="Player" ID="{54A59ECD-4E16-468B-93DF-A400057BF407}" OwnerID="{9F9D1B30-200B-4927-8410-CAADE617AD84}" PersistMode="Nested">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Footsteps" ID="{2BF5EF6B-B7B5-4E01-927D-3303E54A38B3}" ShortID="208139470">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SFX_Character_Character1_Walk1" ID="{0544BD61-DC84-4F9E-9775-D64D18F62EAC}" ShortID="691301413">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Character_Character1_Walk1" ID="{B0AB94E9-A6DD-4C25-8AFA-3D59C60EB30F}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Character_Character1_Walk1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="924322500"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Character_Character1_Walk1" ID="{B0AB94E9-A6DD-4C25-8AFA-3D59C60EB30F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Character_Character1_Walk2" ID="{8C840E0D-CF12-4519-8E4B-2183D2C27D41}" ShortID="137961437">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Character_Character1_Walk2" ID="{048FB8F8-565D-40CF-994B-56950600011E}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Character_Character1_Walk2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="526528986"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Character_Character1_Walk2" ID="{048FB8F8-565D-40CF-994B-56950600011E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Character_Character1_Walk3" ID="{9240FF74-3C23-4E39-AC9D-0055A725CFCE}" ShortID="591583871">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Character_Character1_Walk3" ID="{32138407-9415-4264-935B-FFC99EF132FF}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Character_Character1_Walk3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="93035261"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Character_Character1_Walk3" ID="{32138407-9415-4264-935B-FFC99EF132FF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
