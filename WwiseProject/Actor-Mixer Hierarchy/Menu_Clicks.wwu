@@ -4,6 +4,9 @@
 		<WorkUnit Name="Menu_Clicks" ID="{A4E2A787-2884-424B-A98F-680B3DFD8919}" OwnerID="{1FC44F0F-507F-4E50-9187-88C36CE1C65C}" PersistMode="Nested">
 			<ChildrenList>
 				<RandomSequenceContainer Name="Fordward" ID="{CDC28CEA-5EFE-49EF-BCC9-264D2B65ADF5}" ShortID="750674845">
+					<PropertyList>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
@@ -126,6 +129,9 @@
 					</ChildrenList>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="Backward" ID="{1D10F91E-0476-4605-922D-34AB5B603E01}" ShortID="621235107">
+					<PropertyList>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>

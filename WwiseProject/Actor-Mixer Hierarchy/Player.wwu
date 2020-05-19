@@ -4,6 +4,9 @@
 		<WorkUnit Name="Player" ID="{54A59ECD-4E16-468B-93DF-A400057BF407}" OwnerID="{9F9D1B30-200B-4927-8410-CAADE617AD84}" PersistMode="Nested">
 			<ChildrenList>
 				<RandomSequenceContainer Name="Footsteps" ID="{2BF5EF6B-B7B5-4E01-927D-3303E54A38B3}" ShortID="208139470">
+					<PropertyList>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
@@ -81,6 +84,116 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<Sound Name="SFX_Character_Character1_Jump" ID="{54C9458A-AB37-4263-8E5D-D801A0F75323}" ShortID="1010214753">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Character_Character1_Jump" ID="{777CADF5-2B41-46C4-85D6-DA8176B605D6}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Character_Character1_Jump.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="622200536"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Character_Character1_Jump" ID="{777CADF5-2B41-46C4-85D6-DA8176B605D6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Character_Character1_Kick1" ID="{80B3D429-2835-4FE2-8BA5-5A5A4DF90503}" ShortID="920862021">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Character_Character1_Kick1" ID="{FAC5B934-9FF8-4B2B-8005-C88967E4C18C}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Character_Character1_Kick1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="755204042"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Character_Character1_Kick1" ID="{FAC5B934-9FF8-4B2B-8005-C88967E4C18C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Character_Character1_KickHitsEnemy1" ID="{188F0FC4-29D8-49CE-8359-058D9A2804F6}" ShortID="721838538">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Character_Character1_KickHitsEnemy1" ID="{64F46069-F6E8-4147-B8F0-AB100E2E6C91}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Character_Character1_KickHitsEnemy1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="173909941"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Character_Character1_KickHitsEnemy1" ID="{64F46069-F6E8-4147-B8F0-AB100E2E6C91}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Character_Character1_Punch1" ID="{CCCFEFE2-63F1-437A-AB80-1CCAB193B9F5}" ShortID="1068192797">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Character_Character1_Punch1" ID="{D4B0423F-0BD2-4AB2-AB34-F28DE334E963}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Character_Character1_Punch1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="978598382"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Character_Character1_Punch1" ID="{D4B0423F-0BD2-4AB2-AB34-F28DE334E963}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Character_Character1_PunchHitsEnemy1" ID="{52D65E63-9928-4B6D-AE54-DF615D0F9EB7}" ShortID="779163999">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Character_Character1_PunchHitsEnemy1" ID="{3155AF1A-56AD-4495-BE7C-006B6AC514A5}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Character_Character1_PunchHitsEnemy1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="769742738"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Character_Character1_PunchHitsEnemy1" ID="{3155AF1A-56AD-4495-BE7C-006B6AC514A5}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

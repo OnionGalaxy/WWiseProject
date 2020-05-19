@@ -43,6 +43,18 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Player" ID="{55E0B12F-2606-418C-8DD7-9D158BD9D206}">
+					<ObjectInclusionList>
+						<ObjectRef Name="play_punch1_player" ID="{CEB081AE-4AEE-40EB-9CD3-45212631665F}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_footstep_player" ID="{B6727C19-9B65-44B2-896D-D26DA7139257}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_kick1_player" ID="{3FCA29BE-07FF-4520-A3C7-F4EFB0AB15A9}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_jump_player" ID="{3AF16392-B28A-464D-8ABB-B7A209A3B24E}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_punch1_hit_player" ID="{52C3B021-603A-4B39-B818-F9264E4BF3EC}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_kick1_hit_player" ID="{DF3FBDDB-C582-4C65-B2E5-660DD6C9EF3B}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

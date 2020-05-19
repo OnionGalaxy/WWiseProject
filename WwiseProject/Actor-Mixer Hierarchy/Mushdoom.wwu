@@ -94,6 +94,7 @@
 				</Sound>
 				<RandomSequenceContainer Name="Footsteps" ID="{29EADFC6-B581-4CF2-B7AE-CD1C5C34ED17}" ShortID="744113095">
 					<PropertyList>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 						<Property Name="Pitch" Type="int32">
 							<ModifierList>
 								<ModifierInfo>

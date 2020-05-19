@@ -1,6 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" SchemaVersion="97" RootDocumentID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}">
 	<Events>
-		<WorkUnit Name="Player" ID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" OwnerID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}" PersistMode="Nested"/>
+		<WorkUnit Name="Player" ID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" OwnerID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="play_footstep_player" ID="{B6727C19-9B65-44B2-896D-D26DA7139257}">
+					<ChildrenList>
+						<Action Name="" ID="{60CDEF7B-F85E-411D-96DC-2B2C8EA3C9C6}" ShortID="100244645">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{2BF5EF6B-B7B5-4E01-927D-3303E54A38B3}" WorkUnitID="{54A59ECD-4E16-468B-93DF-A400057BF407}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_kick1_player" ID="{3FCA29BE-07FF-4520-A3C7-F4EFB0AB15A9}">
+					<ChildrenList>
+						<Action Name="" ID="{0CB0C328-CA0E-481B-8DC8-9704A218FB82}" ShortID="694234942">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Character_Character1_Kick1" ID="{80B3D429-2835-4FE2-8BA5-5A5A4DF90503}" WorkUnitID="{54A59ECD-4E16-468B-93DF-A400057BF407}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_punch1_player" ID="{CEB081AE-4AEE-40EB-9CD3-45212631665F}">
+					<ChildrenList>
+						<Action Name="" ID="{B38E7F94-2679-4E75-ABD0-5C4C14A488B8}" ShortID="365731600">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Character_Character1_Punch1" ID="{CCCFEFE2-63F1-437A-AB80-1CCAB193B9F5}" WorkUnitID="{54A59ECD-4E16-468B-93DF-A400057BF407}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_kick1_hit_player" ID="{DF3FBDDB-C582-4C65-B2E5-660DD6C9EF3B}">
+					<ChildrenList>
+						<Action Name="" ID="{D72349F6-2677-4247-A0F0-CC6CA762D442}" ShortID="24620809">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Character_Character1_KickHitsEnemy1" ID="{188F0FC4-29D8-49CE-8359-058D9A2804F6}" WorkUnitID="{54A59ECD-4E16-468B-93DF-A400057BF407}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_punch1_hit_player" ID="{52C3B021-603A-4B39-B818-F9264E4BF3EC}">
+					<ChildrenList>
+						<Action Name="" ID="{5E8EE4F0-03D0-4FF0-B051-4779CB374451}" ShortID="430900115">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Character_Character1_PunchHitsEnemy1" ID="{52D65E63-9928-4B6D-AE54-DF615D0F9EB7}" WorkUnitID="{54A59ECD-4E16-468B-93DF-A400057BF407}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_jump_player" ID="{3AF16392-B28A-464D-8ABB-B7A209A3B24E}">
+					<ChildrenList>
+						<Action Name="" ID="{57D015D1-F016-4B75-8F9D-D31C9E598544}" ShortID="16087112">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Character_Character1_Jump" ID="{54C9458A-AB37-4263-8E5D-D801A0F75323}" WorkUnitID="{54A59ECD-4E16-468B-93DF-A400057BF407}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
