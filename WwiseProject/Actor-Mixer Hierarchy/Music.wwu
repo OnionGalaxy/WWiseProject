@@ -53,6 +53,11 @@
 				<Sound Name="Music_TwinlightSouls_Base" ID="{D2791303-14A7-41DF-9AD9-5075831D7E55}" ShortID="848185681">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-25</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
