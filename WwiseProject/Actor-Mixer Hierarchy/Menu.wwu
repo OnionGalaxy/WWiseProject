@@ -26,6 +26,72 @@
 						<ActiveSource Name="TwinlightSouls_Menu_InGame_Ambient" ID="{EFAA24BF-2576-4C2A-BB85-8A9B6C5233B9}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="SFX_Menu_ClickForward_V1" ID="{973E5B95-0616-4E06-A844-AC72665306D7}" ShortID="371323087">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Menu_ClickForward_V1" ID="{F3AA6987-81D4-448A-9BEB-323231480F2A}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Menu_ClickForward_V1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="14294545"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Menu_ClickForward_V1" ID="{F3AA6987-81D4-448A-9BEB-323231480F2A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Menu_HoverButton_V1" ID="{3A99FD1E-9F34-4198-A487-7CE46D7301D3}" ShortID="270495212">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Menu_HoverButton_V1" ID="{F31D67FB-DEEA-4C92-B0F6-AFEC6567A4D0}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Menu_HoverButton_V1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="49759006"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Menu_HoverButton_V1" ID="{F31D67FB-DEEA-4C92-B0F6-AFEC6567A4D0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Menu_StartGame_V1" ID="{E2642B62-9AB2-4CCA-99A1-8574AD0BC5EE}" ShortID="939111156">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Menu_StartGame_V1" ID="{78F6922D-C013-4221-86B5-B35F1CD6E147}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Menu_StartGame_V1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="250274843"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Menu_StartGame_V1" ID="{78F6922D-C013-4221-86B5-B35F1CD6E147}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
