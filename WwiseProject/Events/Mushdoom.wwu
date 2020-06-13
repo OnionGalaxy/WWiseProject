@@ -36,12 +36,12 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="play_attack_hits" ID="{925507ED-0309-47FC-B4B2-AA22F3C3406C}">
+				<Event Name="play_receive_hit" ID="{EB45040F-1546-43EC-A12D-2FBA37609B1C}">
 					<ChildrenList>
-						<Action Name="" ID="{1551FD80-894F-415D-9022-E6EFD0AA220E}" ShortID="253500671">
+						<Action Name="" ID="{3EBE72FE-4E95-445D-9346-C8F33DEA393F}" ShortID="925115352">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SFX_Character_Mushdoom_AttackHitsPlayer" ID="{717A6600-E047-4270-AC1E-0D7041E1A860}" WorkUnitID="{7C0657F4-04C7-421C-8964-3D98F101F1AD}"/>
+									<ObjectRef Name="Hits" ID="{5C3EEE30-75DF-4D69-845F-E0BFEFEC460D}" WorkUnitID="{7C0657F4-04C7-421C-8964-3D98F101F1AD}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
