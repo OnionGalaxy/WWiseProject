@@ -12,6 +12,7 @@
 				</SoundBank>
 				<SoundBank Name="Menu_main" ID="{BBEB2095-8A7C-4F26-972D-93B731FC5630}">
 					<ObjectInclusionList>
+						<ObjectRef Name="play_ingame_music" ID="{D56ED24F-21F0-418A-BD73-13344949BE99}" WorkUnitID="{779A7A03-D48B-4FA2-A8F4-2B217329329A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="menu_hover" ID="{DF52756F-C1D5-4224-BFC7-E144BDCCB64D}" WorkUnitID="{779A7A03-D48B-4FA2-A8F4-2B217329329A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="start_game" ID="{0E09D76A-9265-48E9-B305-60A299FF67AF}" WorkUnitID="{779A7A03-D48B-4FA2-A8F4-2B217329329A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="menu_select" ID="{9A5FED0E-6A8D-4DCC-ABB4-5324166797C4}" WorkUnitID="{779A7A03-D48B-4FA2-A8F4-2B217329329A}" Origin="Manual" Filter="7"/>
