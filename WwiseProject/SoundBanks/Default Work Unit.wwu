@@ -38,6 +38,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="play_footstep" ID="{3022FD51-0871-4114-8CD6-F9158481A397}" WorkUnitID="{8EAFBABF-AE2B-436D-A28B-FC0D41986278}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_receive_hit" ID="{EB45040F-1546-43EC-A12D-2FBA37609B1C}" WorkUnitID="{8EAFBABF-AE2B-436D-A28B-FC0D41986278}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_orbs_dropping" ID="{48310F39-8DF3-4712-A2E8-18756DAC30B1}" WorkUnitID="{8EAFBABF-AE2B-436D-A28B-FC0D41986278}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_make_attack" ID="{4C735559-8731-4E18-B222-956A0E7BE750}" WorkUnitID="{8EAFBABF-AE2B-436D-A28B-FC0D41986278}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_idle" ID="{59E35D39-20B6-4F61-9D66-E809B7D873F0}" WorkUnitID="{8EAFBABF-AE2B-436D-A28B-FC0D41986278}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
@@ -50,6 +51,8 @@
 						<ObjectRef Name="play_jump_player" ID="{3AF16392-B28A-464D-8ABB-B7A209A3B24E}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_backflip_player" ID="{BE0841F4-BB2A-48A7-9AA8-6F9A5797DAE6}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_attack_player" ID="{A6C27198-FF9A-4919-B280-151ACEFE059B}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_revive_success" ID="{9D1E4808-71F8-4A9C-90A4-F64B681C7C46}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_revive_cast" ID="{E460E2DF-A127-4F54-B7F9-1252AD626132}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

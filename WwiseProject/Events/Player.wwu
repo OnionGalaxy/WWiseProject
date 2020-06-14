@@ -47,6 +47,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="play_revive_cast" ID="{E460E2DF-A127-4F54-B7F9-1252AD626132}">
+					<ChildrenList>
+						<Action Name="" ID="{FA57E124-261E-4E52-98AE-5678D712D668}" ShortID="169837147">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Reviving" ID="{9417F631-3098-494A-8D35-2E08E19E4C04}" WorkUnitID="{54A59ECD-4E16-468B-93DF-A400057BF407}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_revive_success" ID="{9D1E4808-71F8-4A9C-90A4-F64B681C7C46}">
+					<ChildrenList>
+						<Action Name="" ID="{E7377D95-5759-4252-9672-583B76C66D49}" ShortID="896680511">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Characted_Revived" ID="{305AF0DD-9DFF-4D85-A386-F2B0DA2E0932}" WorkUnitID="{54A59ECD-4E16-468B-93DF-A400057BF407}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

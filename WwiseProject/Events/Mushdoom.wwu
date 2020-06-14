@@ -47,6 +47,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="play_orbs_dropping" ID="{48310F39-8DF3-4712-A2E8-18756DAC30B1}">
+					<ChildrenList>
+						<Action Name="" ID="{B35C133D-2191-43AE-B672-EB7AEF9F3E55}" ShortID="115915089">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Orb_Drop" ID="{BD7B9783-C967-4FA5-A3DB-4CE84FD3CAF1}" WorkUnitID="{7C0657F4-04C7-421C-8964-3D98F101F1AD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

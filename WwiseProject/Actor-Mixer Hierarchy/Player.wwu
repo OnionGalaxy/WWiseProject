@@ -396,6 +396,55 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<Sound Name="SFX_Characted_Revived" ID="{305AF0DD-9DFF-4D85-A386-F2B0DA2E0932}" ShortID="701487846">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Characted_Revived" ID="{5E211CD3-02AD-426B-AAA0-28D04565330E}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Characted_Revived.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1047127392"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Characted_Revived" ID="{5E211CD3-02AD-426B-AAA0-28D04565330E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Reviving" ID="{9417F631-3098-494A-8D35-2E08E19E4C04}" ShortID="851804545">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Reviving" ID="{1F18278D-FD4F-4CCF-9D10-D926D973FDCB}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="1.20709696061644"/>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>SFX_Reviving.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="263756850"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Reviving" ID="{1F18278D-FD4F-4CCF-9D10-D926D973FDCB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
