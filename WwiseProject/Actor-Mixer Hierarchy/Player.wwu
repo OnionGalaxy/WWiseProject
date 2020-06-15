@@ -8,7 +8,7 @@
 						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-10</Value>
+								<Value>-12</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -397,6 +397,13 @@
 					</ChildrenList>
 				</RandomSequenceContainer>
 				<Sound Name="SFX_Characted_Revived" ID="{305AF0DD-9DFF-4D85-A386-F2B0DA2E0932}" ShortID="701487846">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
@@ -419,6 +426,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="SFX_Reviving" ID="{9417F631-3098-494A-8D35-2E08E19E4C04}" ShortID="851804545">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
