@@ -122,7 +122,7 @@
 								<Property Name="FadeInDuration" Type="Real64" Value="7.23221917808219"/>
 								<Property Name="FadeOutDuration" Type="Real64" Value="4.06812328767123"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-								<Property Name="TrimBegin" Type="Real64" Value="0.452013698630136"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.80805479452055"/>
 								<Property Name="TrimEnd" Type="Real64" Value="261.715931506849"/>
 							</PropertyList>
 							<Language>SFX</Language>

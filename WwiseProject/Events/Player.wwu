@@ -91,6 +91,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="play_lightball_cast" ID="{CF113347-24DF-4621-9E90-115883847FFF}">
+					<ChildrenList>
+						<Action Name="" ID="{7521DC60-30F7-4F0B-8C18-3EB6709A6B05}" ShortID="410680690">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_LigthBall_Cast" ID="{9DF4D988-22F8-4229-88AF-43A1F2B46C6C}" WorkUnitID="{54A59ECD-4E16-468B-93DF-A400057BF407}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_lightball_return" ID="{8EB732FA-DCB0-424D-A15F-AED4CAC36D4E}">
+					<ChildrenList>
+						<Action Name="" ID="{B95E29E3-83FA-46A6-8EFB-72C110C48852}" ShortID="1024603697">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_LigthBall_ReturnV2" ID="{EC31104A-AF60-4F8A-A78C-E7A3C28BC3B3}" WorkUnitID="{54A59ECD-4E16-468B-93DF-A400057BF407}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

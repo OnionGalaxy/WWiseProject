@@ -39,8 +39,10 @@
 				</SoundBank>
 				<SoundBank Name="Player" ID="{55E0B12F-2606-418C-8DD7-9D158BD9D206}">
 					<ObjectInclusionList>
+						<ObjectRef Name="play_lightball_return" ID="{8EB732FA-DCB0-424D-A15F-AED4CAC36D4E}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_dash_player" ID="{E36065F1-A56A-434E-980F-2D15E9BF0FD6}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_footstep_player" ID="{B6727C19-9B65-44B2-896D-D26DA7139257}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_lightball_cast" ID="{CF113347-24DF-4621-9E90-115883847FFF}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_jump_player" ID="{3AF16392-B28A-464D-8ABB-B7A209A3B24E}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_backflip_player" ID="{BE0841F4-BB2A-48A7-9AA8-6F9A5797DAE6}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_attack_player" ID="{A6C27198-FF9A-4919-B280-151ACEFE059B}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
