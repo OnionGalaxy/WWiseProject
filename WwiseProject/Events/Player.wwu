@@ -71,10 +71,10 @@
 				</Event>
 				<Event Name="play_lightball" ID="{57A1D5CF-B0BC-4D38-AABE-2303690BC19E}">
 					<ChildrenList>
-						<Action Name="" ID="{715184C1-B675-44FA-AB34-9CE11E941A4F}" ShortID="454790261">
+						<Action Name="" ID="{A88B476C-5EB7-470E-B8CF-A1A6822B8595}" ShortID="421620736">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SFX_LigthBall_FullDuplexV2" ID="{C6F35341-E9E0-448E-9D74-98F81E68365A}" WorkUnitID="{54A59ECD-4E16-468B-93DF-A400057BF407}"/>
+									<ObjectRef Name="SFX_LigthBall_FullDuplexV4" ID="{3A84C9E3-2C7E-475E-A2BB-2195E4225272}" WorkUnitID="{54A59ECD-4E16-468B-93DF-A400057BF407}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

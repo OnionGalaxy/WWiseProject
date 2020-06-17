@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2A420730-B373-49E5-96F7-D7E2187C606E}" SchemaVersion="97" RootDocumentID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}">
+	<Events>
+		<WorkUnit Name="Ambience" ID="{2A420730-B373-49E5-96F7-D7E2187C606E}" OwnerID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="play_cave_ambient" ID="{95CD2F71-DBEF-4352-89CE-B43074D257E3}">
+					<ChildrenList>
+						<Action Name="" ID="{344B3783-0C58-483E-A64B-6721E295F5EB}" ShortID="682743455">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cave" ID="{A7A35C94-84E9-45A2-B9CB-3539AA09B017}" WorkUnitID="{CA6386E7-927E-4694-8CB3-555C5B402787}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_forest_ambient" ID="{6590CC2D-A411-49EA-A90F-A8B6BEBE5813}">
+					<ChildrenList>
+						<Action Name="" ID="{12E255E8-7ED4-435F-92CF-5E3A71FDC2DE}" ShortID="639528365">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Forest Ambience" ID="{B70C8408-1D0B-4A14-98EA-419884FC96F1}" WorkUnitID="{CA6386E7-927E-4694-8CB3-555C5B402787}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_hole_destruction" ID="{93FF112B-7562-4227-AE0E-9C7A1848FE27}">
+					<ChildrenList>
+						<Action Name="" ID="{FDBEB46A-38E9-406C-B4D2-D0FE4C874A55}" ShortID="952921765">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Rock_Collapse" ID="{584EFCA8-B9C3-4EF8-B03B-03B83ABD516D}" WorkUnitID="{CA6386E7-927E-4694-8CB3-555C5B402787}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_gameover_music" ID="{816BE2E9-32DB-4766-BEFC-450E61324696}">
+					<ChildrenList>
+						<Action Name="" ID="{A1174512-2CB4-4A7B-90F4-D277B63834BE}" ShortID="863739798">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game_Over_Desolate" ID="{5E4A88C9-961C-44A1-8F6D-E00BF725D48C}" WorkUnitID="{CA6386E7-927E-4694-8CB3-555C5B402787}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

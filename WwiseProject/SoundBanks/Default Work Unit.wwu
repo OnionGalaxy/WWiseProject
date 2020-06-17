@@ -68,6 +68,16 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Ambience" ID="{45149ADC-6302-4674-B001-FDDF4EAE45AE}">
+					<ObjectInclusionList>
+						<ObjectRef Name="play_hole_destruction" ID="{93FF112B-7562-4227-AE0E-9C7A1848FE27}" WorkUnitID="{2A420730-B373-49E5-96F7-D7E2187C606E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_cave_ambient" ID="{95CD2F71-DBEF-4352-89CE-B43074D257E3}" WorkUnitID="{2A420730-B373-49E5-96F7-D7E2187C606E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_gameover_music" ID="{816BE2E9-32DB-4766-BEFC-450E61324696}" WorkUnitID="{2A420730-B373-49E5-96F7-D7E2187C606E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_forest_ambient" ID="{6590CC2D-A411-49EA-A90F-A8B6BEBE5813}" WorkUnitID="{2A420730-B373-49E5-96F7-D7E2187C606E}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
