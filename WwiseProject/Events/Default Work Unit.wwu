@@ -7,6 +7,7 @@
 				<WorkUnit Name="Music" ID="{EACCB140-2EB0-4CAA-A465-467A47EAAC46}" PersistMode="Reference"/>
 				<WorkUnit Name="Menu" ID="{779A7A03-D48B-4FA2-A8F4-2B217329329A}" PersistMode="Reference"/>
 				<WorkUnit Name="Mushdoom" ID="{8EAFBABF-AE2B-436D-A28B-FC0D41986278}" PersistMode="Reference"/>
+				<WorkUnit Name="Orbs" ID="{787D0490-8C40-4CF9-A4FC-9DB02F96B819}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

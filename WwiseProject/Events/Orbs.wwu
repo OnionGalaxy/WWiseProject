@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{787D0490-8C40-4CF9-A4FC-9DB02F96B819}" SchemaVersion="97" RootDocumentID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}">
+	<Events>
+		<WorkUnit Name="Orbs" ID="{787D0490-8C40-4CF9-A4FC-9DB02F96B819}" OwnerID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="play_orbs_dropping" ID="{48310F39-8DF3-4712-A2E8-18756DAC30B1}">
+					<ChildrenList>
+						<Action Name="" ID="{B35C133D-2191-43AE-B672-EB7AEF9F3E55}" ShortID="115915089">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Orb_Drop" ID="{BD7B9783-C967-4FA5-A3DB-4CE84FD3CAF1}" WorkUnitID="{BDC58FB8-D70D-4AAB-BE7F-38C7287E9DFA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_orbs_pickup" ID="{1AC24037-69B2-48D3-B94C-4B054375DB48}">
+					<ChildrenList>
+						<Action Name="" ID="{9C40049E-0505-4BE8-9AB8-CC1F40E608C5}" ShortID="702487175">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Orb_PickUp" ID="{7C35D7E7-E379-43F8-A405-A0FE81D4E7E3}" WorkUnitID="{BDC58FB8-D70D-4AAB-BE7F-38C7287E9DFA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

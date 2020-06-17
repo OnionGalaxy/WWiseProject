@@ -99,6 +99,43 @@
 						<ActiveSource Name="SFX_Menu_StartGame_V1" ID="{78F6922D-C013-4221-86B5-B35F1CD6E147}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Celtic Fairy Music - Fairy Forest" ID="{4880B3AC-7D4C-45B0-A01E-89AFD62D7501}" ShortID="466997093">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Celtic Fairy Music - Fairy Forest" ID="{C6594012-FDC9-4537-923D-ACEF299DDB28}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="7.23221917808219"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="4.06812328767123"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.452013698630136"/>
+								<Property Name="TrimEnd" Type="Real64" Value="261.715931506849"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Celtic Fairy Music - Fairy Forest.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="14717544"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Celtic Fairy Music - Fairy Forest" ID="{C6594012-FDC9-4537-923D-ACEF299DDB28}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

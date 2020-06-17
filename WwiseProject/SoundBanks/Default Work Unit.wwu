@@ -10,10 +10,10 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="Menu_main" ID="{BBEB2095-8A7C-4F26-972D-93B731FC5630}">
+				<SoundBank Name="Menu" ID="{BBEB2095-8A7C-4F26-972D-93B731FC5630}">
 					<ObjectInclusionList>
-						<ObjectRef Name="play_ingame_music" ID="{D56ED24F-21F0-418A-BD73-13344949BE99}" WorkUnitID="{779A7A03-D48B-4FA2-A8F4-2B217329329A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="menu_hover" ID="{DF52756F-C1D5-4224-BFC7-E144BDCCB64D}" WorkUnitID="{779A7A03-D48B-4FA2-A8F4-2B217329329A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_music_menu" ID="{433DC534-D7A0-448B-8897-E405F1726F9A}" WorkUnitID="{779A7A03-D48B-4FA2-A8F4-2B217329329A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="start_game" ID="{0E09D76A-9265-48E9-B305-60A299FF67AF}" WorkUnitID="{779A7A03-D48B-4FA2-A8F4-2B217329329A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="menu_select" ID="{9A5FED0E-6A8D-4DCC-ABB4-5324166797C4}" WorkUnitID="{779A7A03-D48B-4FA2-A8F4-2B217329329A}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
@@ -27,18 +27,10 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="Footsteps" ID="{723CB31D-B091-410E-AE1F-FB048E7BA1AA}">
-					<ObjectInclusionList>
-						<ObjectRef Name="play_footstep" ID="{3022FD51-0871-4114-8CD6-F9158481A397}" WorkUnitID="{8EAFBABF-AE2B-436D-A28B-FC0D41986278}" Origin="Manual" Filter="7"/>
-					</ObjectInclusionList>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
 				<SoundBank Name="Mushdoom" ID="{4CF7CD79-F61C-4D84-8C0D-D45A387F90F1}">
 					<ObjectInclusionList>
 						<ObjectRef Name="play_footstep" ID="{3022FD51-0871-4114-8CD6-F9158481A397}" WorkUnitID="{8EAFBABF-AE2B-436D-A28B-FC0D41986278}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_receive_hit" ID="{EB45040F-1546-43EC-A12D-2FBA37609B1C}" WorkUnitID="{8EAFBABF-AE2B-436D-A28B-FC0D41986278}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="play_orbs_dropping" ID="{48310F39-8DF3-4712-A2E8-18756DAC30B1}" WorkUnitID="{8EAFBABF-AE2B-436D-A28B-FC0D41986278}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_make_attack" ID="{4C735559-8731-4E18-B222-956A0E7BE750}" WorkUnitID="{8EAFBABF-AE2B-436D-A28B-FC0D41986278}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_idle" ID="{59E35D39-20B6-4F61-9D66-E809B7D873F0}" WorkUnitID="{8EAFBABF-AE2B-436D-A28B-FC0D41986278}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
@@ -47,11 +39,13 @@
 				</SoundBank>
 				<SoundBank Name="Player" ID="{55E0B12F-2606-418C-8DD7-9D158BD9D206}">
 					<ObjectInclusionList>
+						<ObjectRef Name="play_dash_player" ID="{E36065F1-A56A-434E-980F-2D15E9BF0FD6}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_footstep_player" ID="{B6727C19-9B65-44B2-896D-D26DA7139257}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_jump_player" ID="{3AF16392-B28A-464D-8ABB-B7A209A3B24E}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_backflip_player" ID="{BE0841F4-BB2A-48A7-9AA8-6F9A5797DAE6}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_attack_player" ID="{A6C27198-FF9A-4919-B280-151ACEFE059B}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_revive_success" ID="{9D1E4808-71F8-4A9C-90A4-F64B681C7C46}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_lightball" ID="{57A1D5CF-B0BC-4D38-AABE-2303690BC19E}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_revive_cast" ID="{E460E2DF-A127-4F54-B7F9-1252AD626132}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -60,6 +54,14 @@
 				<SoundBank Name="Music" ID="{D2E4C95A-FC7D-43AD-975F-1ABA7668354D}">
 					<ObjectInclusionList>
 						<ObjectRef Name="play_base_music" ID="{110DE143-17FD-4DD2-887C-037C7CF4F404}" WorkUnitID="{EACCB140-2EB0-4CAA-A465-467A47EAAC46}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="LightOrb" ID="{81CD5A0C-C3B5-4957-AF0D-A3D671166DA9}">
+					<ObjectInclusionList>
+						<ObjectRef Name="play_orbs_dropping" ID="{48310F39-8DF3-4712-A2E8-18756DAC30B1}" WorkUnitID="{787D0490-8C40-4CF9-A4FC-9DB02F96B819}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_orbs_pickup" ID="{1AC24037-69B2-48D3-B94C-4B054375DB48}" WorkUnitID="{787D0490-8C40-4CF9-A4FC-9DB02F96B819}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

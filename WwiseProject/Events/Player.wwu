@@ -69,6 +69,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="play_lightball" ID="{57A1D5CF-B0BC-4D38-AABE-2303690BC19E}">
+					<ChildrenList>
+						<Action Name="" ID="{715184C1-B675-44FA-AB34-9CE11E941A4F}" ShortID="454790261">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_LigthBall_FullDuplexV2" ID="{C6F35341-E9E0-448E-9D74-98F81E68365A}" WorkUnitID="{54A59ECD-4E16-468B-93DF-A400057BF407}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_dash_player" ID="{E36065F1-A56A-434E-980F-2D15E9BF0FD6}">
+					<ChildrenList>
+						<Action Name="" ID="{DB5C8C17-7D02-4944-853B-5A1229ECC96B}" ShortID="1021082373">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dash" ID="{4BEE2DE8-7DEB-45BD-8291-21FEAD9DBFA9}" WorkUnitID="{54A59ECD-4E16-468B-93DF-A400057BF407}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
