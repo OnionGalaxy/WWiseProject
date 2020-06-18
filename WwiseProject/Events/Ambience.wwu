@@ -5,10 +5,10 @@
 			<ChildrenList>
 				<Event Name="play_cave_ambient" ID="{95CD2F71-DBEF-4352-89CE-B43074D257E3}">
 					<ChildrenList>
-						<Action Name="" ID="{344B3783-0C58-483E-A64B-6721E295F5EB}" ShortID="682743455">
+						<Action Name="" ID="{F4C0C08D-CAB9-4256-9B7F-F196EADA96AE}" ShortID="1046240352">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Cave" ID="{A7A35C94-84E9-45A2-B9CB-3539AA09B017}" WorkUnitID="{CA6386E7-927E-4694-8CB3-555C5B402787}"/>
+									<ObjectRef Name="SFX_Cave_Ambience" ID="{AE274E8A-5824-4932-9FDE-F3FBCDDF436E}" WorkUnitID="{CA6386E7-927E-4694-8CB3-555C5B402787}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
