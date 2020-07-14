@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A26DB578-E5A7-4CA8-91FC-6E8B6B544C10}" SchemaVersion="97" RootDocumentID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}">
+	<Events>
+		<WorkUnit Name="Corruption" ID="{A26DB578-E5A7-4CA8-91FC-6E8B6B544C10}" OwnerID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Corrupted_Ambience" ID="{5B8C93D9-2189-498B-8C25-5834CC98B841}" ShortID="555496185">
+					<ChildrenList>
+						<Event Name="Resume_Corrupted_Ambience" ID="{378B5E28-9626-4AC1-939C-4752AE16074A}">
+							<ChildrenList>
+								<Action Name="" ID="{BDB0416C-4680-43EA-A164-78A7FAA79A68}" ShortID="701436623">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Corrupted_Ambience" ID="{19899FF1-ADA7-49EC-9B93-650B1F7BC547}" WorkUnitID="{4C79F4BD-121A-4C60-AF62-008FE780B39E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Corrupted_Ambience" ID="{C8D6724D-6253-400E-9F64-CCE98A5FCC52}">
+							<ChildrenList>
+								<Action Name="" ID="{D841F6A8-DB85-4B74-9FE6-0DF2F146E9ED}" ShortID="351511044">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Corrupted_Ambience" ID="{19899FF1-ADA7-49EC-9B93-650B1F7BC547}" WorkUnitID="{4C79F4BD-121A-4C60-AF62-008FE780B39E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Pause_Corrupted_Ambience" ID="{AEF9A501-9D39-4CC8-95D1-E129167B6272}">
+							<ChildrenList>
+								<Action Name="" ID="{6C516104-6BAF-4B29-8BD3-DC86740B4EDF}" ShortID="698289043">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Corrupted_Ambience" ID="{19899FF1-ADA7-49EC-9B93-650B1F7BC547}" WorkUnitID="{4C79F4BD-121A-4C60-AF62-008FE780B39E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Corrupted_Ambience" ID="{BD9DE434-B26E-48DA-9B4B-64D2FF08AF47}">
+							<ChildrenList>
+								<Action Name="" ID="{C038C02F-2F08-4192-B586-8DE9E14820A1}" ShortID="597688159">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Corrupted_Ambience" ID="{19899FF1-ADA7-49EC-9B93-650B1F7BC547}" WorkUnitID="{4C79F4BD-121A-4C60-AF62-008FE780B39E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Lava River" ID="{5FC18136-7715-4151-980A-199559565C47}" ShortID="354672815">
+					<ChildrenList>
+						<Event Name="Play_Lava_River" ID="{3E839136-DB74-44D0-8C0E-0F1268E1E04A}">
+							<ChildrenList>
+								<Action Name="" ID="{D75B6B4B-3B18-4173-8902-6A324303C1F8}" ShortID="54567596">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Lava_River" ID="{5504C9B6-7D6F-416C-B4CA-E8B1AD9FEF11}" WorkUnitID="{4C79F4BD-121A-4C60-AF62-008FE780B39E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Lava_River" ID="{9DAAEBC2-7F64-47DB-8E24-1FB7E4CBA7D2}">
+							<ChildrenList>
+								<Action Name="" ID="{C3DA362B-D01C-46E1-9CFA-5FC7E1D8B331}" ShortID="1060678111">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Lava_River" ID="{5504C9B6-7D6F-416C-B4CA-E8B1AD9FEF11}" WorkUnitID="{4C79F4BD-121A-4C60-AF62-008FE780B39E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Resume_Lava_River" ID="{B4F3E9E7-C0A0-46DE-84AA-7D5019F39423}">
+							<ChildrenList>
+								<Action Name="" ID="{1DEA5D2E-FCAC-4A89-8FCE-745272FB5B9A}" ShortID="694841671">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Lava_River" ID="{5504C9B6-7D6F-416C-B4CA-E8B1AD9FEF11}" WorkUnitID="{4C79F4BD-121A-4C60-AF62-008FE780B39E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Pause_Lava_River" ID="{56DC7835-E8D1-40D1-93E9-5BA8C2D46628}">
+							<ChildrenList>
+								<Action Name="" ID="{66B590F7-FC0F-4B19-9097-B71D6D4437FE}" ShortID="676898353">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Lava_River" ID="{5504C9B6-7D6F-416C-B4CA-E8B1AD9FEF11}" WorkUnitID="{4C79F4BD-121A-4C60-AF62-008FE780B39E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Lava Stream" ID="{06CBAB2B-20A1-456F-B12B-64F67869ECD0}" ShortID="1006284141">
+					<ChildrenList>
+						<Event Name="Resume_Lava_Stream" ID="{8C0F37CA-93C0-4752-885C-11EB0B92B279}">
+							<ChildrenList>
+								<Action Name="" ID="{5F6C0B54-D938-4C75-8BE5-C284B8526724}" ShortID="75486467">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Lava_Stream" ID="{BF66B998-E136-4D71-A053-CAFB8E99AA67}" WorkUnitID="{4C79F4BD-121A-4C60-AF62-008FE780B39E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Pause_Lava_Stream" ID="{C57DAC38-F5C5-4D79-99FE-D50C8A6E6FC8}">
+							<ChildrenList>
+								<Action Name="" ID="{875B3F2F-6216-46C8-B927-5787C2735AFA}" ShortID="67401208">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Lava_Stream" ID="{BF66B998-E136-4D71-A053-CAFB8E99AA67}" WorkUnitID="{4C79F4BD-121A-4C60-AF62-008FE780B39E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Lava_Stream" ID="{CB21E2C2-F6F9-4188-B6DE-B8306DA4AB36}">
+							<ChildrenList>
+								<Action Name="" ID="{ADB0E723-09D6-4AD1-BF5C-7B9656C2D59E}" ShortID="555728490">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Lava_Stream" ID="{BF66B998-E136-4D71-A053-CAFB8E99AA67}" WorkUnitID="{4C79F4BD-121A-4C60-AF62-008FE780B39E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Lava_Stream" ID="{3BBE7AE3-4A66-41E7-92A1-CA17AAD3CF7E}">
+							<ChildrenList>
+								<Action Name="" ID="{EEBD56B0-C8F9-4390-9C2B-B28A5EE95F22}" ShortID="1008395526">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Lava_Stream" ID="{BF66B998-E136-4D71-A053-CAFB8E99AA67}" WorkUnitID="{4C79F4BD-121A-4C60-AF62-008FE780B39E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

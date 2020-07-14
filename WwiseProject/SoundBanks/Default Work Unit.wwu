@@ -78,6 +78,21 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Ambience3D" ID="{FA101F8F-8535-499C-9B37-3D3604EFADA5}">
+					<ObjectInclusionList>
+						<ObjectRef Name="3DAmbience" ID="{09DEEA6B-4ADF-4956-B6B6-295B0A023379}" WorkUnitID="{09DEEA6B-4ADF-4956-B6B6-295B0A023379}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Corruption" ID="{AB1E452A-CEF0-472F-8B02-674A8C141BE3}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Corruption" ID="{4C79F4BD-121A-4C60-AF62-008FE780B39E}" WorkUnitID="{4C79F4BD-121A-4C60-AF62-008FE780B39E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Corruption" ID="{A26DB578-E5A7-4CA8-91FC-6E8B6B544C10}" WorkUnitID="{A26DB578-E5A7-4CA8-91FC-6E8B6B544C10}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

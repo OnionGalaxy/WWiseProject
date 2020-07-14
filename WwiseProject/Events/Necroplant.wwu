@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{592BD572-9FD0-4CF5-A6C2-4B9B6798220C}" SchemaVersion="97" RootDocumentID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}">
+	<Events>
+		<WorkUnit Name="Necroplant" ID="{592BD572-9FD0-4CF5-A6C2-4B9B6798220C}" OwnerID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}" PersistMode="Nested"/>
+	</Events>
+</WwiseDocument>

@@ -9,6 +9,42 @@
 				<WorkUnit Name="Mushdoom" ID="{8EAFBABF-AE2B-436D-A28B-FC0D41986278}" PersistMode="Reference"/>
 				<WorkUnit Name="Orbs" ID="{787D0490-8C40-4CF9-A4FC-9DB02F96B819}" PersistMode="Reference"/>
 				<WorkUnit Name="Ambience" ID="{2A420730-B373-49E5-96F7-D7E2187C606E}" PersistMode="Reference"/>
+				<WorkUnit Name="3DAmbience" ID="{09DEEA6B-4ADF-4956-B6B6-295B0A023379}" PersistMode="Reference"/>
+				<WorkUnit Name="Necroplant" ID="{592BD572-9FD0-4CF5-A6C2-4B9B6798220C}" PersistMode="Reference"/>
+				<Event Name="Play_Hits_01" ID="{DEFA2F3F-888A-4B53-8F26-7F46A0EDD790}">
+					<ChildrenList>
+						<Action Name="" ID="{50AD279C-0778-4F4B-B540-98925FD57C08}" ShortID="207436562">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hits" ID="{86A2F71C-A447-4434-A341-3D7F5386285D}" WorkUnitID="{9CBE15E6-B1A9-4AA0-91C6-F5E2AF372CD8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Hits_02" ID="{A3B5B2DE-45C6-46B9-A1E8-E43B15A56986}">
+					<ChildrenList>
+						<Action Name="" ID="{F0BF2C54-0A4C-4887-B031-007E366AE4DA}" ShortID="584552990">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hits" ID="{86A2F71C-A447-4434-A341-3D7F5386285D}" WorkUnitID="{9CBE15E6-B1A9-4AA0-91C6-F5E2AF372CD8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Projectile_Hit" ID="{17F5A7BD-F77F-4885-8B20-2E3E63CBC64F}">
+					<ChildrenList>
+						<Action Name="" ID="{96E34183-0972-4FCE-A389-66B93EE93D9C}" ShortID="527995352">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Projectile Hit" ID="{ADE58F31-1750-4866-98E2-FD92CC0DDECB}" WorkUnitID="{9CBE15E6-B1A9-4AA0-91C6-F5E2AF372CD8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<WorkUnit Name="Corruption" ID="{A26DB578-E5A7-4CA8-91FC-6E8B6B544C10}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
