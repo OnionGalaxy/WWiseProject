@@ -4,6 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{7899030E-5AE9-40D5-AD3D-FAB725105335}" PersistMode="Standalone">
 			<ChildrenList>
 				<Attenuation Name="New Attenuation" ID="{5AEE4AC7-59F4-423D-8CA3-78572E938CA1}" ShortID="558242397">
+					<PropertyList>
+						<Property Name="RadiusMax" Type="Real64" Value="70"/>
+					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -18,7 +21,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>100</XPos>
+											<XPos>70</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -113,6 +116,9 @@
 					</CurveUsageInfoList>
 				</Attenuation>
 				<Attenuation Name="Waterfall Attenuation" ID="{71301AA2-6D99-41A4-93C1-2443826F7EE3}" ShortID="1019485747">
+					<PropertyList>
+						<Property Name="RadiusMax" Type="Real64" Value="70"/>
+					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -128,7 +134,7 @@
 											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>100</XPos>
+											<XPos>70</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -155,7 +161,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>100</XPos>
+											<XPos>70</XPos>
 											<YPos>100</YPos>
 											<Flags>37</Flags>
 										</Point>

@@ -308,11 +308,6 @@
 				<Sound Name="SFX_Cave_Ambience" ID="{AE274E8A-5824-4932-9FDE-F3FBCDDF436E}" ShortID="938954225">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-3</Value>
-							</ValueList>
-						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">

@@ -71,11 +71,6 @@
 				<Sound Name="Corrupted_Ambience" ID="{19899FF1-ADA7-49EC-9B93-650B1F7BC547}" ShortID="625573113">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-5</Value>
-							</ValueList>
-						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -96,6 +91,28 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="Corrupted_Ambience" ID="{AF0AD765-C374-49A5-908B-E5E47329E5B2}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Earthquake" ID="{A5441FCB-D261-4A95-AC39-BDC6B760DC5A}" ShortID="444479707">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Earthquake" ID="{F808D2B7-6A29-4BE0-8D2F-BF106AC8F3D3}">
+							<Language>SFX</Language>
+							<AudioFile>Earthquake.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1063701142"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Earthquake" ID="{F808D2B7-6A29-4BE0-8D2F-BF106AC8F3D3}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

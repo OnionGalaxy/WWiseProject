@@ -19,7 +19,7 @@
 						<Action Name="" ID="{12E255E8-7ED4-435F-92CF-5E3A71FDC2DE}" ShortID="639528365">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Forest Ambience" ID="{B70C8408-1D0B-4A14-98EA-419884FC96F1}" WorkUnitID="{CA6386E7-927E-4694-8CB3-555C5B402787}"/>
+									<ObjectRef Name="Forest_Ambience" ID="{C98BEB05-1C45-4C73-98BE-FF8D8D2BE480}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

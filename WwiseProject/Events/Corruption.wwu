@@ -79,6 +79,7 @@
 								<Action Name="" ID="{C3DA362B-D01C-46E1-9CFA-5FC7E1D8B331}" ShortID="1060678111">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -164,10 +165,68 @@
 								<Action Name="" ID="{EEBD56B0-C8F9-4390-9C2B-B28A5EE95F22}" ShortID="1008395526">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Lava_Stream" ID="{BF66B998-E136-4D71-A053-CAFB8E99AA67}" WorkUnitID="{4C79F4BD-121A-4C60-AF62-008FE780B39E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Earthquake" ID="{CEE88863-1979-46B2-AC0A-8394C0A63939}" ShortID="773959089">
+					<ChildrenList>
+						<Event Name="Resume_Earthquake" ID="{E30A5D0B-95E2-4A47-8D79-7D21378ADCA6}">
+							<ChildrenList>
+								<Action Name="" ID="{AD3C1917-31D9-40F5-989E-FF3FC141A95A}" ShortID="475242916">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Earthquake" ID="{A5441FCB-D261-4A95-AC39-BDC6B760DC5A}" WorkUnitID="{4C79F4BD-121A-4C60-AF62-008FE780B39E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Pause_Earthquake" ID="{31EE87B8-B766-4093-9771-A172489E1A4F}">
+							<ChildrenList>
+								<Action Name="" ID="{3816AB30-770E-42B0-83BA-DA8C6261B02B}" ShortID="95997712">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Earthquake" ID="{A5441FCB-D261-4A95-AC39-BDC6B760DC5A}" WorkUnitID="{4C79F4BD-121A-4C60-AF62-008FE780B39E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Earthquake" ID="{774D2BBC-2D72-44CA-A866-8898D73CBDA1}">
+							<ChildrenList>
+								<Action Name="" ID="{04F84767-3915-48B6-BB3D-09E1362CE57E}" ShortID="266355859">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Earthquake" ID="{A5441FCB-D261-4A95-AC39-BDC6B760DC5A}" WorkUnitID="{4C79F4BD-121A-4C60-AF62-008FE780B39E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Earthquake" ID="{9B6964A9-6DD7-4475-8E67-951F1703E5FF}">
+							<ChildrenList>
+								<Action Name="" ID="{6753B35C-A8AA-4D61-8F4D-379B22D7D22C}" ShortID="746277053">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Earthquake" ID="{A5441FCB-D261-4A95-AC39-BDC6B760DC5A}" WorkUnitID="{4C79F4BD-121A-4C60-AF62-008FE780B39E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
