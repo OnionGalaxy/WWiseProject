@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<Attenuation Name="New Attenuation" ID="{5AEE4AC7-59F4-423D-8CA3-78572E938CA1}" ShortID="558242397">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="70"/>
+						<Property Name="RadiusMax" Type="Real64" Value="50"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -21,7 +21,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>70</XPos>
+											<XPos>50</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -51,7 +51,7 @@
 				</Attenuation>
 				<Attenuation Name="Runic rocks" ID="{D026FCAF-6EFE-463F-AB28-B6E3E031CB65}" ShortID="401493266">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="25"/>
+						<Property Name="RadiusMax" Type="Real64" Value="20"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -68,7 +68,13 @@
 											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>25</XPos>
+											<XPos>12.06897</XPos>
+											<YPos>-18.37918</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Log1</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>20</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -96,7 +102,7 @@
 											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>25</XPos>
+											<XPos>20</XPos>
 											<YPos>100</YPos>
 											<Flags>37</Flags>
 										</Point>

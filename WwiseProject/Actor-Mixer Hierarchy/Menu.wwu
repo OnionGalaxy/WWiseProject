@@ -99,7 +99,7 @@
 						<ActiveSource Name="SFX_Menu_StartGame_V1" ID="{78F6922D-C013-4221-86B5-B35F1CD6E147}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="Celtic Fairy Music - Fairy Forest" ID="{4880B3AC-7D4C-45B0-A01E-89AFD62D7501}" ShortID="466997093">
+				<Sound Name="Music_Menu" ID="{4880B3AC-7D4C-45B0-A01E-89AFD62D7501}" ShortID="466997093">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>

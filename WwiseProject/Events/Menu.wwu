@@ -69,12 +69,54 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="play_music_menu" ID="{433DC534-D7A0-448B-8897-E405F1726F9A}">
+				<Event Name="Stop_Music_Menu" ID="{81CA03D3-D16D-421A-B4C7-9F59C6006F2F}">
 					<ChildrenList>
-						<Action Name="" ID="{53733172-F0FE-409E-87F7-AFF2DA0CB6F0}" ShortID="799611043">
+						<Action Name="" ID="{C27C9EE5-3A89-4E9A-BED5-0B6371794CE5}" ShortID="657111195">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Celtic Fairy Music - Fairy Forest" ID="{4880B3AC-7D4C-45B0-A01E-89AFD62D7501}" WorkUnitID="{1FC44F0F-507F-4E50-9187-88C36CE1C65C}"/>
+									<ObjectRef Name="Music_Menu" ID="{4880B3AC-7D4C-45B0-A01E-89AFD62D7501}" WorkUnitID="{1FC44F0F-507F-4E50-9187-88C36CE1C65C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Resume_Music_Menu" ID="{444E69B5-11B7-4A6C-9A03-632C30A98485}">
+					<ChildrenList>
+						<Action Name="" ID="{6DBA114C-A632-4AE7-BEBA-687ABBA93123}" ShortID="853175631">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Menu" ID="{4880B3AC-7D4C-45B0-A01E-89AFD62D7501}" WorkUnitID="{1FC44F0F-507F-4E50-9187-88C36CE1C65C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Music_Menu" ID="{2EDDBCB2-DEA7-4CFE-8777-BF5C85B80AD5}">
+					<ChildrenList>
+						<Action Name="" ID="{1AB5DA6E-4F80-4F37-B0FB-42D178A76B3D}" ShortID="474517779">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Menu" ID="{4880B3AC-7D4C-45B0-A01E-89AFD62D7501}" WorkUnitID="{1FC44F0F-507F-4E50-9187-88C36CE1C65C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pause_Music_Menu" ID="{9E4D0D91-127F-4699-809A-9468C0C2C937}">
+					<ChildrenList>
+						<Action Name="" ID="{AABE5D25-65DC-4F4D-A208-1A4F1E6E24CE}" ShortID="316150894">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Menu" ID="{4880B3AC-7D4C-45B0-A01E-89AFD62D7501}" WorkUnitID="{1FC44F0F-507F-4E50-9187-88C36CE1C65C}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

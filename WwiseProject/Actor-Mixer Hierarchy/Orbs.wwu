@@ -5,10 +5,10 @@
 			<ChildrenList>
 				<Sound Name="SFX_Orb_Drop" ID="{BD7B9783-C967-4FA5-A3DB-4CE84FD3CAF1}" ShortID="575881276">
 					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-15</Value>
+								<Value>-12</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -16,6 +16,9 @@
 						<Reference Name="Attenuation">
 							<Custom>
 								<Attenuation Name="Attenuation (Custom)" ID="{E4948DA7-E21D-4761-A0E2-C7A5226E5A0B}" ShortID="183048408">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="60"/>
+									</PropertyList>
 									<CurveUsageInfoList>
 										<VolumeDryUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -30,7 +33,7 @@
 															<Flags>5</Flags>
 														</Point>
 														<Point>
-															<XPos>100</XPos>
+															<XPos>60</XPos>
 															<YPos>-200</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -82,21 +85,24 @@
 				</Sound>
 				<Sound Name="SFX_Orb_PickUp" ID="{7C35D7E7-E379-43F8-A405-A0FE81D4E7E3}" ShortID="567301693">
 					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-16</Value>
+								<Value>-15</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<Custom>
-								<Attenuation Name="Attenuation (Custom)" ID="{5DBD1896-003B-4758-9EC9-901329B11945}" ShortID="859919635">
+							<Custom CreatedFrom="{5AEE4AC7-59F4-423D-8CA3-78572E938CA1}">
+								<Attenuation Name="New Attenuation (Custom)" ID="{26117C69-986E-4651-8B90-0FD464505D34}" ShortID="326811205">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="60"/>
+									</PropertyList>
 									<CurveUsageInfoList>
 										<VolumeDryUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-												<Curve Name="VolumeDry" ID="{CCD21837-5BF1-4ACC-B770-481719319584}">
+												<Curve Name="VolumeDry" ID="{6A38E6C3-9345-417D-9F72-9DA1BA36D44D}">
 													<PropertyList>
 														<Property Name="Flags" Type="int32" Value="3"/>
 													</PropertyList>
@@ -105,9 +111,10 @@
 															<XPos>0</XPos>
 															<YPos>0</YPos>
 															<Flags>5</Flags>
+															<SegmentShape>Log1</SegmentShape>
 														</Point>
 														<Point>
-															<XPos>100</XPos>
+															<XPos>60</XPos>
 															<YPos>-200</YPos>
 															<Flags>37</Flags>
 														</Point>
