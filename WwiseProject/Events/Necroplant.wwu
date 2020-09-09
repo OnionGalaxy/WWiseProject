@@ -1,6 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{592BD572-9FD0-4CF5-A6C2-4B9B6798220C}" SchemaVersion="97" RootDocumentID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}">
 	<Events>
-		<WorkUnit Name="Necroplant" ID="{592BD572-9FD0-4CF5-A6C2-4B9B6798220C}" OwnerID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}" PersistMode="Nested"/>
+		<WorkUnit Name="Necroplant" ID="{592BD572-9FD0-4CF5-A6C2-4B9B6798220C}" OwnerID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Necroprojectile_Shoot" ID="{391B45D1-C016-429A-A654-ED6A3DD597B3}">
+					<ChildrenList>
+						<Action Name="" ID="{40870509-09A5-4634-9380-DDE4068332C6}" ShortID="332422943">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NecroProjectileShoot" ID="{58FF0AD0-5C4A-4A21-BAB4-ED43C6A307AA}" WorkUnitID="{9CBE15E6-B1A9-4AA0-91C6-F5E2AF372CD8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Necroprojectile_Hit" ID="{EE2AA974-D5D8-4946-87E2-D30C81AADD0E}">
+					<ChildrenList>
+						<Action Name="" ID="{8AD06931-2B86-43AC-99F3-28220607BC23}" ShortID="96332189">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NecroProjectileHit" ID="{86A2F71C-A447-4434-A341-3D7F5386285D}" WorkUnitID="{9CBE15E6-B1A9-4AA0-91C6-F5E2AF372CD8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Necrodeath" ID="{AFC5F40A-A43F-4F05-B6CA-35BDE2D877E9}">
+					<ChildrenList>
+						<Action Name="" ID="{38CA99C6-24C1-48CA-9333-459E7CB26CBA}" ShortID="1073662402">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NecroDeath" ID="{589DBCCC-23FB-4815-8863-5B29C6CFB2DD}" WorkUnitID="{9CBE15E6-B1A9-4AA0-91C6-F5E2AF372CD8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Necrotaunt" ID="{C1DFD3DC-362A-41FD-AD10-96684077A955}">
+					<ChildrenList>
+						<Action Name="" ID="{18C90559-5187-4954-8716-520048B51A50}" ShortID="83716068">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NecroTaunt" ID="{25775E6B-42A4-4B11-BC3F-85200CD3F734}" WorkUnitID="{9CBE15E6-B1A9-4AA0-91C6-F5E2AF372CD8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Necroburrow" ID="{037AE94C-99CD-4A86-B7A4-78539FB62F83}">
+					<ChildrenList>
+						<Action Name="" ID="{58AB43D2-EA8E-414A-AC35-CE55971F8A3D}" ShortID="621770432">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NecroBurrow" ID="{2A55C5CE-DD03-4027-B0BB-9BAB61C40606}" WorkUnitID="{9CBE15E6-B1A9-4AA0-91C6-F5E2AF372CD8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Necroburrow" ID="{51798041-48C3-4B32-BEC0-C01AA064E9C9}">
+					<ChildrenList>
+						<Action Name="" ID="{0E22FE9F-4EE2-4BCC-A8BA-A8E90A2FD6D0}" ShortID="1032159037">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="4.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NecroBurrow" ID="{2A55C5CE-DD03-4027-B0BB-9BAB61C40606}" WorkUnitID="{9CBE15E6-B1A9-4AA0-91C6-F5E2AF372CD8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Necrospawn" ID="{F1CE5918-3F62-40C3-97B4-92189B4EFEC5}">
+					<ChildrenList>
+						<Action Name="" ID="{477774EF-3975-423C-AA81-BE76978DD045}" ShortID="649051537">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NecroSpawn" ID="{9E70F4EF-B8BF-41AC-9E82-672A79833A48}" WorkUnitID="{9CBE15E6-B1A9-4AA0-91C6-F5E2AF372CD8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

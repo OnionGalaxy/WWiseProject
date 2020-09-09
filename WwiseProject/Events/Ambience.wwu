@@ -52,7 +52,7 @@
 						<Action Name="" ID="{D09FD411-0936-40D2-A363-E62DAAFB323B}" ShortID="782021514">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Hits" ID="{86A2F71C-A447-4434-A341-3D7F5386285D}" WorkUnitID="{9CBE15E6-B1A9-4AA0-91C6-F5E2AF372CD8}"/>
+									<ObjectRef Name="NecroProjectileHit" ID="{86A2F71C-A447-4434-A341-3D7F5386285D}" WorkUnitID="{9CBE15E6-B1A9-4AA0-91C6-F5E2AF372CD8}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

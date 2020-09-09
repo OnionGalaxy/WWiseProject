@@ -16,7 +16,7 @@
 						<Action Name="" ID="{50AD279C-0778-4F4B-B540-98925FD57C08}" ShortID="207436562">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Hits" ID="{86A2F71C-A447-4434-A341-3D7F5386285D}" WorkUnitID="{9CBE15E6-B1A9-4AA0-91C6-F5E2AF372CD8}"/>
+									<ObjectRef Name="NecroProjectileHit" ID="{86A2F71C-A447-4434-A341-3D7F5386285D}" WorkUnitID="{9CBE15E6-B1A9-4AA0-91C6-F5E2AF372CD8}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -27,7 +27,7 @@
 						<Action Name="" ID="{F0BF2C54-0A4C-4887-B031-007E366AE4DA}" ShortID="584552990">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Hits" ID="{86A2F71C-A447-4434-A341-3D7F5386285D}" WorkUnitID="{9CBE15E6-B1A9-4AA0-91C6-F5E2AF372CD8}"/>
+									<ObjectRef Name="NecroProjectileHit" ID="{86A2F71C-A447-4434-A341-3D7F5386285D}" WorkUnitID="{9CBE15E6-B1A9-4AA0-91C6-F5E2AF372CD8}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

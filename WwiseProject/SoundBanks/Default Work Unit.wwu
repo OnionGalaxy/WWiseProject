@@ -93,6 +93,19 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Necroplant" ID="{1637D4EE-AF42-499F-9F17-716BF397D204}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Necrospawn" ID="{F1CE5918-3F62-40C3-97B4-92189B4EFEC5}" WorkUnitID="{592BD572-9FD0-4CF5-A6C2-4B9B6798220C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Necrotaunt" ID="{C1DFD3DC-362A-41FD-AD10-96684077A955}" WorkUnitID="{592BD572-9FD0-4CF5-A6C2-4B9B6798220C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Necroprojectile_Shoot" ID="{391B45D1-C016-429A-A654-ED6A3DD597B3}" WorkUnitID="{592BD572-9FD0-4CF5-A6C2-4B9B6798220C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Necroprojectile_Hit" ID="{EE2AA974-D5D8-4946-87E2-D30C81AADD0E}" WorkUnitID="{592BD572-9FD0-4CF5-A6C2-4B9B6798220C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Necroburrow" ID="{037AE94C-99CD-4A86-B7A4-78539FB62F83}" WorkUnitID="{592BD572-9FD0-4CF5-A6C2-4B9B6798220C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Necroburrow" ID="{51798041-48C3-4B32-BEC0-C01AA064E9C9}" WorkUnitID="{592BD572-9FD0-4CF5-A6C2-4B9B6798220C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Necrodeath" ID="{AFC5F40A-A43F-4F05-B6CA-35BDE2D877E9}" WorkUnitID="{592BD572-9FD0-4CF5-A6C2-4B9B6798220C}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
