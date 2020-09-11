@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{46909F47-8101-4230-915E-17CFF4F5C818}" SchemaVersion="97" RootDocumentID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}">
+	<Events>
+		<WorkUnit Name="Boss" ID="{46909F47-8101-4230-915E-17CFF4F5C818}" OwnerID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_BombSmash" ID="{B96BDEBE-79DE-468D-B69D-295D9B1AA301}">
+					<ChildrenList>
+						<Action Name="" ID="{9EFC9C56-9C47-45A7-A830-81F413689FB9}" ShortID="370161751">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BombSmash" ID="{34B69B58-66D0-4C19-B9DA-0B2454ADC10E}" WorkUnitID="{EEFD725C-417A-4D1D-A8A8-DC1024ADB095}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

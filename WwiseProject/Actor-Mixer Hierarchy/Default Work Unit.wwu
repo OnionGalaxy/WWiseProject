@@ -12,6 +12,7 @@
 				<WorkUnit Name="3DAmbience" ID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}" PersistMode="Reference"/>
 				<WorkUnit Name="Necroplant" ID="{9CBE15E6-B1A9-4AA0-91C6-F5E2AF372CD8}" PersistMode="Reference"/>
 				<WorkUnit Name="Corruption" ID="{4C79F4BD-121A-4C60-AF62-008FE780B39E}" PersistMode="Reference"/>
+				<WorkUnit Name="Boss" ID="{EEFD725C-417A-4D1D-A8A8-DC1024ADB095}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

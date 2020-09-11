@@ -106,6 +106,14 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Boss" ID="{5DFA35EE-0AC6-4039-9FF7-C2718F9E1FD5}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Boss" ID="{46909F47-8101-4230-915E-17CFF4F5C818}" WorkUnitID="{46909F47-8101-4230-915E-17CFF4F5C818}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Boss" ID="{EEFD725C-417A-4D1D-A8A8-DC1024ADB095}" WorkUnitID="{EEFD725C-417A-4D1D-A8A8-DC1024ADB095}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
