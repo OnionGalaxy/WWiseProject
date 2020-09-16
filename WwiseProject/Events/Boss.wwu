@@ -14,6 +14,261 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SlamSmash" ID="{72F04D9E-5699-43A9-BAC7-1DA4499BFC55}">
+					<ChildrenList>
+						<Action Name="" ID="{FB7C7DA0-C355-41FF-ABA7-351D5036794A}" ShortID="808899532">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SlamSmash" ID="{A7EB71DD-8DAD-4EFE-AD61-9A48E1BC5D0F}" WorkUnitID="{EEFD725C-417A-4D1D-A8A8-DC1024ADB095}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BossDown" ID="{8D924E2D-28C1-439F-8032-3EA6A924E5E8}">
+					<ChildrenList>
+						<Action Name="" ID="{0F6CEFE8-6526-42DD-9F12-71D6E0163542}" ShortID="525382717">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BossDown" ID="{B7BD0D82-5A76-4C6C-9EEA-EB17C472FF5F}" WorkUnitID="{EEFD725C-417A-4D1D-A8A8-DC1024ADB095}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_RockExploding" ID="{65EF4363-1828-4162-8371-73F36E1B7F63}">
+					<ChildrenList>
+						<Action Name="" ID="{8BDBC05D-30C4-45C7-B9FF-BF32F33CC0E3}" ShortID="780146255">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RockExploding" ID="{052AFB71-D3C0-487C-814F-393B2CBCDC3F}" WorkUnitID="{EEFD725C-417A-4D1D-A8A8-DC1024ADB095}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BossSlam" ID="{F91B901A-CE7B-437F-A38C-192AD6787D07}">
+					<ChildrenList>
+						<Action Name="" ID="{3AFBA0D5-9A85-447C-9F75-F2BEF50824A1}" ShortID="683446082">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BossSlam" ID="{F37FBBE0-C221-4F9B-9B90-3D0562481B9B}" WorkUnitID="{EEFD725C-417A-4D1D-A8A8-DC1024ADB095}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BossDown2" ID="{DE439366-C0AF-4ECF-9782-791548AB21AE}">
+					<ChildrenList>
+						<Action Name="" ID="{361DC30A-05B2-431B-95B2-200F280ABB62}" ShortID="274853093">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BossDown2" ID="{740DADBE-6811-4CF7-A569-60E029CE9B10}" WorkUnitID="{EEFD725C-417A-4D1D-A8A8-DC1024ADB095}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Smash2" ID="{3E80C1E0-10E9-46E6-9D88-CACD93B5AA58}">
+					<ChildrenList>
+						<Action Name="" ID="{C9F0E31E-B0D9-44CE-AC9D-BFCF483327D7}" ShortID="905508304">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BossSmash2" ID="{8598B666-C9E9-43EF-9337-D20D39C325A2}" WorkUnitID="{EEFD725C-417A-4D1D-A8A8-DC1024ADB095}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_RocksSFX2" ID="{2EFE6825-271F-4C85-A301-E0A159AE0845}">
+					<ChildrenList>
+						<Action Name="" ID="{1E0024AC-9559-4464-900D-0B7EC001406E}" ShortID="499241619">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RocksSFX2" ID="{3958B592-50BF-404D-A6AE-72B98B8D5FD8}" WorkUnitID="{EEFD725C-417A-4D1D-A8A8-DC1024ADB095}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BossHit" ID="{3D62C7B3-03EC-4F5F-898A-D2C8EC0200DE}">
+					<ChildrenList>
+						<Action Name="" ID="{F2CEC840-F06F-447F-B632-7E0C57318BB7}" ShortID="736282242">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BossCrystalHit" ID="{38A0A0B2-5C8A-4FEF-8540-4FD9A7DFCBBF}" WorkUnitID="{EEFD725C-417A-4D1D-A8A8-DC1024ADB095}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DamageHeavyCrystal" ID="{2305A555-B351-4220-8ADC-BACEBECBB0E5}">
+					<ChildrenList>
+						<Action Name="" ID="{35F093F9-4A6A-4A27-BC51-C9C7E0F28DCB}" ShortID="68883957">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CrystalsBreakingSavage" ID="{50A4B1BA-16E9-4ABF-BBCE-E6EED10FEC4E}" WorkUnitID="{EEFD725C-417A-4D1D-A8A8-DC1024ADB095}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Earthquake2" ID="{9759E300-EF55-4AEC-B5DD-78EA4DD92806}">
+					<ChildrenList>
+						<Action Name="" ID="{B56D136B-8043-4149-B918-B4E6E65A8598}" ShortID="906025851">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Earthquake2" ID="{9804D0DB-F0F6-4429-ADFC-0715AE60E8D9}" WorkUnitID="{EEFD725C-417A-4D1D-A8A8-DC1024ADB095}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BossRockHit" ID="{C8715D0B-8CBE-4F32-BD60-42BD0466EB81}">
+					<ChildrenList>
+						<Action Name="" ID="{39167E32-5319-4965-8ED6-ADC782F54D77}" ShortID="844853366">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BossRockHit" ID="{1A9114F9-CE20-4322-8F4B-CB2B6EAA6B6C}" WorkUnitID="{EEFD725C-417A-4D1D-A8A8-DC1024ADB095}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BossSwing" ID="{3CC61D4D-BE9C-4A21-AABB-73C4C5CB2D1A}">
+					<ChildrenList>
+						<Action Name="" ID="{61A5C900-85D3-466A-829C-2967CDA0ECEE}" ShortID="1067563659">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BossSwing" ID="{9248A6EA-BE47-40C8-B14D-48294E17F88A}" WorkUnitID="{EEFD725C-417A-4D1D-A8A8-DC1024ADB095}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BossStandup" ID="{1EBD2C65-3DEF-4082-B439-CA6FCDDA16FE}">
+					<ChildrenList>
+						<Action Name="" ID="{546E24A0-3EEC-40D0-9195-BC1A9BCB0C42}" ShortID="571144585">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BossStandup" ID="{7C20288C-FECA-4EEE-B355-DFCE49E1AAA5}" WorkUnitID="{EEFD725C-417A-4D1D-A8A8-DC1024ADB095}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Byun" ID="{101E7745-294B-407B-B0CB-6EDC923E8383}">
+					<ChildrenList>
+						<Action Name="" ID="{52D0A6FF-B2B5-42E5-8BD8-4721FBE33510}" ShortID="852463698">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Byun" ID="{4797EFA1-266B-4C18-8089-C7C0E65270F1}" WorkUnitID="{EEFD725C-417A-4D1D-A8A8-DC1024ADB095}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ConeSound" ID="{22351F81-EEA6-468A-91E4-2F26627DF175}">
+					<ChildrenList>
+						<Action Name="" ID="{18FFC030-B272-4806-BF49-5B53A77115DD}" ShortID="206249206">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ConeSound" ID="{436E2D01-700C-4038-97DD-E336CE35A16D}" WorkUnitID="{EEFD725C-417A-4D1D-A8A8-DC1024ADB095}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SwingBeforeEarthquake" ID="{BE5A59F2-D10D-40EE-B7E3-3BFA220A2B0C}">
+					<ChildrenList>
+						<Action Name="" ID="{9206344C-5D2D-4D23-963B-66076DDC55A4}" ShortID="264514070">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SwingBeforeEarthquake" ID="{67840182-244F-45B1-945F-45B9B5AE070F}" WorkUnitID="{EEFD725C-417A-4D1D-A8A8-DC1024ADB095}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SwingBeforeSlam" ID="{3C9AA80B-10CD-4F8A-B92C-33D79AF9E49B}">
+					<ChildrenList>
+						<Action Name="" ID="{CA6992CA-CEEE-4116-BCD8-9B00B01D32F2}" ShortID="240192579">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SwingBeforeSlam" ID="{A526D105-1C7B-4DAB-A6FD-4C80B8ED2E3D}" WorkUnitID="{EEFD725C-417A-4D1D-A8A8-DC1024ADB095}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BossKingKong" ID="{BE3848FD-687B-4F06-8042-44F44D5E7B47}">
+					<ChildrenList>
+						<Action Name="" ID="{CDFEB72E-A143-49E6-B102-E4C347EFD0DC}" ShortID="562622271">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BossKingKong" ID="{BECB2B31-38C3-4B3E-8DDC-72978C18F25A}" WorkUnitID="{EEFD725C-417A-4D1D-A8A8-DC1024ADB095}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ScreamKingKong" ID="{B46EC518-AC8F-4849-A71E-CBCED946336D}">
+					<ChildrenList>
+						<Action Name="" ID="{30A4DCB2-3A78-4CE6-8537-DAACC0BA60E9}" ShortID="944142419">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BossScreamKingKong" ID="{50832B32-C7F9-4385-96EA-B7E0284D204B}" WorkUnitID="{EEFD725C-417A-4D1D-A8A8-DC1024ADB095}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Scream1" ID="{BD8C5F27-3158-4DAF-98FC-1538C959474B}">
+					<ChildrenList>
+						<Action Name="" ID="{F0795A95-7A67-4E01-91F8-F297CBACA4F5}" ShortID="637178309">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BossScream1" ID="{CAF74809-B0E8-49EE-82B5-EBC4784E918A}" WorkUnitID="{EEFD725C-417A-4D1D-A8A8-DC1024ADB095}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CB253AA1-B1BC-43EC-96B0-C4697DFD5B98}" ShortID="365567056">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_ScreamKingKong" ID="{B46EC518-AC8F-4849-A71E-CBCED946336D}" WorkUnitID="{46909F47-8101-4230-915E-17CFF4F5C818}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BossMusic" ID="{74F15A34-F585-4C82-86D6-769DD126BB19}">
+					<ChildrenList>
+						<Action Name="" ID="{54F72692-428C-4A81-85AA-8DAFC6E8FA6E}" ShortID="1017743707">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BossMusic" ID="{50E7E248-A42A-4272-89AA-F453006484B3}" WorkUnitID="{EEFD725C-417A-4D1D-A8A8-DC1024ADB095}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_BossMusic" ID="{CFD10C9F-52B8-4B8C-99D2-02FF6BDF0308}">
+					<ChildrenList>
+						<Action Name="" ID="{0F7832E8-4229-411D-8C23-1DE86710C5C3}" ShortID="716546379">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BossMusic" ID="{50E7E248-A42A-4272-89AA-F453006484B3}" WorkUnitID="{EEFD725C-417A-4D1D-A8A8-DC1024ADB095}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

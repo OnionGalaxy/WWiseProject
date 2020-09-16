@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{93A4D4E6-BD6C-49CC-BB35-BEACD2FE2F4A}" SchemaVersion="97">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{93A4D4E6-BD6C-49CC-BB35-BEACD2FE2F4A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{93A4D4E6-BD6C-49CC-BB35-BEACD2FE2F4A}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="FilterLPF" ID="{50EE89D0-01C3-4A10-9B80-7FDB76734C61}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>
