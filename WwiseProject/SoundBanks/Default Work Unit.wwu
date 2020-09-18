@@ -49,6 +49,7 @@
 						<ObjectRef Name="stop_light_shield_loop" ID="{C54DEBD5-1956-485B-BB96-831656573FB7}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_backflip_player" ID="{BE0841F4-BB2A-48A7-9AA8-6F9A5797DAE6}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_attack_player" ID="{A6C27198-FF9A-4919-B280-151ACEFE059B}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_light_shield_break" ID="{1DB48C7F-837B-49B5-98A5-4CA0A1BAF5EA}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_revive_success" ID="{9D1E4808-71F8-4A9C-90A4-F64B681C7C46}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_lightball" ID="{57A1D5CF-B0BC-4D38-AABE-2303690BC19E}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_revive_cast" ID="{E460E2DF-A127-4F54-B7F9-1252AD626132}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>

@@ -1392,6 +1392,91 @@
 						<ActiveSource Name="energyloop" ID="{65FEC88B-A77F-42FF-A8BA-72AB10BD0869}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<RandomSequenceContainer Name="SFX_Light_Shield_Break" ID="{8003B0E5-13A8-4A2E-A9FE-041891EFA52D}" ShortID="835554581">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="shieldbreak1" ID="{F42D552B-CEC9-4D00-BD94-3A62BBB47AA7}" ShortID="246657184">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="shieldbreak1" ID="{6654D7A1-5F3E-496F-AA42-F5CD452463B7}">
+									<Language>SFX</Language>
+									<AudioFile>shieldbreak1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="619030207"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="shieldbreak1" ID="{6654D7A1-5F3E-496F-AA42-F5CD452463B7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="shieldbreak2" ID="{E7773E3C-FC4A-43A0-8DEC-39D2596B2A17}" ShortID="426697209">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="shieldbreak2" ID="{72EBECFE-39A4-41C3-824B-3B352853121B}">
+									<Language>SFX</Language>
+									<AudioFile>shieldbreak2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="419112091"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="shieldbreak2" ID="{72EBECFE-39A4-41C3-824B-3B352853121B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="shieldbreak3" ID="{DF2ED3ED-1B84-4392-9867-7772E284552C}" ShortID="688399857">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="shieldbreak3" ID="{2A812729-EC37-4AF6-B795-77C2D5B47951}">
+									<Language>SFX</Language>
+									<AudioFile>shieldbreak3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="225543872"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="shieldbreak3" ID="{2A812729-EC37-4AF6-B795-77C2D5B47951}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

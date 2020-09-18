@@ -149,6 +149,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="play_light_shield_break" ID="{1DB48C7F-837B-49B5-98A5-4CA0A1BAF5EA}">
+					<ChildrenList>
+						<Action Name="" ID="{CF738592-C34C-4087-83AB-BD9D41135184}" ShortID="394507485">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Light_Shield_Break" ID="{8003B0E5-13A8-4A2E-A9FE-041891EFA52D}" WorkUnitID="{54A59ECD-4E16-468B-93DF-A400057BF407}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
