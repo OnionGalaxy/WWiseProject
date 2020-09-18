@@ -1213,7 +1213,7 @@
 				</Sound>
 				<RandomSequenceContainer Name="SFX_Light_Shield_Cast" ID="{0F295F1E-9E54-476A-ABBF-A622758A62AD}" ShortID="79623455">
 					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-11</Value>
@@ -1402,7 +1402,7 @@
 				</Sound>
 				<RandomSequenceContainer Name="SFX_Light_Shield_Break" ID="{8003B0E5-13A8-4A2E-A9FE-041891EFA52D}" ShortID="835554581">
 					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-7</Value>
