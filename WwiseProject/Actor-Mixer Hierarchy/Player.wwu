@@ -1182,6 +1182,216 @@
 						<ActiveSource Name="SFX_LigthBall_FullDuplexV4" ID="{1B5DF124-EEE9-4A2C-945E-19FBF5883DE2}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="SFX_Light_Shield" ID="{FAD6326D-759C-471A-974B-8E2F35FF78ED}" ShortID="238698508">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-20</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="51_diana_shield_oba_loop_01" ID="{3DDFF671-E0FB-4621-B018-CC0FC3CC4836}">
+							<Language>SFX</Language>
+							<AudioFile>51_diana_shield_oba_loop_01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="886097521"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="51_diana_shield_oba_loop_01" ID="{3DDFF671-E0FB-4621-B018-CC0FC3CC4836}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="SFX_Light_Shield_Cast" ID="{0F295F1E-9E54-476A-ABBF-A622758A62AD}" ShortID="79623455">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-11</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="energycast1" ID="{46C464BF-6EAC-42B2-86E8-3A2959976CE2}" ShortID="752399099">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="energycast1" ID="{BC75FB69-028C-4152-9EE8-AAD94884D909}">
+									<Language>SFX</Language>
+									<AudioFile>energycast1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="54794688"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="energycast1" ID="{BC75FB69-028C-4152-9EE8-AAD94884D909}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="energycast2" ID="{1CD670E5-690C-4C01-9F42-D569C8F3F4FB}" ShortID="258714273">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="energycast2" ID="{8E10F94D-DE26-4FBC-9AE8-4B2F10152898}">
+									<Language>SFX</Language>
+									<AudioFile>energycast2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="432950404"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="energycast2" ID="{8E10F94D-DE26-4FBC-9AE8-4B2F10152898}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="energycast3" ID="{90935F79-1383-415A-B513-FB295AA82B9C}" ShortID="864309329">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="energycast3" ID="{DFF68ECB-F199-45E2-A4A8-DA6476ABD41A}">
+									<Language>SFX</Language>
+									<AudioFile>energycast3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="231870370"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="energycast3" ID="{DFF68ECB-F199-45E2-A4A8-DA6476ABD41A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="energycast4" ID="{1D0465B5-AC16-44DD-A3A5-D85B7FC5AEB8}" ShortID="420870743">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="energycast4" ID="{ED64D270-EA21-4BFD-B69C-B9BA7D734661}">
+									<Language>SFX</Language>
+									<AudioFile>energycast4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="107145383"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="energycast4" ID="{ED64D270-EA21-4BFD-B69C-B9BA7D734661}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="energycast5" ID="{1562392B-5485-4E1F-B249-4EF92BAA0E30}" ShortID="323656327">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="energycast5" ID="{06CEB8EE-D9CC-45D7-AD24-4C66210F9014}">
+									<Language>SFX</Language>
+									<AudioFile>energycast5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="143402405"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="energycast5" ID="{06CEB8EE-D9CC-45D7-AD24-4C66210F9014}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="energycast6" ID="{450DFA9B-DD27-499B-8F05-050549AE5DDD}" ShortID="633508617">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="energycast6" ID="{3CD99D2D-2EF8-4983-97A5-7624DC705D92}">
+									<Language>SFX</Language>
+									<AudioFile>energycast6.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="782739485"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="energycast6" ID="{3CD99D2D-2EF8-4983-97A5-7624DC705D92}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="SFX_Light_Shield_Loop" ID="{D43AB724-4CBE-4857-8EF0-21B8B2DBEB5E}" ShortID="833116030">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-14</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="energyloop" ID="{65FEC88B-A77F-42FF-A8BA-72AB10BD0869}">
+							<Language>SFX</Language>
+							<AudioFile>energyloop.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="527739899"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="energyloop" ID="{65FEC88B-A77F-42FF-A8BA-72AB10BD0869}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

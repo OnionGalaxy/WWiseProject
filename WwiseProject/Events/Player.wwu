@@ -113,6 +113,42 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="play_light_shield_loop" ID="{904397D5-3D43-4022-A00B-B812934D7120}">
+					<ChildrenList>
+						<Action Name="" ID="{1DB5CF88-47E1-42C2-A661-344D0BE2C0A5}" ShortID="839482300">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Light_Shield_Loop" ID="{D43AB724-4CBE-4857-8EF0-21B8B2DBEB5E}" WorkUnitID="{54A59ECD-4E16-468B-93DF-A400057BF407}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="stop_light_shield_loop" ID="{C54DEBD5-1956-485B-BB96-831656573FB7}">
+					<ChildrenList>
+						<Action Name="" ID="{FF4A4020-FBEA-4A52-91F7-01028044C0C1}" ShortID="527716245">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Light_Shield_Loop" ID="{D43AB724-4CBE-4857-8EF0-21B8B2DBEB5E}" WorkUnitID="{54A59ECD-4E16-468B-93DF-A400057BF407}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_light_shield_cast" ID="{991E758A-CD3D-45E5-9C3C-192FBE17C6E4}">
+					<ChildrenList>
+						<Action Name="" ID="{2EB5B64A-416C-4594-9006-081104083B61}" ShortID="994401623">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Light_Shield_Cast" ID="{0F295F1E-9E54-476A-ABBF-A622758A62AD}" WorkUnitID="{54A59ECD-4E16-468B-93DF-A400057BF407}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
