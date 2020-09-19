@@ -186,6 +186,7 @@
 				</Sound>
 				<RandomSequenceContainer Name="RockExploding" ID="{052AFB71-D3C0-487C-814F-393B2CBCDC3F}" ShortID="162785558">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-8</Value>
@@ -338,7 +339,7 @@
 				</Sound>
 				<RandomSequenceContainer Name="BossCrystalHit" ID="{38A0A0B2-5C8A-4FEF-8540-4FD9A7DFCBBF}" ShortID="387844426">
 					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -545,6 +546,9 @@
 					</ChildrenList>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="BossSwing" ID="{9248A6EA-BE47-40C8-B14D-48294E17F88A}" ShortID="816206906">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
@@ -790,6 +794,7 @@
 				</Sound>
 				<RandomSequenceContainer Name="BossKingKong" ID="{BECB2B31-38C3-4B3E-8DDC-72978C18F25A}" ShortID="1011211542">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="PlayMechanismInfiniteOrNumberOfLoops" Type="int16" Value="0"/>
 						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 						<Property Name="PlayMechanismLoopCount" Type="int32" Value="4"/>
@@ -933,6 +938,7 @@
 				</Sound>
 				<RandomSequenceContainer Name="BossMario" ID="{B7F35A43-3947-4543-8382-14CF7D0D8303}" ShortID="1052051681">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
