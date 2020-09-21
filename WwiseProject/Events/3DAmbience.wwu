@@ -238,6 +238,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Forest_Sequence" ID="{B4F5B526-928D-4313-A4A7-A404BFD47745}">
+							<ChildrenList>
+								<Action Name="" ID="{2F40E155-4778-457E-A581-98EFAB16425C}" ShortID="256062995">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="forest" ID="{B177C2B5-5366-4511-8DE9-D963B696FFD1}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Splashes" ID="{96327F94-51B2-4F4C-A9CD-BC8715398CD4}" ShortID="241364732">
