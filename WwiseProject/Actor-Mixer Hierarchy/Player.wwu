@@ -1489,6 +1489,162 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Heavy_Attack_Sequence" ID="{99513F9F-2889-4269-A426-373C6B07D6F2}" ShortID="460861433">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="New Attenuation" ID="{5AEE4AC7-59F4-423D-8CA3-78572E938CA1}" WorkUnitID="{7899030E-5AE9-40D5-AD3D-FAB725105335}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="H_Attack_1" ID="{312726A4-B06F-4275-9854-084A46D2E18E}" ShortID="612187325">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="H_Attack_1" ID="{A60A0F12-3B05-4392-BC47-D6B19040A283}">
+									<Language>SFX</Language>
+									<AudioFile>H_Attack_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="138852600"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="H_Attack_1" ID="{A60A0F12-3B05-4392-BC47-D6B19040A283}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="H_Attack_2" ID="{2687A098-5874-4404-B970-CA99EC5DBF19}" ShortID="276739262">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="H_Attack_2" ID="{7A3F6831-304A-4287-8676-EE7A49629464}">
+									<Language>SFX</Language>
+									<AudioFile>H_Attack_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="34302004"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="H_Attack_2" ID="{7A3F6831-304A-4287-8676-EE7A49629464}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="H_Attack_3" ID="{ABF93704-8E44-40AB-91DD-9107A359FB9E}" ShortID="342910688">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="H_Attack_3" ID="{83FD3C24-CFA7-4899-BA50-20B857CC42A0}">
+									<Language>SFX</Language>
+									<AudioFile>H_Attack_3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="804900839"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="H_Attack_3" ID="{83FD3C24-CFA7-4899-BA50-20B857CC42A0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="H_Attack_1" ID="{312726A4-B06F-4275-9854-084A46D2E18E}"/>
+						<ItemRef Name="H_Attack_2" ID="{2687A098-5874-4404-B970-CA99EC5DBF19}"/>
+						<ItemRef Name="H_Attack_3" ID="{ABF93704-8E44-40AB-91DD-9107A359FB9E}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+				<Sound Name="H_Attack_1" ID="{0731CFA4-55C2-4323-BC69-143F5B4D5607}" ShortID="1051171781">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="H_Attack_1" ID="{F256734B-E396-44CD-88ED-0D390E804550}">
+							<Language>SFX</Language>
+							<AudioFile>H_Attack_1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="138852600"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="H_Attack_1" ID="{F256734B-E396-44CD-88ED-0D390E804550}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="H_Attack_2" ID="{7B49D71E-5979-4B8F-94BE-40801B9645E3}" ShortID="45435646">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="H_Attack_2" ID="{0DAD48D9-3C01-4EA7-AB2D-4491B4B52E6F}">
+							<Language>SFX</Language>
+							<AudioFile>H_Attack_2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="34302004"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="H_Attack_2" ID="{0DAD48D9-3C01-4EA7-AB2D-4491B4B52E6F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="H_Attack_3" ID="{23134F6B-8300-4361-9814-9C811C64C837}" ShortID="894576086">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="H_Attack_3" ID="{F2D3288D-54E2-48FC-9214-73A6DD8A0308}">
+							<Language>SFX</Language>
+							<AudioFile>H_Attack_3.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="804900839"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="H_Attack_3" ID="{F2D3288D-54E2-48FC-9214-73A6DD8A0308}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
