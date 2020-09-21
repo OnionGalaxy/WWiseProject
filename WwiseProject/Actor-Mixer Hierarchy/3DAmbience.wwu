@@ -276,11 +276,15 @@
 						<ActiveSource Name="SFX_Splashes" ID="{C13F9D0F-9E92-4D4B-A76A-B8455501D6E4}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<RandomSequenceContainer Name="forest" ID="{B177C2B5-5366-4511-8DE9-D963B696FFD1}" ShortID="923902262">
+				<RandomSequenceContainer Name="Forest_Sequence" ID="{B177C2B5-5366-4511-8DE9-D963B696FFD1}" ShortID="923902262">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="New Attenuation" ID="{5AEE4AC7-59F4-423D-8CA3-78572E938CA1}" WorkUnitID="{7899030E-5AE9-40D5-AD3D-FAB725105335}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
 						</Reference>
@@ -351,6 +355,505 @@
 					<Playlist>
 						<ItemRef Name="Corrupted_Ambience" ID="{416199BF-EC16-4581-9C36-9C9A25607070}"/>
 						<ItemRef Name="Forest_Ambience" ID="{B39C99E1-AF0C-4C5D-9BEB-D44BA91F91E2}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="River_Sequence" ID="{B43D88C0-6B76-4E75-927C-39798EE309A1}" ShortID="1039084571">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="New Attenuation" ID="{5AEE4AC7-59F4-423D-8CA3-78572E938CA1}" WorkUnitID="{7899030E-5AE9-40D5-AD3D-FAB725105335}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="River" ID="{7C231741-A2F7-4EEF-85BC-1445B5780E2D}" ShortID="1035324139">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="New Attenuation" ID="{5AEE4AC7-59F4-423D-8CA3-78572E938CA1}" WorkUnitID="{7899030E-5AE9-40D5-AD3D-FAB725105335}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="River_Ambience" ID="{60E39ACB-AF7F-4CD4-BE17-4B8CDBC69835}">
+									<Language>SFX</Language>
+									<AudioFile>River_Ambience.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="552803849"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="River_Ambience" ID="{60E39ACB-AF7F-4CD4-BE17-4B8CDBC69835}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Lava_River" ID="{1C099A46-2AAC-4CA1-907E-01591A9C84CA}" ShortID="186610336">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Waterfall Attenuation" ID="{71301AA2-6D99-41A4-93C1-2443826F7EE3}" WorkUnitID="{7899030E-5AE9-40D5-AD3D-FAB725105335}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Lava" ID="{5E74D2C8-A3BF-4EBC-A24C-1AED5B3BF040}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Lava.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="551138507"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Lava" ID="{5E74D2C8-A3BF-4EBC-A24C-1AED5B3BF040}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="Lava_River" ID="{1C099A46-2AAC-4CA1-907E-01591A9C84CA}"/>
+						<ItemRef Name="River" ID="{7C231741-A2F7-4EEF-85BC-1445B5780E2D}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Creek_Sequence" ID="{48EAAD50-3184-4703-8F38-EDBDAB38324B}" ShortID="28458611">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="New Attenuation" ID="{5AEE4AC7-59F4-423D-8CA3-78572E938CA1}" WorkUnitID="{7899030E-5AE9-40D5-AD3D-FAB725105335}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Lava_Stream" ID="{46F05D39-7042-418E-A9E2-DA2BD774B08A}" ShortID="607516207">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Waterfall Attenuation" ID="{71301AA2-6D99-41A4-93C1-2443826F7EE3}" WorkUnitID="{7899030E-5AE9-40D5-AD3D-FAB725105335}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Lava_Stream" ID="{AFB996C8-5B6A-4D1C-9349-4093E605CE0B}">
+									<Language>SFX</Language>
+									<AudioFile>Lava_Stream.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="779560551"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="Corrupted_Ambience" ID="{87B11FEA-5776-4EAA-95E0-A6C502E14F5F}">
+									<Language>SFX</Language>
+									<AudioFile>Corrupted_Ambience.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="545220420"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Lava_Stream" ID="{AFB996C8-5B6A-4D1C-9349-4093E605CE0B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Water_Creek" ID="{CADD7FBC-620C-4240-9218-069F2B006AB1}" ShortID="378860609">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="New Attenuation" ID="{5AEE4AC7-59F4-423D-8CA3-78572E938CA1}" WorkUnitID="{7899030E-5AE9-40D5-AD3D-FAB725105335}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Water_Creek" ID="{A5EE8B3C-EB3B-45AD-A98D-7E6D7EA101A1}">
+									<Language>SFX</Language>
+									<AudioFile>Water_Creek.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1070386461"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Water_Creek" ID="{A5EE8B3C-EB3B-45AD-A98D-7E6D7EA101A1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="Lava_Stream" ID="{46F05D39-7042-418E-A9E2-DA2BD774B08A}"/>
+						<ItemRef Name="Water_Creek" ID="{CADD7FBC-620C-4240-9218-069F2B006AB1}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Totem_Sequence" ID="{107ED319-3FE1-44AB-ACD3-4CDF38958969}" ShortID="247335977">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="New Attenuation" ID="{5AEE4AC7-59F4-423D-8CA3-78572E938CA1}" WorkUnitID="{7899030E-5AE9-40D5-AD3D-FAB725105335}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Lava_Stream" ID="{22F8B279-9860-496A-A5F0-F01987470CA0}" ShortID="935740884">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Waterfall Attenuation" ID="{71301AA2-6D99-41A4-93C1-2443826F7EE3}" WorkUnitID="{7899030E-5AE9-40D5-AD3D-FAB725105335}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Lava_Stream" ID="{D5875CC5-5412-4546-9B77-B51F198EBD07}">
+									<Language>SFX</Language>
+									<AudioFile>Lava_Stream.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="779560551"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="Corrupted_Ambience" ID="{313897BB-719A-4B03-8FEF-42BF107CD057}">
+									<Language>SFX</Language>
+									<AudioFile>Corrupted_Ambience.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="545220420"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Lava_Stream" ID="{D5875CC5-5412-4546-9B77-B51F198EBD07}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Splashes" ID="{36F8A3F7-6D8B-465C-B4F0-07D43F1B9A87}" ShortID="61051960">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="New Attenuation" ID="{5AEE4AC7-59F4-423D-8CA3-78572E938CA1}" WorkUnitID="{7899030E-5AE9-40D5-AD3D-FAB725105335}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Splashes" ID="{5452D79C-83B8-490E-875F-E603BC941BC1}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Splashes.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="992496470"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Splashes" ID="{5452D79C-83B8-490E-875F-E603BC941BC1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="Lava_Stream" ID="{22F8B279-9860-496A-A5F0-F01987470CA0}"/>
+						<ItemRef Name="Splashes" ID="{36F8A3F7-6D8B-465C-B4F0-07D43F1B9A87}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Waterfall_Sequence" ID="{69412A26-FDDD-428F-9324-4F5084530B18}" ShortID="111668422">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom CreatedFrom="{71301AA2-6D99-41A4-93C1-2443826F7EE3}">
+								<Attenuation Name="Waterfall Attenuation (Custom)" ID="{CED348B5-AA3C-44C2-A323-86E1A35781DC}" ShortID="336640236">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="70"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{F81DF5FB-82DC-4310-8B25-D39E225EAFC2}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+															<SegmentShape>Log1</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>70</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="LowPassFilter" ID="{06AD3DEB-8E2D-423C-8F52-3027BD6E22BA}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="65537"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>70</XPos>
+															<YPos>100</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Lava_River" ID="{25289B6B-66D9-453D-A1A4-7B3F08434103}" ShortID="429979561">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Waterfall Attenuation" ID="{71301AA2-6D99-41A4-93C1-2443826F7EE3}" WorkUnitID="{7899030E-5AE9-40D5-AD3D-FAB725105335}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Lava" ID="{4B0EDE8F-60C8-4A82-A04D-821CD870F2DA}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Lava.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="551138507"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Lava" ID="{4B0EDE8F-60C8-4A82-A04D-821CD870F2DA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WaterFall" ID="{B594E300-AFEC-45E1-BE64-048F41FD7796}" ShortID="762604458">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom>
+										<Attenuation Name="Attenuation (Custom)" ID="{D8C0CF60-9018-4142-BAEF-2D6DF6BAA9F3}" ShortID="789654004">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="50"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{CDEC5FC7-7DCB-438B-A977-D3078E790F7F}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Log1</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>50</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry">
+														<Curve Name="VolumeWetUser" ID="{4AB6111C-2EEF-4B47-9D71-E0D199745ABF}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>50</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="LowPassFilter" ID="{2985AEA3-CE55-43EF-90E9-1BCBB9B830F6}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="65537"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Exp1</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>50</XPos>
+																	<YPos>100</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_WaterFall_Ambience" ID="{FE39FFFF-B670-41FE-A356-EDA8D440FA6B}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_WaterFall_Ambience.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="258033430"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_WaterFall_Ambience" ID="{FE39FFFF-B670-41FE-A356-EDA8D440FA6B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="Lava_River" ID="{25289B6B-66D9-453D-A1A4-7B3F08434103}"/>
+						<ItemRef Name="WaterFall" ID="{B594E300-AFEC-45E1-BE64-048F41FD7796}"/>
 					</Playlist>
 				</RandomSequenceContainer>
 			</ChildrenList>
