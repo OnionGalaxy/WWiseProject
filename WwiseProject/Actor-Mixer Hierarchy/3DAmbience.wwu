@@ -279,6 +279,7 @@
 				<RandomSequenceContainer Name="Forest_Sequence" ID="{B177C2B5-5366-4511-8DE9-D963B696FFD1}" ShortID="923902262">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 					</PropertyList>
 					<ReferenceList>
@@ -360,6 +361,7 @@
 				<RandomSequenceContainer Name="River_Sequence" ID="{B43D88C0-6B76-4E75-927C-39798EE309A1}" ShortID="1039084571">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 					</PropertyList>
 					<ReferenceList>
@@ -446,6 +448,7 @@
 				<RandomSequenceContainer Name="Creek_Sequence" ID="{48EAAD50-3184-4703-8F38-EDBDAB38324B}" ShortID="28458611">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 					</PropertyList>
 					<ReferenceList>
@@ -539,6 +542,7 @@
 				<RandomSequenceContainer Name="Totem_Sequence" ID="{107ED319-3FE1-44AB-ACD3-4CDF38958969}" ShortID="247335977">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 					</PropertyList>
 					<ReferenceList>
@@ -627,6 +631,7 @@
 				<RandomSequenceContainer Name="Waterfall_Sequence" ID="{69412A26-FDDD-428F-9324-4F5084530B18}" ShortID="111668422">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 					</PropertyList>
 					<ReferenceList>
