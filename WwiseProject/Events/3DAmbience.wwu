@@ -649,6 +649,65 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Reset_Sequences" ID="{F7C0062A-5E0D-4231-94B3-63EB0C817C5E}">
+					<ChildrenList>
+						<Action Name="" ID="{3FE479FD-FBC8-4DB4-B3FE-7DA606E74F59}" ShortID="342213816">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="42"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Creek_Sequence" ID="{48EAAD50-3184-4703-8F38-EDBDAB38324B}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{80EC930E-D234-4F6F-9D0D-98A7F7FED423}" ShortID="30678815">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="42"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Forest_Sequence" ID="{B177C2B5-5366-4511-8DE9-D963B696FFD1}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{99C52FFC-E370-4121-ACAA-6DFB0E379EF9}" ShortID="210917037">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="42"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="River_Sequence" ID="{B43D88C0-6B76-4E75-927C-39798EE309A1}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A065ABAB-2C2D-42AE-BC01-EFBF9A8E6FD4}" ShortID="978284486">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="42"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Totem_Sequence" ID="{107ED319-3FE1-44AB-ACD3-4CDF38958969}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6D8E4688-CA1B-4B71-8361-BA0A8819D62D}" ShortID="669400371">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="42"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Waterfall_Sequence" ID="{69412A26-FDDD-428F-9324-4F5084530B18}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
