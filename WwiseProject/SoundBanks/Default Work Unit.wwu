@@ -124,6 +124,14 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Cave" ID="{2516A87F-9B57-46DC-B246-51FFE35B065F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Cave" ID="{B62F6A83-901A-40CA-9C0F-908A81053768}" WorkUnitID="{B62F6A83-901A-40CA-9C0F-908A81053768}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Cave" ID="{81C2D7D1-C7F4-4DFC-A070-7A72CE4F47D5}" WorkUnitID="{81C2D7D1-C7F4-4DFC-A070-7A72CE4F47D5}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

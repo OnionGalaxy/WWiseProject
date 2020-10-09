@@ -35,6 +35,7 @@
 				</Event>
 				<WorkUnit Name="Corruption" ID="{A26DB578-E5A7-4CA8-91FC-6E8B6B544C10}" PersistMode="Reference"/>
 				<WorkUnit Name="Boss" ID="{46909F47-8101-4230-915E-17CFF4F5C818}" PersistMode="Reference"/>
+				<WorkUnit Name="Cave" ID="{81C2D7D1-C7F4-4DFC-A070-7A72CE4F47D5}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
