@@ -4,6 +4,7 @@
 		<WorkUnit Name="Default Work Unit" ID="{93A4D4E6-BD6C-49CC-BB35-BEACD2FE2F4A}" PersistMode="Standalone">
 			<ChildrenList>
 				<GameParameter Name="FilterLPF" ID="{50EE89D0-01C3-4A10-9B80-7FDB76734C61}"/>
+				<GameParameter Name="master_volume" ID="{2A39DC69-6D92-4D2F-B0EF-3DFBA090D775}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

@@ -36,6 +36,21 @@
 				<WorkUnit Name="Corruption" ID="{A26DB578-E5A7-4CA8-91FC-6E8B6B544C10}" PersistMode="Reference"/>
 				<WorkUnit Name="Boss" ID="{46909F47-8101-4230-915E-17CFF4F5C818}" PersistMode="Reference"/>
 				<WorkUnit Name="Cave" ID="{81C2D7D1-C7F4-4DFC-A070-7A72CE4F47D5}" PersistMode="Reference"/>
+				<Event Name="Set_Bus_Volume_Master_Audio_Bus" ID="{E5DC2D44-24E4-4976-AEC3-9E56C156526E}">
+					<ChildrenList>
+						<Action Name="" ID="{A25B951F-52F1-475B-8C4C-C4A3288C8DB0}" ShortID="192215251">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="11"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
