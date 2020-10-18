@@ -51,6 +51,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<WorkUnit Name="Biter" ID="{E3107D59-9326-47CA-8499-C547D98F00F0}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

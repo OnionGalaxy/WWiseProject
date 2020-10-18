@@ -132,6 +132,20 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Biter" ID="{952633AF-9791-43C5-9260-00F5A0B07968}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Biter_Idle" ID="{A28441AE-DC89-4137-83BC-0E6A1588ED5E}" WorkUnitID="{E3107D59-9326-47CA-8499-C547D98F00F0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Biter_Death" ID="{C0096771-F135-422C-AB0E-4EC745A785E6}" WorkUnitID="{E3107D59-9326-47CA-8499-C547D98F00F0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Biter_Explosion" ID="{E59AAF5D-73A2-45B4-9CFC-4E4D181D4FD2}" WorkUnitID="{E3107D59-9326-47CA-8499-C547D98F00F0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Biter_Fireloop" ID="{12629D7C-A9B4-4614-BA51-CA1419B5870F}" WorkUnitID="{E3107D59-9326-47CA-8499-C547D98F00F0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Biter_Fireloop" ID="{05FBAD8D-6CC7-4731-9426-A8A891F8962B}" WorkUnitID="{E3107D59-9326-47CA-8499-C547D98F00F0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Biter_Dash" ID="{1B8F272B-0BAE-4969-975D-9B0ACF003DA0}" WorkUnitID="{E3107D59-9326-47CA-8499-C547D98F00F0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Biter_Hit" ID="{B81CC030-8874-4C98-9BA6-B0549C7970EB}" WorkUnitID="{E3107D59-9326-47CA-8499-C547D98F00F0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Biter_BasicAttack" ID="{F22F49C6-D19C-4FFB-8085-897F1B3E0CD6}" WorkUnitID="{E3107D59-9326-47CA-8499-C547D98F00F0}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
