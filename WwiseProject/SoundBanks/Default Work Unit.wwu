@@ -20,13 +20,6 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="Combat" ID="{67ECB4CA-4E0E-4332-8476-7338C09E0B7C}">
-					<ObjectInclusionList>
-						<ObjectRef Name="Start_Combat_Music" ID="{166FE75C-4183-4783-94E5-BCBAEC053483}" WorkUnitID="{EACCB140-2EB0-4CAA-A465-467A47EAAC46}" Origin="Manual" Filter="7"/>
-					</ObjectInclusionList>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
 				<SoundBank Name="Mushdoom" ID="{4CF7CD79-F61C-4D84-8C0D-D45A387F90F1}">
 					<ObjectInclusionList>
 						<ObjectRef Name="play_footstep" ID="{3022FD51-0871-4114-8CD6-F9158481A397}" WorkUnitID="{8EAFBABF-AE2B-436D-A28B-FC0D41986278}" Origin="Manual" Filter="7"/>
@@ -65,6 +58,8 @@
 				</SoundBank>
 				<SoundBank Name="Music" ID="{D2E4C95A-FC7D-43AD-975F-1ABA7668354D}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Level2_Sequence" ID="{192AE129-6AC6-4748-BCAA-1C1BFBFA2F58}" WorkUnitID="{EACCB140-2EB0-4CAA-A465-467A47EAAC46}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Level1_Sequence" ID="{A94C92F4-E20B-4C3B-9EE5-19E2A7E21548}" WorkUnitID="{EACCB140-2EB0-4CAA-A465-467A47EAAC46}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_base_music" ID="{110DE143-17FD-4DD2-887C-037C7CF4F404}" WorkUnitID="{EACCB140-2EB0-4CAA-A465-467A47EAAC46}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
