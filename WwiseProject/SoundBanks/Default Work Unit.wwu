@@ -60,7 +60,6 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Level2_Sequence" ID="{192AE129-6AC6-4748-BCAA-1C1BFBFA2F58}" WorkUnitID="{EACCB140-2EB0-4CAA-A465-467A47EAAC46}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Level1_Sequence" ID="{A94C92F4-E20B-4C3B-9EE5-19E2A7E21548}" WorkUnitID="{EACCB140-2EB0-4CAA-A465-467A47EAAC46}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="play_base_music" ID="{110DE143-17FD-4DD2-887C-037C7CF4F404}" WorkUnitID="{EACCB140-2EB0-4CAA-A465-467A47EAAC46}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
