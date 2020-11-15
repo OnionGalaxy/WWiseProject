@@ -3,17 +3,6 @@
 	<Events>
 		<WorkUnit Name="Music" ID="{EACCB140-2EB0-4CAA-A465-467A47EAAC46}" OwnerID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}" PersistMode="Nested">
 			<ChildrenList>
-				<Event Name="play_base_music" ID="{110DE143-17FD-4DD2-887C-037C7CF4F404}">
-					<ChildrenList>
-						<Action Name="" ID="{150EFD84-CE60-483C-B3F8-D9B7AC8F7396}" ShortID="899223893">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Music_TwinlightSouls_Base" ID="{D2791303-14A7-41DF-9AD9-5075831D7E55}" WorkUnitID="{ED528E8E-507D-4625-8185-F13489202DA0}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Folder Name="Level1_Sequence" ID="{A94C92F4-E20B-4C3B-9EE5-19E2A7E21548}" ShortID="499793426">
 					<ChildrenList>
 						<Event Name="Resume_Level1_Sequence" ID="{CCE78BB4-6E54-4D02-B9B5-EFC1434B7BDF}">
