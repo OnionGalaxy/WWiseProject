@@ -15,6 +15,7 @@
 				<WorkUnit Name="Boss" ID="{EEFD725C-417A-4D1D-A8A8-DC1024ADB095}" PersistMode="Reference"/>
 				<WorkUnit Name="Cave" ID="{B62F6A83-901A-40CA-9C0F-908A81053768}" PersistMode="Reference"/>
 				<WorkUnit Name="Biter" ID="{C76FA220-FC11-4686-954A-20984725A7BF}" PersistMode="Reference"/>
+				<WorkUnit Name="Cinematics" ID="{2C6EDC42-6FD3-46A5-B731-0202CAB0DF21}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

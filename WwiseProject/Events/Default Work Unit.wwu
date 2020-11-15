@@ -52,6 +52,7 @@
 					</ChildrenList>
 				</Event>
 				<WorkUnit Name="Biter" ID="{E3107D59-9326-47CA-8499-C547D98F00F0}" PersistMode="Reference"/>
+				<WorkUnit Name="Cinematics" ID="{C916FA21-8BE2-4971-B22E-1BF15C4C26BA}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
