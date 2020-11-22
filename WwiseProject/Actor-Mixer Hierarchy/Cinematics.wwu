@@ -6,7 +6,7 @@
 				<Sound Name="Intro_Voice" ID="{BCE1EC44-4F30-4082-AAC0-2B3C5D6CD5B2}" ShortID="435846672">
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+							<ObjectRef Name="Optimized" ID="{D3F83092-45F7-4792-A4A8-E69C490A9A62}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>

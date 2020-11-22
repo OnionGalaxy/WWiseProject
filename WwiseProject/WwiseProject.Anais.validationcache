@@ -1,23 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="97">
-	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\WwiseProject.wproj" DateLow="1588960582" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\WwiseProject.Anais.wsettings" DateLow="1588963428" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\WwiseProject.wproj" DateLow="1605993887" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\WwiseProject.Anais.wsettings" DateLow="1605995598" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1588959901" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1588959901" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Switches\Default Work Unit.wwu" DateLow="1588959901" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\States\Default Work Unit.wwu" DateLow="1588959901" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1588959901" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1588963346" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1605993887" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Queries\Factory Queries.wwu" DateLow="1588959901" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Queries\Default Work Unit.wwu" DateLow="1588959901" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Presets\Factory Spatial Audio.wwu" DateLow="1588959900" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Presets\Default Work Unit.wwu" DateLow="1588959900" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1588959900" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1588959900" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1588959900" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1605993887" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1588959900" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1588959900" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Events\Default Work Unit.wwu" DateLow="1588962870" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1605993887" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Events\Player.wwu" DateLow="1605993887" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Events\Orbs.wwu" DateLow="1605993887" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Events\Necroplant.wwu" DateLow="1605993887" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Events\Music.wwu" DateLow="1605993887" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Events\Mushdoom.wwu" DateLow="1605993887" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Events\Menu.wwu" DateLow="1605993887" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Events\Default Work Unit.wwu" DateLow="1605993887" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Events\Corruption.wwu" DateLow="1605993887" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Events\Cinematics.wwu" DateLow="1605993887" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Events\Cave.wwu" DateLow="1605993887" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Events\Boss.wwu" DateLow="1605993887" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Events\Biter.wwu" DateLow="1605993887" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Events\Ambience.wwu" DateLow="1605993887" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Events\3DAmbience.wwu" DateLow="1605993887" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Effects\Factory Effects.wwu" DateLow="1588959900" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Effects\Default Work Unit.wwu" DateLow="1588959900" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1588959900" DateHigh="0"/>
@@ -25,10 +38,22 @@
 	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1588959900" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1588959900" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1588959900" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1588959900" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Actor-Mixer Hierarchy\Menu_Clicks.wwu" DateLow="1588962771" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Actor-Mixer Hierarchy\Menu.wwu" DateLow="1588962057" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1588960554" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1605993887" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Actor-Mixer Hierarchy\Player.wwu" DateLow="1605993887" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Actor-Mixer Hierarchy\Orbs.wwu" DateLow="1605993887" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Actor-Mixer Hierarchy\Necroplant.wwu" DateLow="1605993887" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Actor-Mixer Hierarchy\Music.wwu" DateLow="1605993887" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Actor-Mixer Hierarchy\Mushdoom.wwu" DateLow="1605993887" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Actor-Mixer Hierarchy\Menu_Clicks.wwu" DateLow="1605993887" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Actor-Mixer Hierarchy\Menu.wwu" DateLow="1605993887" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1605993887" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Actor-Mixer Hierarchy\Corruption.wwu" DateLow="1605993887" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Actor-Mixer Hierarchy\Cinematics.wwu" DateLow="1605993887" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Actor-Mixer Hierarchy\Cave.wwu" DateLow="1605993887" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Actor-Mixer Hierarchy\Boss.wwu" DateLow="1605993887" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Actor-Mixer Hierarchy\Biter.wwu" DateLow="1605993887" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Actor-Mixer Hierarchy\Ambience.wwu" DateLow="1605993887" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Izzy\gitHub\WWiseProject\WwiseProject\Actor-Mixer Hierarchy\3DAmbience.wwu" DateLow="1605993887" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Izzy\gitHub\LittleOrionEngine\WwiseProject\WwiseProject\WwiseProject.wproj" DateLow="1588181468" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Izzy\gitHub\LittleOrionEngine\WwiseProject\WwiseProject\WwiseProject.Anais.wsettings" DateLow="1588183121" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Izzy\gitHub\LittleOrionEngine\WwiseProject\WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1588178343" DateHigh="0"/>
