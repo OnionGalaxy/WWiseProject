@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9CBE15E6-B1A9-4AA0-91C6-F5E2AF372CD8}" SchemaVersion="97" RootDocumentID="{9F9D1B30-200B-4927-8410-CAADE617AD84}">
+	<AudioObjects>
+		<WorkUnit Name="Necroplant" ID="{9CBE15E6-B1A9-4AA0-91C6-F5E2AF372CD8}" OwnerID="{9F9D1B30-200B-4927-8410-CAADE617AD84}" PersistMode="Nested">
+			<ChildrenList>
+				<RandomSequenceContainer Name="NecroProjectileHit" ID="{86A2F71C-A447-4434-A341-3D7F5386285D}" ShortID="152187608">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom CreatedFrom="{5AEE4AC7-59F4-423D-8CA3-78572E938CA1}">
+								<Attenuation Name="New Attenuation (Custom)" ID="{8E260753-7072-40B6-8AE6-7F11253D9102}" ShortID="286434253">
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{AE7C7E7C-64F0-4FB3-BFB8-AC784794311B}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Hit_01" ID="{D178FC9C-4112-4A79-B7C4-E9DDA91D6FE2}" ShortID="229075946">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="pain75_1" ID="{41153A94-1038-4D1C-812A-62D7F5066A39}">
+									<Language>SFX</Language>
+									<AudioFile>Necroplant\pain75_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1158072"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="pain75_1" ID="{41153A94-1038-4D1C-812A-62D7F5066A39}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Hit_02" ID="{2878F0F1-17FE-4133-B37C-C87C66B22B79}" ShortID="696862763">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="pain100_1" ID="{2D9DAA11-3F34-4C16-A204-08125EEB8083}">
+									<Language>SFX</Language>
+									<AudioFile>Necroplant\pain100_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="858615560"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="pain100_1" ID="{2D9DAA11-3F34-4C16-A204-08125EEB8083}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="NecroProjectileShoot" ID="{58FF0AD0-5C4A-4A21-BAB4-ED43C6A307AA}" ShortID="915157449">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom CreatedFrom="{5AEE4AC7-59F4-423D-8CA3-78572E938CA1}">
+								<Attenuation Name="New Attenuation (Custom)" ID="{EFAF0A3F-5859-499C-99AF-3061535E7B29}" ShortID="434559584">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="50"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{6AF36A7D-2999-4088-A0DC-6106418CB8AA}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>50</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Shoot_01" ID="{0387E9F5-53B1-4E23-92EF-78B4436924A2}" ShortID="719852218">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="jump" ID="{14F65D32-FA24-49D8-84EA-0E2E482057A1}">
+									<Language>SFX</Language>
+									<AudioFile>Necroplant\jump.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="78415968"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="jump" ID="{14F65D32-FA24-49D8-84EA-0E2E482057A1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Shoot_02" ID="{F9107D6A-5133-4103-9B3F-180CB0929177}" ShortID="984093635">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="pain25_1" ID="{D54C566C-21F8-4E11-8B3D-121E4D5BEA57}">
+									<Language>SFX</Language>
+									<AudioFile>Necroplant\pain25_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="499702728"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="pain25_1" ID="{D54C566C-21F8-4E11-8B3D-121E4D5BEA57}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Shoot_03" ID="{12D63A44-E86B-4CD1-8DD0-714065473DFE}" ShortID="528895837">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="pain50_1" ID="{5A3D4395-08EE-4A2D-B93A-14075350CEC8}">
+									<Language>SFX</Language>
+									<AudioFile>Necroplant\pain50_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="55423087"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="pain50_1" ID="{5A3D4395-08EE-4A2D-B93A-14075350CEC8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="NecroDeath" ID="{589DBCCC-23FB-4815-8863-5B29C6CFB2DD}" ShortID="1045623044">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom CreatedFrom="{5AEE4AC7-59F4-423D-8CA3-78572E938CA1}">
+								<Attenuation Name="New Attenuation (Custom)" ID="{6E848EDF-9646-429A-8A69-0E85EC0AF6B3}" ShortID="679866749">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="50"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{FECE5189-6F96-41E0-BD78-6809FC000FA4}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>50</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Death_01" ID="{5052989F-E0AE-472B-8700-5394FC0A80A2}" ShortID="392122437">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="death1" ID="{FD98B76C-241A-46E7-8415-404A0F09C601}">
+									<Language>SFX</Language>
+									<AudioFile>Necroplant\death1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="835615453"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="death1" ID="{FD98B76C-241A-46E7-8415-404A0F09C601}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Death_02" ID="{3D6AF68D-947E-4393-B16A-32E6C0377498}" ShortID="3131697">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="death2" ID="{B3FC75C3-6A22-4FA1-8257-2A2790D2C4AA}">
+									<Language>SFX</Language>
+									<AudioFile>Necroplant\death2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="322204328"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="death2" ID="{B3FC75C3-6A22-4FA1-8257-2A2790D2C4AA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="NecroTaunt" ID="{25775E6B-42A4-4B11-BC3F-85200CD3F734}" ShortID="190817132">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="New Attenuation" ID="{5AEE4AC7-59F4-423D-8CA3-78572E938CA1}" WorkUnitID="{7899030E-5AE9-40D5-AD3D-FAB725105335}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="taunt" ID="{C13CB2D7-A42F-4667-8C91-0FDFE2C38B29}">
+							<Language>SFX</Language>
+							<AudioFile>Necroplant\taunt.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1067810394"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="taunt" ID="{C13CB2D7-A42F-4667-8C91-0FDFE2C38B29}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="NecroBurrow" ID="{2A55C5CE-DD03-4027-B0BB-9BAB61C40606}" ShortID="644697430">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{66756F6F-9713-4722-8C2F-F06FA4F60DF4}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom CreatedFrom="{5AEE4AC7-59F4-423D-8CA3-78572E938CA1}">
+								<Attenuation Name="New Attenuation (Custom)" ID="{3B1562F3-EEDF-40F8-989E-4E1711EAFBA4}" ShortID="445193673">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="50"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{919344AC-39D3-49BB-86FC-544268132186}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>50</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="mole_travel_LP" ID="{D319CBED-4A65-4205-B111-C12ECF40191C}">
+							<Language>SFX</Language>
+							<AudioFile>Necroplant\burrow\mole_travel_LP.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="885153625"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="mole_travel_LP" ID="{D319CBED-4A65-4205-B111-C12ECF40191C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="NecroSpawn" ID="{9E70F4EF-B8BF-41AC-9E82-672A79833A48}" ShortID="377321651">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="NecroSpawn_01" ID="{ABE0F187-C25A-4E7F-92CC-D2A9B89CBA1E}" ShortID="613128208">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="death3" ID="{10669811-4AFE-41E8-BFC0-E2E15DD7D7BE}">
+									<Language>SFX</Language>
+									<AudioFile>Necroplant\death3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="810884540"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="death3" ID="{10669811-4AFE-41E8-BFC0-E2E15DD7D7BE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Necrospawn_03" ID="{F8DD7BA3-0EA5-4096-99D1-437A01218C27}" ShortID="135647105">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom CreatedFrom="{5AEE4AC7-59F4-423D-8CA3-78572E938CA1}">
+										<Attenuation Name="New Attenuation (Custom)" ID="{2AD8BD02-6C7C-48E7-801E-AB365BAD07D5}" ShortID="713059300">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="50"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{125F39E9-5754-43F8-9E2B-6FB0BAD4A9DA}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>50</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="death2" ID="{4D907610-7C49-4A3F-B8FB-F35B6D154CF3}">
+									<Language>SFX</Language>
+									<AudioFile>Necroplant\death2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="322204328"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="death2" ID="{4D907610-7C49-4A3F-B8FB-F35B6D154CF3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Necrospawn_02" ID="{699F8E2A-1E3C-4651-8EB5-7489A52A1A1C}" ShortID="621843651">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom CreatedFrom="{5AEE4AC7-59F4-423D-8CA3-78572E938CA1}">
+										<Attenuation Name="New Attenuation (Custom)" ID="{BAFC53B2-197C-4C6D-B08A-A29D253260C0}" ShortID="513771925">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="50"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{FEEBFB73-0E95-4F3A-9719-C74559298029}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>50</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="death1" ID="{2C0AE86B-7307-4DA6-937A-F9AD7EADB55F}">
+									<Language>SFX</Language>
+									<AudioFile>Necroplant\death1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="835615453"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="death1" ID="{2C0AE86B-7307-4DA6-937A-F9AD7EADB55F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

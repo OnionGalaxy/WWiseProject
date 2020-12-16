@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EEFD725C-417A-4D1D-A8A8-DC1024ADB095}" SchemaVersion="97" RootDocumentID="{9F9D1B30-200B-4927-8410-CAADE617AD84}">
+	<AudioObjects>
+		<WorkUnit Name="Boss" ID="{EEFD725C-417A-4D1D-A8A8-DC1024ADB095}" OwnerID="{9F9D1B30-200B-4927-8410-CAADE617AD84}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="BombSmash" ID="{34B69B58-66D0-4C19-B9DA-0B2454ADC10E}" ShortID="647605040">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="New Attenuation" ID="{5AEE4AC7-59F4-423D-8CA3-78572E938CA1}" WorkUnitID="{7899030E-5AE9-40D5-AD3D-FAB725105335}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="BombSmash" ID="{F285D708-F895-4D07-B094-7BA9BDF403F2}">
+							<Language>SFX</Language>
+							<AudioFile>c5290_bomb.wav.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="766401919"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="BombSmash" ID="{F285D708-F895-4D07-B094-7BA9BDF403F2}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="BossDown" ID="{B7BD0D82-5A76-4C6C-9EEA-EB17C472FF5F}" ShortID="786393430">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{B8017E78-E5EC-433B-93C2-4268858C2C02}" ShortID="388319696">
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{EF252ED2-33F5-4AB6-B785-89A22ED322A5}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>62.06897</XPos>
+															<YPos>-1.2795</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="BossDown" ID="{CE514A87-D843-4BA2-8291-FAF42EF22353}">
+							<Language>SFX</Language>
+							<AudioFile>boss_down.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="644325646"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="BossDown" ID="{CE514A87-D843-4BA2-8291-FAF42EF22353}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="BossSlam" ID="{F37FBBE0-C221-4F9B-9B90-3D0562481B9B}" ShortID="577482099">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="New Attenuation" ID="{5AEE4AC7-59F4-423D-8CA3-78572E938CA1}" WorkUnitID="{7899030E-5AE9-40D5-AD3D-FAB725105335}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PhaseTwoPunch" ID="{9224D840-EB2C-4113-A5C9-96D2409A0C26}">
+							<Language>SFX</Language>
+							<AudioFile>phasetwopunch.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="879672018"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="PhaseTwoPunch" ID="{9224D840-EB2C-4113-A5C9-96D2409A0C26}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SlamSmash" ID="{A7EB71DD-8DAD-4EFE-AD61-9A48E1BC5D0F}" ShortID="308882888">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="New Attenuation" ID="{5AEE4AC7-59F4-423D-8CA3-78572E938CA1}" WorkUnitID="{7899030E-5AE9-40D5-AD3D-FAB725105335}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SlamSmash" ID="{D0C88710-EDA1-4A16-A887-FE5FC03EAEB3}">
+							<Language>SFX</Language>
+							<AudioFile>slam_smash.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="481973955"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SlamSmash" ID="{D0C88710-EDA1-4A16-A887-FE5FC03EAEB3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="RockExploding" ID="{052AFB71-D3C0-487C-814F-393B2CBCDC3F}" ShortID="162785558">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="RockExploding1" ID="{E747C8B5-DA2D-42E9-B0FF-BD98A40606F5}" ShortID="586908727">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="New Attenuation" ID="{5AEE4AC7-59F4-423D-8CA3-78572E938CA1}" WorkUnitID="{7899030E-5AE9-40D5-AD3D-FAB725105335}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="RockExploding1" ID="{100E2098-8C38-4550-863F-4791C4C3C7D2}">
+									<Language>SFX</Language>
+									<AudioFile>rock_exploding1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="163633373"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="RockExploding1" ID="{100E2098-8C38-4550-863F-4791C4C3C7D2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="RockExploding2" ID="{5D731F4E-683F-48E4-9AC2-6BECAE23D0A0}" ShortID="508607012">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="New Attenuation" ID="{5AEE4AC7-59F4-423D-8CA3-78572E938CA1}" WorkUnitID="{7899030E-5AE9-40D5-AD3D-FAB725105335}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="RockExploding2" ID="{49B78C8F-F581-4250-996F-70CEB2282BCD}">
+									<Language>SFX</Language>
+									<AudioFile>rock_exploding2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="730071484"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="RockExploding2" ID="{49B78C8F-F581-4250-996F-70CEB2282BCD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="BossSmash2" ID="{8598B666-C9E9-43EF-9337-D20D39C325A2}" ShortID="723986259">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="BossSmash2" ID="{934A5BA1-C295-4416-929B-E507799E82A7}">
+							<Language>SFX</Language>
+							<AudioFile>BossSmash2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="44060342"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="BossSmash2" ID="{934A5BA1-C295-4416-929B-E507799E82A7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="BossDown2" ID="{740DADBE-6811-4CF7-A569-60E029CE9B10}" ShortID="146236967">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="BossDown2" ID="{420A2A23-00C2-4C31-8EB3-52A6594138E1}">
+							<Language>SFX</Language>
+							<AudioFile>BossDown2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="939443593"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="BossDown2" ID="{420A2A23-00C2-4C31-8EB3-52A6594138E1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="CrystalsBreakingSavage" ID="{50A4B1BA-16E9-4ABF-BBCE-E6EED10FEC4E}" ShortID="957081522">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-9</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="New Attenuation" ID="{5AEE4AC7-59F4-423D-8CA3-78572E938CA1}" WorkUnitID="{7899030E-5AE9-40D5-AD3D-FAB725105335}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="CrystalsBreakingSavage" ID="{800C5614-D0BD-4536-9DD1-E1CD39E94ECB}">
+							<Language>SFX</Language>
+							<AudioFile>CrystalsBreakingSavage.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="414777841"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="CrystalsBreakingSavage" ID="{800C5614-D0BD-4536-9DD1-E1CD39E94ECB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="BossCrystalHit" ID="{38A0A0B2-5C8A-4FEF-8540-4FD9A7DFCBBF}" ShortID="387844426">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="New Attenuation" ID="{5AEE4AC7-59F4-423D-8CA3-78572E938CA1}" WorkUnitID="{7899030E-5AE9-40D5-AD3D-FAB725105335}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="LightCrystalsBreaking" ID="{CCDC4EAF-0331-43EF-ABB4-1982A10454B9}" ShortID="258128608">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-23</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LightCrystalsBreaking" ID="{6F3065F3-011A-448B-9AC6-0E40D577149F}">
+									<Language>SFX</Language>
+									<AudioFile>LightCrystalsBreaking.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="329570104"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="LightCrystalsBreaking" ID="{6F3065F3-011A-448B-9AC6-0E40D577149F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="HeavyCrystalsBreaking" ID="{2BDD567F-4454-4AE6-8B9F-FC36E05AB5D7}" ShortID="1057772853">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-23</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="HeavyCrystalsBreaking" ID="{C6ADC7FF-98E2-4B1E-A263-0DD6642FE582}">
+									<Language>SFX</Language>
+									<AudioFile>HeavyCrystalsBreaking.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1043709616"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="HeavyCrystalsBreaking" ID="{C6ADC7FF-98E2-4B1E-A263-0DD6642FE582}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="Earthquake2" ID="{9804D0DB-F0F6-4429-ADFC-0715AE60E8D9}" ShortID="331903074">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="New Attenuation" ID="{5AEE4AC7-59F4-423D-8CA3-78572E938CA1}" WorkUnitID="{7899030E-5AE9-40D5-AD3D-FAB725105335}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Earthquake2" ID="{F136EF60-DA7C-475D-8E9D-2BAD0B1070E3}">
+							<Language>SFX</Language>
+							<AudioFile>earthquake2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="388189443"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Earthquake2" ID="{F136EF60-DA7C-475D-8E9D-2BAD0B1070E3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="BossRockHit" ID="{1A9114F9-CE20-4322-8F4B-CB2B6EAA6B6C}" ShortID="579957320">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="RockDamage1" ID="{018D17DF-E863-4F05-A333-5794FE400A53}" ShortID="87947425">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-22</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="RockDamage1" ID="{4DD3112D-801B-4BDD-A6FA-B27ED9561C75}">
+									<Language>SFX</Language>
+									<AudioFile>RockDamage1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="959882224"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="RockDamage1" ID="{4DD3112D-801B-4BDD-A6FA-B27ED9561C75}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="RockDamage2" ID="{6E4C5414-CEF6-4107-B46D-F463B11ABC2D}" ShortID="387776573">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-21</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="RockDamage2" ID="{DD2EBF67-7DB1-47D0-AE7B-B5ACB08A6E2A}">
+									<Language>SFX</Language>
+									<AudioFile>RockDamage2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1059981895"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="RockDamage2" ID="{DD2EBF67-7DB1-47D0-AE7B-B5ACB08A6E2A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="RockDamage3" ID="{9237573A-C41E-491D-81AE-0BA4E2715018}" ShortID="29184233">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-21</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="RockDamage3" ID="{CF8662EF-A7B9-4776-9FFE-0C702EC36753}">
+									<Language>SFX</Language>
+									<AudioFile>RockDamage3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="387334456"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="RockDamage3" ID="{CF8662EF-A7B9-4776-9FFE-0C702EC36753}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="BossSwing" ID="{9248A6EA-BE47-40C8-B14D-48294E17F88A}" ShortID="816206906">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Swing1" ID="{B70B3381-5129-435B-BF1B-BDB1ADC81DC2}" ShortID="800193854">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Swing1" ID="{CCE05628-600D-415D-9195-798FAB951F35}">
+									<Language>SFX</Language>
+									<AudioFile>Swing1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="140382909"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Swing1" ID="{CCE05628-600D-415D-9195-798FAB951F35}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Swing2" ID="{6F552DD2-B718-4475-BAC3-A6A9DA0937E0}" ShortID="858983466">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Swing2" ID="{0C8C375C-DB07-48A7-9DEF-73FBED90A85D}">
+									<Language>SFX</Language>
+									<AudioFile>Swing2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1062312855"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Swing2" ID="{0C8C375C-DB07-48A7-9DEF-73FBED90A85D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Swing3" ID="{60D1CA88-8CAF-4AC9-A47D-14A6A6FB0AE7}" ShortID="514915014">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Swing3" ID="{80251DF7-2840-401A-A35C-7656E1AA9D13}">
+									<Language>SFX</Language>
+									<AudioFile>Swing3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="117373974"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Swing3" ID="{80251DF7-2840-401A-A35C-7656E1AA9D13}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="Byun" ID="{4797EFA1-266B-4C18-8089-C7C0E65270F1}" ShortID="928696670">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-9</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Byun" ID="{5A034939-C32A-4466-A157-E283797201BD}">
+							<Language>SFX</Language>
+							<AudioFile>Byun.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="403549199"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Byun" ID="{5A034939-C32A-4466-A157-E283797201BD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ConeSound" ID="{436E2D01-700C-4038-97DD-E336CE35A16D}" ShortID="887860080">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-9</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ConeSound" ID="{12C73D22-64F9-4D97-9FEF-E57260F2823C}">
+							<Language>SFX</Language>
+							<AudioFile>ConeSound.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="944928507"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ConeSound" ID="{12C73D22-64F9-4D97-9FEF-E57260F2823C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="BossStandup" ID="{7C20288C-FECA-4EEE-B355-DFCE49E1AAA5}" ShortID="678446105">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="BossStandup" ID="{E9BCD99A-7B4D-470B-9DCA-DABB43AF2495}">
+							<Language>SFX</Language>
+							<AudioFile>BossStandup.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="149681204"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="BossStandup" ID="{E9BCD99A-7B4D-470B-9DCA-DABB43AF2495}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SwingBeforeEarthquake" ID="{67840182-244F-45B1-945F-45B9B5AE070F}" ShortID="1049723510">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-11</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SwingBeforeEarthquake" ID="{77E3A209-059D-42FA-961D-D07F28FEF314}">
+							<Language>SFX</Language>
+							<AudioFile>SwingBeforeEarthquake.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="160861889"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SwingBeforeEarthquake" ID="{77E3A209-059D-42FA-961D-D07F28FEF314}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SwingBeforeSlam" ID="{A526D105-1C7B-4DAB-A6FD-4C80B8ED2E3D}" ShortID="268603820">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SwingBeforeSlam" ID="{EE4142D9-EC1A-43E4-BD47-FB1B6F872F7F}">
+							<Language>SFX</Language>
+							<AudioFile>SwingBeforeSlam.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="689139058"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SwingBeforeSlam" ID="{EE4142D9-EC1A-43E4-BD47-FB1B6F872F7F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="BossKingKong" ID="{BECB2B31-38C3-4B3E-8DDC-72978C18F25A}" ShortID="1011211542">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="PlayMechanismInfiniteOrNumberOfLoops" Type="int16" Value="0"/>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismLoopCount" Type="int32" Value="4"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.4"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="RocksSFX2" ID="{32A58AFC-C6A6-4C51-BE57-C18C6612AB24}" ShortID="165662112">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="RocksSFX2" ID="{C7964320-8DE7-4FD9-B88F-B95CCECD569E}">
+									<Language>SFX</Language>
+									<AudioFile>RocksSFX2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="815846545"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="RocksSFX2" ID="{C7964320-8DE7-4FD9-B88F-B95CCECD569E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="BossScream1" ID="{CAF74809-B0E8-49EE-82B5-EBC4784E918A}" ShortID="22667344">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="BossScream1" ID="{253F8024-794F-48DC-8AC1-F5D60D0CE512}">
+							<Language>SFX</Language>
+							<AudioFile>BossScream1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="233905377"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="BossScream1" ID="{253F8024-794F-48DC-8AC1-F5D60D0CE512}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="BossScreamKingKong" ID="{50832B32-C7F9-4385-96EA-B7E0284D204B}" ShortID="913258291">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="BossScreamKingKong" ID="{1914526C-302F-464B-AA46-C940715F5C27}">
+							<Language>SFX</Language>
+							<AudioFile>BossScreamKingKong.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="882117257"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="BossScreamKingKong" ID="{1914526C-302F-464B-AA46-C940715F5C27}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="BossMusic" ID="{50E7E248-A42A-4272-89AA-F453006484B3}" ShortID="786417076">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="17_ Restoring the Light, Facing the Dark" ID="{3760C80F-82E9-4BF1-B045-5C86623FEE92}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="4.31915012580375"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="79.2691081912215"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>17. Restoring the Light, Facing the Dark.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="481385250"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="17_ Restoring the Light, Facing the Dark" ID="{3760C80F-82E9-4BF1-B045-5C86623FEE92}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="BossMario" ID="{B7F35A43-3947-4543-8382-14CF7D0D8303}" ShortID="1052051681">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="RocksSFX2" ID="{3958B592-50BF-404D-A6AE-72B98B8D5FD8}" ShortID="675136946">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>32</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-17</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="New Attenuation" ID="{5AEE4AC7-59F4-423D-8CA3-78572E938CA1}" WorkUnitID="{7899030E-5AE9-40D5-AD3D-FAB725105335}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="RocksSFX2" ID="{463D2593-E90F-4641-99FF-345BF249293A}">
+									<Language>SFX</Language>
+									<AudioFile>RocksSFX2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="815846545"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="RocksSFX2" ID="{463D2593-E90F-4641-99FF-345BF249293A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

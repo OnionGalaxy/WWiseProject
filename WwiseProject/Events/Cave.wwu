@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{81C2D7D1-C7F4-4DFC-A070-7A72CE4F47D5}" SchemaVersion="97" RootDocumentID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}">
+	<Events>
+		<WorkUnit Name="Cave" ID="{81C2D7D1-C7F4-4DFC-A070-7A72CE4F47D5}" OwnerID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Crystals" ID="{D7A2B154-EADF-492F-8B3A-01C02F530697}" ShortID="558400587">
+					<ChildrenList>
+						<Event Name="Stop_Crystals_Sequence" ID="{C41FB2E0-FCEE-4A4C-AB71-9D3E3EC36547}">
+							<ChildrenList>
+								<Action Name="" ID="{87A422C0-9820-494B-936D-39736B46D036}" ShortID="842182680">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Crystals_Sequence" ID="{46458990-A50F-4E68-B298-0E73A696D704}" WorkUnitID="{B62F6A83-901A-40CA-9C0F-908A81053768}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Crystals_Sequence" ID="{49F8D631-20D6-4F60-9831-BF5D611C363C}">
+							<ChildrenList>
+								<Action Name="" ID="{AE3F7AE3-B391-4812-85A5-BD94230BB12D}" ShortID="503677987">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Crystals_Sequence" ID="{46458990-A50F-4E68-B298-0E73A696D704}" WorkUnitID="{B62F6A83-901A-40CA-9C0F-908A81053768}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Resume_Crystals_Sequence" ID="{77778F22-3BCA-4889-BC12-C3920C8F4D3D}">
+							<ChildrenList>
+								<Action Name="" ID="{5CDB4DB9-AFA3-4E6A-A9CD-59EBE8A7707B}" ShortID="1006036594">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Crystals_Sequence" ID="{46458990-A50F-4E68-B298-0E73A696D704}" WorkUnitID="{B62F6A83-901A-40CA-9C0F-908A81053768}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Pause_Crystals_Sequence" ID="{9077B0EF-6696-4BB6-8671-138E418A2B83}">
+							<ChildrenList>
+								<Action Name="" ID="{0A571DCF-B008-41E4-B98E-C269262F0780}" ShortID="600594027">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Crystals_Sequence" ID="{46458990-A50F-4E68-B298-0E73A696D704}" WorkUnitID="{B62F6A83-901A-40CA-9C0F-908A81053768}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ambience" ID="{EF350BA1-6A1E-43F3-8C4A-29FE4F5CB547}" ShortID="394512243">
+					<ChildrenList>
+						<Event Name="Play_Cave_Sequence" ID="{36370258-FCAE-467A-A63F-90D679F3714C}">
+							<ChildrenList>
+								<Action Name="" ID="{75269326-95EB-4DDF-BE0F-10D21BE3EAC8}" ShortID="21301348">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cave_Sequence" ID="{2F965B55-25CD-4C60-B34D-5779D2630548}" WorkUnitID="{B62F6A83-901A-40CA-9C0F-908A81053768}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{EB3C033F-E09F-411E-B287-702F02A4176F}" ShortID="697189734">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cave_Ambience" ID="{EFA822D6-1A81-4857-8003-E1AF9554CD55}" WorkUnitID="{B62F6A83-901A-40CA-9C0F-908A81053768}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Cave_Sequence" ID="{116BA36D-EA7B-425F-AC8B-E9E2AA419E32}">
+							<ChildrenList>
+								<Action Name="" ID="{E5251A29-D26B-437F-8B26-E16EB07C94E7}" ShortID="375958665">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cave_Sequence" ID="{2F965B55-25CD-4C60-B34D-5779D2630548}" WorkUnitID="{B62F6A83-901A-40CA-9C0F-908A81053768}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Pause_Cave_Sequence" ID="{AE8E8DB2-5AE0-4D5D-852E-232A6389872E}">
+							<ChildrenList>
+								<Action Name="" ID="{C27CF728-BD6A-4F94-BBA8-3598EEBBC30D}" ShortID="877832901">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cave_Sequence" ID="{2F965B55-25CD-4C60-B34D-5779D2630548}" WorkUnitID="{B62F6A83-901A-40CA-9C0F-908A81053768}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Resume_Cave_Sequence" ID="{6A44D0B3-DA65-4E93-9D6F-85CBCE57AF6D}">
+							<ChildrenList>
+								<Action Name="" ID="{57A7A9AE-AA98-42E5-9511-6F2FF63FCC53}" ShortID="48473421">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cave_Sequence" ID="{2F965B55-25CD-4C60-B34D-5779D2630548}" WorkUnitID="{B62F6A83-901A-40CA-9C0F-908A81053768}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Reset_Cave_Playlist" ID="{0060DB6E-6A60-45A2-A3FD-8A295204E014}">
+					<ChildrenList>
+						<Action Name="" ID="{656D404D-CDA5-4097-9622-8CED41F1793A}" ShortID="203149930">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="42"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cave_Sequence" ID="{2F965B55-25CD-4C60-B34D-5779D2630548}" WorkUnitID="{B62F6A83-901A-40CA-9C0F-908A81053768}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2BED35B7-256E-420B-8EF3-74E6288B38B1}" ShortID="757782391">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="42"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crystals_Sequence" ID="{46458990-A50F-4E68-B298-0E73A696D704}" WorkUnitID="{B62F6A83-901A-40CA-9C0F-908A81053768}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

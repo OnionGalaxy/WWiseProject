@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{09DEEA6B-4ADF-4956-B6B6-295B0A023379}" SchemaVersion="97" RootDocumentID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}">
+	<Events>
+		<WorkUnit Name="3DAmbience" ID="{09DEEA6B-4ADF-4956-B6B6-295B0A023379}" OwnerID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Runes" ID="{BCCFF014-B462-420F-AF40-12B690DB7E26}" ShortID="658655623">
+					<ChildrenList>
+						<Event Name="Play_Runes" ID="{62074561-3DC4-4EE8-821E-0410D8B55E02}">
+							<ChildrenList>
+								<Action Name="" ID="{330F1787-08BF-45AD-B1C7-EE811F1D4294}" ShortID="217315551">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Runes" ID="{4EA1253A-BA9E-42C6-947C-8C06278D09F2}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Pause_Runes" ID="{D5D6D8D9-B2E6-41CD-BFEC-B7176B4F170C}">
+							<ChildrenList>
+								<Action Name="" ID="{626BC050-3EB0-481C-A008-965B7D70910F}" ShortID="243181628">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Runes" ID="{4EA1253A-BA9E-42C6-947C-8C06278D09F2}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Runes" ID="{DAC54890-530B-41B4-AF3D-D35D1CDEEDCE}">
+							<ChildrenList>
+								<Action Name="" ID="{5DB8ACEA-2157-449F-B9ED-85DBF02BB265}" ShortID="780861119">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Runes" ID="{4EA1253A-BA9E-42C6-947C-8C06278D09F2}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Resume_Runes" ID="{75D6F1DE-FC62-4ADE-83BB-234E09954B2F}">
+							<ChildrenList>
+								<Action Name="" ID="{413DD40A-E5D3-4998-A348-EF16F55C4B24}" ShortID="483264131">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Runes" ID="{4EA1253A-BA9E-42C6-947C-8C06278D09F2}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Waterfall" ID="{E5ED0BAE-96B9-417B-BD0B-4469CDD91451}" ShortID="531355779">
+					<ChildrenList>
+						<Event Name="Pause_WaterFall" ID="{0DAD784A-F7D6-43CE-BA13-A4FF074BB755}">
+							<ChildrenList>
+								<Action Name="" ID="{32EE8EC2-C070-4EC2-9E0C-131B31DD3168}" ShortID="912359300">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WaterFall" ID="{4C59B282-B974-4307-8390-4961A810B7E2}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_WaterFall" ID="{54D24645-D22B-4FE9-9F1D-210B9E0F1205}">
+							<ChildrenList>
+								<Action Name="" ID="{9DD3B814-409C-43B2-8012-AAEC514191BD}" ShortID="538526394">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WaterFall" ID="{4C59B282-B974-4307-8390-4961A810B7E2}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_WaterFall" ID="{E6F55409-D64D-4F0A-9DFB-256727526C39}">
+							<ChildrenList>
+								<Action Name="" ID="{BFFB6B65-59F9-4FAF-81B2-078F1CB0BAFE}" ShortID="183114672">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WaterFall" ID="{4C59B282-B974-4307-8390-4961A810B7E2}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Resume_WaterFall" ID="{4E214953-E594-4095-90DE-BAE6F4A6ECA0}">
+							<ChildrenList>
+								<Action Name="" ID="{54284477-5521-4080-AB81-BDD884AA5EA7}" ShortID="933794831">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WaterFall" ID="{4C59B282-B974-4307-8390-4961A810B7E2}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="River" ID="{0087FBB7-0B33-4C68-8DA1-3A955E615FE3}" ShortID="627566088">
+					<ChildrenList>
+						<Event Name="Pause_River" ID="{EE445FBB-5B6A-43D3-A3DF-DFC28147B9DE}">
+							<ChildrenList>
+								<Action Name="" ID="{B472231B-472C-4853-BE9D-EC34CCF0DB41}" ShortID="579026475">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="River" ID="{D59E06C7-6BE3-49E2-8519-B41FD3583081}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_River" ID="{1912E4B6-0C7D-4E77-BAC4-4D156057E0FA}">
+							<ChildrenList>
+								<Action Name="" ID="{17A9EADC-E4D1-4E15-A74B-69F66AABD3FB}" ShortID="28233593">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="River" ID="{D59E06C7-6BE3-49E2-8519-B41FD3583081}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Resume_River" ID="{137EB92B-A38E-4910-9E7B-483D7F64132B}">
+							<ChildrenList>
+								<Action Name="" ID="{F8C88CC8-3B3E-49DB-9987-2CEE6EA717AE}" ShortID="405945282">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="River" ID="{D59E06C7-6BE3-49E2-8519-B41FD3583081}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_River" ID="{45003AB3-BFB0-4294-A8AB-4D0B6D5D638F}">
+							<ChildrenList>
+								<Action Name="" ID="{151365B0-425D-4525-A610-9786D22D067E}" ShortID="339275232">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="River" ID="{D59E06C7-6BE3-49E2-8519-B41FD3583081}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Forest_Ambience" ID="{C0496BBA-3BB6-477D-AFF3-7847139ECE05}" ShortID="67361260">
+					<ChildrenList>
+						<Event Name="Pause_Forest_Ambience" ID="{9BF80703-346D-4050-9B13-EBA8BBF34099}">
+							<ChildrenList>
+								<Action Name="" ID="{9649B161-C5AF-477A-8421-448C80F76652}" ShortID="518221182">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Forest_Ambience" ID="{C98BEB05-1C45-4C73-98BE-FF8D8D2BE480}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Resume_Forest_Ambience" ID="{28F654EC-3ADA-4A6E-837D-EB5DB7471B18}">
+							<ChildrenList>
+								<Action Name="" ID="{D4B87832-36A1-4C2C-86A7-6A6F139E4E85}" ShortID="682115206">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Forest_Ambience" ID="{C98BEB05-1C45-4C73-98BE-FF8D8D2BE480}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Forest_Ambience" ID="{2CF7040C-AFA8-4A50-B8B7-2FE13E09FCBF}">
+							<ChildrenList>
+								<Action Name="" ID="{92DCACE0-2B33-4512-8433-A23AC475FF95}" ShortID="441062081">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Forest_Ambience" ID="{C98BEB05-1C45-4C73-98BE-FF8D8D2BE480}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Forest_Ambience" ID="{C81D4681-3278-4BF6-BACA-76E27BFAA2A1}">
+							<ChildrenList>
+								<Action Name="" ID="{66A60972-A1B6-4847-AD8F-33A87B4BDC01}" ShortID="504541120">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Forest_Ambience" ID="{C98BEB05-1C45-4C73-98BE-FF8D8D2BE480}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Splashes" ID="{96327F94-51B2-4F4C-A9CD-BC8715398CD4}" ShortID="241364732">
+					<ChildrenList>
+						<Event Name="Resume_Splashes" ID="{D2484E54-93FC-48FB-A701-096EC3AE8A92}">
+							<ChildrenList>
+								<Action Name="" ID="{3D05B565-578A-43E6-B390-FFC879D5E8F7}" ShortID="848265708">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Splashes" ID="{1745900E-9263-4186-B4E7-B7B87D13A473}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Splashes" ID="{76440F8F-8931-4AAF-B3F9-1336533C1D61}">
+							<ChildrenList>
+								<Action Name="" ID="{2A97013E-103E-4C12-A77C-5847FD677BD8}" ShortID="145338674">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Splashes" ID="{1745900E-9263-4186-B4E7-B7B87D13A473}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Pause_Splashes" ID="{BC71CDFA-1CDB-4298-904A-68E0A5F128F2}">
+							<ChildrenList>
+								<Action Name="" ID="{A89F4042-FB9D-4959-84D5-4DD59197A604}" ShortID="95181033">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Splashes" ID="{1745900E-9263-4186-B4E7-B7B87D13A473}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Splashes" ID="{1B7050F6-DABF-4250-917B-AB0C332E649D}">
+							<ChildrenList>
+								<Action Name="" ID="{5B3BE171-E7B7-4FAE-92A1-1CD7E719FF63}" ShortID="585903528">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Splashes" ID="{1745900E-9263-4186-B4E7-B7B87D13A473}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Water Creek" ID="{3B69D623-765E-42E3-BF90-DF044769C974}" ShortID="165500167">
+					<ChildrenList>
+						<Event Name="Play_Water_Creek" ID="{EC99C3C8-DE12-48BF-A9AE-595A62D18ECB}">
+							<ChildrenList>
+								<Action Name="" ID="{FE2210B5-7AAC-4369-8C19-038AD5F35146}" ShortID="921325734">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Water_Creek" ID="{F151F561-4DA1-4B69-BD60-D3794832088F}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Resume_Water_Creek" ID="{FE8D0640-C537-4B02-BA14-3727A33D076E}">
+							<ChildrenList>
+								<Action Name="" ID="{B14353F6-34DA-46A1-883E-D4657C1F491E}" ShortID="864166819">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Water_Creek" ID="{F151F561-4DA1-4B69-BD60-D3794832088F}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Pause_Water_Creek" ID="{486B271B-1CC4-4100-9BDE-B6A2FB9E20C9}">
+							<ChildrenList>
+								<Action Name="" ID="{FDC80925-C099-4A2E-AABF-F727AD6B5A21}" ShortID="349740657">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Water_Creek" ID="{F151F561-4DA1-4B69-BD60-D3794832088F}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Water_Creek" ID="{A20CCDAB-454B-49E0-B514-78D7B0EDFC56}">
+							<ChildrenList>
+								<Action Name="" ID="{7C9D8C7F-42D8-4B7A-90E4-15639A4A3B34}" ShortID="630821189">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Water_Creek" ID="{F151F561-4DA1-4B69-BD60-D3794832088F}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="AmbienceSequence" ID="{780ECF46-BE78-4851-882C-23066F105164}" ShortID="765698353">
+					<ChildrenList>
+						<Folder Name="Creek_Sequence" ID="{8EF87ABB-A002-4F5F-92F6-91610D76A3AF}" ShortID="100845589">
+							<ChildrenList>
+								<Event Name="Play_Creek_Sequence" ID="{355494CC-FA2E-43AA-B2D8-2D8A92F8AE20}">
+									<ChildrenList>
+										<Action Name="" ID="{74E882F8-8BD3-40A3-A1FA-F6AEEF08AF4A}" ShortID="493561860">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Creek_Sequence" ID="{48EAAD50-3184-4703-8F38-EDBDAB38324B}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_Creek_Sequence" ID="{CD91A959-38C6-4013-ABBC-C2FCF2551B9F}">
+									<ChildrenList>
+										<Action Name="" ID="{97786184-7400-4F50-BEB7-9F9BE97DB2B3}" ShortID="560443505">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Creek_Sequence" ID="{48EAAD50-3184-4703-8F38-EDBDAB38324B}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Resume_Creek_Sequence" ID="{9EA2AEE0-8241-49EF-9270-03A5F0563873}">
+									<ChildrenList>
+										<Action Name="" ID="{E99FBBEE-6B05-4733-9793-07C180213979}" ShortID="491234063">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="9"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Creek_Sequence" ID="{48EAAD50-3184-4703-8F38-EDBDAB38324B}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Pause_Creek_Sequence" ID="{2B1AB680-54B9-499C-A003-10759B038642}">
+									<ChildrenList>
+										<Action Name="" ID="{3F5C8D0F-CB1D-4939-B07E-29688B5D8709}" ShortID="412452672">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="7"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Creek_Sequence" ID="{48EAAD50-3184-4703-8F38-EDBDAB38324B}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="River_Sequence" ID="{B08C2A35-F73A-4076-AC28-928859E26B6C}" ShortID="831041848">
+							<ChildrenList>
+								<Event Name="Pause_River_Sequence" ID="{4AE73D75-E161-46B9-BA7E-F7CF3961F5DA}">
+									<ChildrenList>
+										<Action Name="" ID="{B5A814EF-1606-402E-99A7-E7E0BF81B434}" ShortID="409128930">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="7"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="River_Sequence" ID="{B43D88C0-6B76-4E75-927C-39798EE309A1}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_River_Sequence" ID="{8700EE53-A501-4B91-B35D-A7778651B05D}">
+									<ChildrenList>
+										<Action Name="" ID="{20397181-E43B-43AE-8305-C067C94311D9}" ShortID="1025028257">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="River_Sequence" ID="{B43D88C0-6B76-4E75-927C-39798EE309A1}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Resume_River_Sequence" ID="{1DE54E9E-ED93-4638-8D9E-304E0B4EC301}">
+									<ChildrenList>
+										<Action Name="" ID="{A5767F99-DF38-4812-B571-61087AC7265F}" ShortID="10887288">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="9"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="River_Sequence" ID="{B43D88C0-6B76-4E75-927C-39798EE309A1}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_River_Sequence" ID="{6E54497E-7C41-402E-A8B1-945F8A999BA8}">
+									<ChildrenList>
+										<Action Name="" ID="{2C4D65BC-5EBF-4EFA-B2ED-FF4C616A0D2B}" ShortID="2787237">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="River_Sequence" ID="{B43D88C0-6B76-4E75-927C-39798EE309A1}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Totem_Sequence" ID="{CA47A744-8BE7-461E-BCF6-20087497A6E4}" ShortID="366073389">
+							<ChildrenList>
+								<Event Name="Stop_Totem_Sequence" ID="{B1A4C8D8-A685-4E75-92BE-8411BD9E4F22}">
+									<ChildrenList>
+										<Action Name="" ID="{D883F2B1-CE09-43B6-B0AD-0201583E25A1}" ShortID="503754694">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Totem_Sequence" ID="{107ED319-3FE1-44AB-ACD3-4CDF38958969}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Pause_Totem_Sequence" ID="{594D8324-5C66-4B44-A06B-B125CCEBBDA3}">
+									<ChildrenList>
+										<Action Name="" ID="{C4BEA35E-C71B-44C3-A092-82D6BE919076}" ShortID="1006741972">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="7"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Totem_Sequence" ID="{107ED319-3FE1-44AB-ACD3-4CDF38958969}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Totem_Sequence" ID="{F8FEA378-F62E-43EC-8E1E-6EA8778C4C9A}">
+									<ChildrenList>
+										<Action Name="" ID="{A6E1855C-D1B6-4BD8-9328-4FC06C223DE0}" ShortID="346281617">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Totem_Sequence" ID="{107ED319-3FE1-44AB-ACD3-4CDF38958969}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Resume_Totem_Sequence" ID="{BD89AAC2-1FD2-467F-9B19-F9988390B55B}">
+									<ChildrenList>
+										<Action Name="" ID="{48D09B57-6D50-46F4-888D-9A4893E4E59A}" ShortID="632340473">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="9"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Totem_Sequence" ID="{107ED319-3FE1-44AB-ACD3-4CDF38958969}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Waterfall_Sequence" ID="{5C05EBD6-EDF6-4666-941B-25771FFABA84}" ShortID="177643280">
+							<ChildrenList>
+								<Event Name="Pause_Waterfall_Sequence" ID="{FD48040B-4E60-4C17-A89A-A444DCB242D5}">
+									<ChildrenList>
+										<Action Name="" ID="{9FBFADC4-8D63-4540-AECA-31BA1A2C5F1F}" ShortID="981061196">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="7"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Waterfall_Sequence" ID="{69412A26-FDDD-428F-9324-4F5084530B18}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Resume_Waterfall_Sequence" ID="{BCD3B73E-80D7-424A-9EEF-A8D11C3A445C}">
+									<ChildrenList>
+										<Action Name="" ID="{D93EF127-E91C-4FE7-A07B-669CAADC21A9}" ShortID="243217615">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="9"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Waterfall_Sequence" ID="{69412A26-FDDD-428F-9324-4F5084530B18}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Waterfall_Sequence" ID="{7F866CBB-067D-4D02-A5D0-E3189E44FB42}">
+									<ChildrenList>
+										<Action Name="" ID="{8BB4E4F3-681C-4853-B47F-52036A977FC0}" ShortID="666808234">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Waterfall_Sequence" ID="{69412A26-FDDD-428F-9324-4F5084530B18}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_Waterfall_Sequence" ID="{8B7C9CD8-26F7-4E7C-853A-0C56E31B9696}">
+									<ChildrenList>
+										<Action Name="" ID="{93FC9001-F5AD-46C9-8F78-1B06D164E077}" ShortID="867244781">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Waterfall_Sequence" ID="{69412A26-FDDD-428F-9324-4F5084530B18}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Forest_Sequence" ID="{2C12FBB3-FFC7-4FA3-99A0-760D0587F5EE}" ShortID="603319209">
+							<ChildrenList>
+								<Event Name="Pause_Forest_Sequence" ID="{1D413091-8315-468A-A7E6-968A9011313E}">
+									<ChildrenList>
+										<Action Name="" ID="{1C55D32D-9DD9-4A0D-BB42-F50775AE2179}" ShortID="590600727">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="7"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Forest_Sequence" ID="{B177C2B5-5366-4511-8DE9-D963B696FFD1}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Forest_Sequence" ID="{BC132D38-F6D0-4CC7-9142-353C4455879A}">
+									<ChildrenList>
+										<Action Name="" ID="{E73E11EA-AF56-4459-8C62-DA5C23246265}" ShortID="1055637684">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Forest_Sequence" ID="{B177C2B5-5366-4511-8DE9-D963B696FFD1}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Resume_Forest_Sequence" ID="{BA7568DB-3472-4B7F-A56D-78CBCBACA817}">
+									<ChildrenList>
+										<Action Name="" ID="{D47EEDC5-A5A5-4EAF-AA61-C683FD3CCCB0}" ShortID="95412337">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="9"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Forest_Sequence" ID="{B177C2B5-5366-4511-8DE9-D963B696FFD1}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_Forest_Sequence" ID="{A032C8F8-4823-49AD-AECE-C11AC36E381A}">
+									<ChildrenList>
+										<Action Name="" ID="{F89430DB-8F2F-4451-AF91-A86A64867FC5}" ShortID="928593814">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Forest_Sequence" ID="{B177C2B5-5366-4511-8DE9-D963B696FFD1}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Reset_Sequences" ID="{F7C0062A-5E0D-4231-94B3-63EB0C817C5E}">
+					<ChildrenList>
+						<Action Name="" ID="{3FE479FD-FBC8-4DB4-B3FE-7DA606E74F59}" ShortID="342213816">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="42"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Creek_Sequence" ID="{48EAAD50-3184-4703-8F38-EDBDAB38324B}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{80EC930E-D234-4F6F-9D0D-98A7F7FED423}" ShortID="30678815">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="42"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Forest_Sequence" ID="{B177C2B5-5366-4511-8DE9-D963B696FFD1}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{99C52FFC-E370-4121-ACAA-6DFB0E379EF9}" ShortID="210917037">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="42"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="River_Sequence" ID="{B43D88C0-6B76-4E75-927C-39798EE309A1}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A065ABAB-2C2D-42AE-BC01-EFBF9A8E6FD4}" ShortID="978284486">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="42"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Totem_Sequence" ID="{107ED319-3FE1-44AB-ACD3-4CDF38958969}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6D8E4688-CA1B-4B71-8361-BA0A8819D62D}" ShortID="669400371">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="42"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Waterfall_Sequence" ID="{69412A26-FDDD-428F-9324-4F5084530B18}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

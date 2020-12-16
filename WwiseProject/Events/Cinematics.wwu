@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C916FA21-8BE2-4971-B22E-1BF15C4C26BA}" SchemaVersion="97" RootDocumentID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}">
+	<Events>
+		<WorkUnit Name="Cinematics" ID="{C916FA21-8BE2-4971-B22E-1BF15C4C26BA}" OwnerID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Stop_Intro_Voice" ID="{B0EEB373-D3A3-440C-985A-28383D4B1E8B}">
+					<ChildrenList>
+						<Action Name="" ID="{8A65375D-E1DC-4CBC-8FE0-15DE59E9B246}" ShortID="938852872">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Intro_Voice" ID="{BCE1EC44-4F30-4082-AAC0-2B3C5D6CD5B2}" WorkUnitID="{2C6EDC42-6FD3-46A5-B731-0202CAB0DF21}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Intro_Voice" ID="{E5D2B402-04F6-46B9-820B-4CE4C0B1FF79}">
+					<ChildrenList>
+						<Action Name="" ID="{D8F4382E-1671-486B-90D2-64D808A1DCA3}" ShortID="143956070">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Intro_Voice" ID="{BCE1EC44-4F30-4082-AAC0-2B3C5D6CD5B2}" WorkUnitID="{2C6EDC42-6FD3-46A5-B731-0202CAB0DF21}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

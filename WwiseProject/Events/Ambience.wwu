@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2A420730-B373-49E5-96F7-D7E2187C606E}" SchemaVersion="97" RootDocumentID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}">
+	<Events>
+		<WorkUnit Name="Ambience" ID="{2A420730-B373-49E5-96F7-D7E2187C606E}" OwnerID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="play_cave_ambient" ID="{95CD2F71-DBEF-4352-89CE-B43074D257E3}">
+					<ChildrenList>
+						<Action Name="" ID="{F4C0C08D-CAB9-4256-9B7F-F196EADA96AE}" ShortID="1046240352">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Cave_Ambience" ID="{AE274E8A-5824-4932-9FDE-F3FBCDDF436E}" WorkUnitID="{CA6386E7-927E-4694-8CB3-555C5B402787}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_forest_ambient" ID="{6590CC2D-A411-49EA-A90F-A8B6BEBE5813}">
+					<ChildrenList>
+						<Action Name="" ID="{12E255E8-7ED4-435F-92CF-5E3A71FDC2DE}" ShortID="639528365">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Forest_Ambience" ID="{C98BEB05-1C45-4C73-98BE-FF8D8D2BE480}" WorkUnitID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_hole_destruction" ID="{93FF112B-7562-4227-AE0E-9C7A1848FE27}">
+					<ChildrenList>
+						<Action Name="" ID="{FDBEB46A-38E9-406C-B4D2-D0FE4C874A55}" ShortID="952921765">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Rock_Collapse" ID="{584EFCA8-B9C3-4EF8-B03B-03B83ABD516D}" WorkUnitID="{CA6386E7-927E-4694-8CB3-555C5B402787}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_gameover_music" ID="{816BE2E9-32DB-4766-BEFC-450E61324696}">
+					<ChildrenList>
+						<Action Name="" ID="{A1174512-2CB4-4A7B-90F4-D277B63834BE}" ShortID="863739798">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game_Over_Desolate" ID="{5E4A88C9-961C-44A1-8F6D-E00BF725D48C}" WorkUnitID="{CA6386E7-927E-4694-8CB3-555C5B402787}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Hits" ID="{9C9C2FDF-9D04-4966-9F13-4FEC35B55F23}">
+					<ChildrenList>
+						<Action Name="" ID="{D09FD411-0936-40D2-A363-E62DAAFB323B}" ShortID="782021514">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NecroProjectileHit" ID="{86A2F71C-A447-4434-A341-3D7F5386285D}" WorkUnitID="{9CBE15E6-B1A9-4AA0-91C6-F5E2AF372CD8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

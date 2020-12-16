@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1FC44F0F-507F-4E50-9187-88C36CE1C65C}" SchemaVersion="97" RootDocumentID="{9F9D1B30-200B-4927-8410-CAADE617AD84}">
+	<AudioObjects>
+		<WorkUnit Name="Menu" ID="{1FC44F0F-507F-4E50-9187-88C36CE1C65C}" OwnerID="{9F9D1B30-200B-4927-8410-CAADE617AD84}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="Menu_Clicks" ID="{A4E2A787-2884-424B-A98F-680B3DFD8919}" PersistMode="Reference"/>
+				<Sound Name="TwinlightSouls_Menu_InGame_Ambient" ID="{70F8CFFA-505C-4A20-8794-90F5B278A7E5}" ShortID="743079672">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="TwinlightSouls_Menu_InGame_Ambient" ID="{EFAA24BF-2576-4C2A-BB85-8A9B6C5233B9}">
+							<Language>SFX</Language>
+							<AudioFile>TwinlightSouls_Menu_InGame_Ambient.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="271477756"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="TwinlightSouls_Menu_InGame_Ambient" ID="{EFAA24BF-2576-4C2A-BB85-8A9B6C5233B9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Menu_ClickForward_V1" ID="{973E5B95-0616-4E06-A844-AC72665306D7}" ShortID="371323087">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Menu_ClickForward_V1" ID="{F3AA6987-81D4-448A-9BEB-323231480F2A}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Menu_ClickForward_V1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="14294545"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Menu_ClickForward_V1" ID="{F3AA6987-81D4-448A-9BEB-323231480F2A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Menu_HoverButton_V1" ID="{3A99FD1E-9F34-4198-A487-7CE46D7301D3}" ShortID="270495212">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Menu_HoverButton_V1" ID="{F31D67FB-DEEA-4C92-B0F6-AFEC6567A4D0}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Menu_HoverButton_V1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="49759006"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Menu_HoverButton_V1" ID="{F31D67FB-DEEA-4C92-B0F6-AFEC6567A4D0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Menu_StartGame_V1" ID="{E2642B62-9AB2-4CCA-99A1-8574AD0BC5EE}" ShortID="939111156">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Menu_StartGame_V1" ID="{78F6922D-C013-4221-86B5-B35F1CD6E147}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Menu_StartGame_V1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="250274843"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Menu_StartGame_V1" ID="{78F6922D-C013-4221-86B5-B35F1CD6E147}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Music_Menu" ID="{4880B3AC-7D4C-45B0-A01E-89AFD62D7501}" ShortID="466997093">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{2F7630A4-5AB5-4BE8-B772-69B436A5A39F}" ShortID="1065052839">
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{71BED737-DD6C-48EA-9871-410935E0D9E9}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Celtic Fairy Music - Fairy Forest" ID="{C6594012-FDC9-4537-923D-ACEF299DDB28}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="7.23221917808219"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="4.06812328767123"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.80805479452055"/>
+								<Property Name="TrimEnd" Type="Real64" Value="261.715931506849"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Celtic Fairy Music - Fairy Forest.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="14717544"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Celtic Fairy Music - Fairy Forest" ID="{C6594012-FDC9-4537-923D-ACEF299DDB28}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

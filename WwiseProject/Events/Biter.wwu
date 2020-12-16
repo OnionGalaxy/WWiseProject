@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E3107D59-9326-47CA-8499-C547D98F00F0}" SchemaVersion="97" RootDocumentID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}">
+	<Events>
+		<WorkUnit Name="Biter" ID="{E3107D59-9326-47CA-8499-C547D98F00F0}" OwnerID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Biter_Idle" ID="{A28441AE-DC89-4137-83BC-0E6A1588ED5E}">
+					<ChildrenList>
+						<Action Name="" ID="{20E4BB72-30FC-4000-AFBC-3549193B093F}" ShortID="308847312">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Biter_Idle" ID="{18B2208F-17D8-4479-8A74-AE3FB02B48B1}" WorkUnitID="{C76FA220-FC11-4686-954A-20984725A7BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Biter_BasicAttack" ID="{F22F49C6-D19C-4FFB-8085-897F1B3E0CD6}">
+					<ChildrenList>
+						<Action Name="" ID="{0A7F1B29-3BC9-44C0-95B4-052E919E851B}" ShortID="558002705">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Biter_BasicAttack" ID="{67D82160-D8CF-4D38-BDE6-04134D495058}" WorkUnitID="{C76FA220-FC11-4686-954A-20984725A7BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Biter_Fireloop" ID="{12629D7C-A9B4-4614-BA51-CA1419B5870F}">
+					<ChildrenList>
+						<Action Name="" ID="{7AF5B8E8-2ED4-4872-8044-1FF6936C4A78}" ShortID="969394145">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Biter_Fireloop" ID="{2A793C69-9436-4863-9995-5404F672B681}" WorkUnitID="{C76FA220-FC11-4686-954A-20984725A7BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Biter_Death" ID="{C0096771-F135-422C-AB0E-4EC745A785E6}">
+					<ChildrenList>
+						<Action Name="" ID="{9AA53C72-1ECE-4130-8FC0-72E3850D3F5E}" ShortID="172334612">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Biter_Death" ID="{ADD94124-670A-4DCE-B9FD-B0EA8421BFB3}" WorkUnitID="{C76FA220-FC11-4686-954A-20984725A7BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Biter_Dash" ID="{1B8F272B-0BAE-4969-975D-9B0ACF003DA0}">
+					<ChildrenList>
+						<Action Name="" ID="{FA781FD1-07E1-478C-9C59-17804DA2C852}" ShortID="51410765">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Biter_Dash" ID="{6C0661D9-EC90-41D5-92A6-C5AA5D680AE2}" WorkUnitID="{C76FA220-FC11-4686-954A-20984725A7BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Biter_Hit" ID="{B81CC030-8874-4C98-9BA6-B0549C7970EB}">
+					<ChildrenList>
+						<Action Name="" ID="{57CA356B-F8A2-4798-B84A-5E6CD6954F1A}" ShortID="1047012652">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Biter_Hit" ID="{3DE628D0-54E1-43FE-9E9B-7650B1AE3EA8}" WorkUnitID="{C76FA220-FC11-4686-954A-20984725A7BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Biter_Fireloop" ID="{05FBAD8D-6CC7-4731-9426-A8A891F8962B}">
+					<ChildrenList>
+						<Action Name="" ID="{629CE98C-5A05-4C6F-9FFC-86D6EE673071}" ShortID="647331511">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Biter_Fireloop" ID="{2A793C69-9436-4863-9995-5404F672B681}" WorkUnitID="{C76FA220-FC11-4686-954A-20984725A7BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Biter_Explosion" ID="{E59AAF5D-73A2-45B4-9CFC-4E4D181D4FD2}">
+					<ChildrenList>
+						<Action Name="" ID="{1060886C-9040-4C0D-AD4D-84A63957C215}" ShortID="361861899">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Biter_Explosion" ID="{2DDD84F1-48C8-43D8-8EB1-C4223C3133CB}" WorkUnitID="{C76FA220-FC11-4686-954A-20984725A7BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

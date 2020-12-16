@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9F9D1B30-200B-4927-8410-CAADE617AD84}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{9F9D1B30-200B-4927-8410-CAADE617AD84}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Player" ID="{54A59ECD-4E16-468B-93DF-A400057BF407}" PersistMode="Reference"/>
+				<WorkUnit Name="Menu" ID="{1FC44F0F-507F-4E50-9187-88C36CE1C65C}" PersistMode="Reference"/>
+				<WorkUnit Name="Music" ID="{ED528E8E-507D-4625-8185-F13489202DA0}" PersistMode="Reference"/>
+				<WorkUnit Name="Mushdoom" ID="{7C0657F4-04C7-421C-8964-3D98F101F1AD}" PersistMode="Reference"/>
+				<WorkUnit Name="Ambience" ID="{CA6386E7-927E-4694-8CB3-555C5B402787}" PersistMode="Reference"/>
+				<WorkUnit Name="Orbs" ID="{BDC58FB8-D70D-4AAB-BE7F-38C7287E9DFA}" PersistMode="Reference"/>
+				<WorkUnit Name="3DAmbience" ID="{2198CBA9-2458-415F-9ED5-F2FFE8D660DF}" PersistMode="Reference"/>
+				<WorkUnit Name="Necroplant" ID="{9CBE15E6-B1A9-4AA0-91C6-F5E2AF372CD8}" PersistMode="Reference"/>
+				<WorkUnit Name="Corruption" ID="{4C79F4BD-121A-4C60-AF62-008FE780B39E}" PersistMode="Reference"/>
+				<WorkUnit Name="Boss" ID="{EEFD725C-417A-4D1D-A8A8-DC1024ADB095}" PersistMode="Reference"/>
+				<WorkUnit Name="Cave" ID="{B62F6A83-901A-40CA-9C0F-908A81053768}" PersistMode="Reference"/>
+				<WorkUnit Name="Biter" ID="{C76FA220-FC11-4686-954A-20984725A7BF}" PersistMode="Reference"/>
+				<WorkUnit Name="Cinematics" ID="{2C6EDC42-6FD3-46A5-B731-0202CAB0DF21}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

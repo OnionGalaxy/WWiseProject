@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EACCB140-2EB0-4CAA-A465-467A47EAAC46}" SchemaVersion="97" RootDocumentID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}">
+	<Events>
+		<WorkUnit Name="Music" ID="{EACCB140-2EB0-4CAA-A465-467A47EAAC46}" OwnerID="{74DD3C50-B2C3-4CC1-A3E2-1BC93C57412B}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Level1_Sequence" ID="{A94C92F4-E20B-4C3B-9EE5-19E2A7E21548}" ShortID="499793426">
+					<ChildrenList>
+						<Event Name="Resume_Level1_Sequence" ID="{CCE78BB4-6E54-4D02-B9B5-EFC1434B7BDF}">
+							<ChildrenList>
+								<Action Name="" ID="{523A421E-C5E5-4A29-9EBE-826380460B40}" ShortID="1062737248">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Level1_Sequence" ID="{520717A7-F119-4B70-9E26-53BED378FEDC}" WorkUnitID="{ED528E8E-507D-4625-8185-F13489202DA0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Pause_Level1_Sequence" ID="{EFDCA9C3-CE55-498B-A441-865CE0A51844}">
+							<ChildrenList>
+								<Action Name="" ID="{9086E747-E91E-4A47-96AF-4567DF85820E}" ShortID="81112749">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Level1_Sequence" ID="{520717A7-F119-4B70-9E26-53BED378FEDC}" WorkUnitID="{ED528E8E-507D-4625-8185-F13489202DA0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Level1_Sequence" ID="{A464DB3B-2367-4FF9-9461-FE5C878DACE1}">
+							<ChildrenList>
+								<Action Name="" ID="{67CEABE8-1358-4A34-9FF0-178B0D811028}" ShortID="156219030">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Level1_Sequence" ID="{520717A7-F119-4B70-9E26-53BED378FEDC}" WorkUnitID="{ED528E8E-507D-4625-8185-F13489202DA0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Level1_Sequence" ID="{6892B2B0-8753-4841-B9C1-E80FB3ECB20F}">
+							<ChildrenList>
+								<Action Name="" ID="{6DE7C5F9-CDCA-4124-97E3-722211D61935}" ShortID="168806122">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Level1_Sequence" ID="{520717A7-F119-4B70-9E26-53BED378FEDC}" WorkUnitID="{ED528E8E-507D-4625-8185-F13489202DA0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Level2_Sequence" ID="{192AE129-6AC6-4748-BCAA-1C1BFBFA2F58}" ShortID="652394844">
+					<ChildrenList>
+						<Event Name="Resume_Level2_Sequence" ID="{2FDAC7C5-EC46-4F9C-A7AC-79743EFD689A}">
+							<ChildrenList>
+								<Action Name="" ID="{AF8F5694-251E-4B8E-97F9-FAA635DA5D32}" ShortID="573031105">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Level2_Sequence" ID="{567EBB76-9F89-4527-A3E5-F27573747139}" WorkUnitID="{ED528E8E-507D-4625-8185-F13489202DA0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Pause_Level2_Sequence" ID="{49AF22A1-0D45-4795-9445-A1AF92C49C18}">
+							<ChildrenList>
+								<Action Name="" ID="{BDD7D9F2-2D91-4974-BD7A-91C99841FE50}" ShortID="1061671675">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Level2_Sequence" ID="{567EBB76-9F89-4527-A3E5-F27573747139}" WorkUnitID="{ED528E8E-507D-4625-8185-F13489202DA0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Level2_Sequence" ID="{33927D7F-B1AB-42F3-8D12-DAF954C2F92E}">
+							<ChildrenList>
+								<Action Name="" ID="{57388FBB-7176-4433-81AA-84820CFD9D34}" ShortID="268915740">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Level2_Sequence" ID="{567EBB76-9F89-4527-A3E5-F27573747139}" WorkUnitID="{ED528E8E-507D-4625-8185-F13489202DA0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Level2_Sequence" ID="{5F56A6E8-6386-48DB-8ABA-7F58BE10318F}">
+							<ChildrenList>
+								<Action Name="" ID="{3319E05D-0C8A-4967-A6A5-4892EBB7D274}" ShortID="114092162">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Level2_Sequence" ID="{567EBB76-9F89-4527-A3E5-F27573747139}" WorkUnitID="{ED528E8E-507D-4625-8185-F13489202DA0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

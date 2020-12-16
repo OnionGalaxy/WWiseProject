@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4C79F4BD-121A-4C60-AF62-008FE780B39E}" SchemaVersion="97" RootDocumentID="{9F9D1B30-200B-4927-8410-CAADE617AD84}">
+	<AudioObjects>
+		<WorkUnit Name="Corruption" ID="{4C79F4BD-121A-4C60-AF62-008FE780B39E}" OwnerID="{9F9D1B30-200B-4927-8410-CAADE617AD84}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="Lava_Stream" ID="{BF66B998-E136-4D71-A053-CAFB8E99AA67}" ShortID="493338240">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Waterfall Attenuation" ID="{71301AA2-6D99-41A4-93C1-2443826F7EE3}" WorkUnitID="{7899030E-5AE9-40D5-AD3D-FAB725105335}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Lava_Stream" ID="{35DEDA49-536D-40F2-8B4B-DEC7C20684E1}">
+							<Language>SFX</Language>
+							<AudioFile>Lava_Stream.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="779560551"/>
+							</MediaIDList>
+						</AudioFileSource>
+						<AudioFileSource Name="Corrupted_Ambience" ID="{F19F3D06-77D6-4A37-9FB5-91F7871F3B87}">
+							<Language>SFX</Language>
+							<AudioFile>Corrupted_Ambience.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="545220420"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Lava_Stream" ID="{35DEDA49-536D-40F2-8B4B-DEC7C20684E1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Lava_River" ID="{5504C9B6-7D6F-416C-B4CA-E8B1AD9FEF11}" ShortID="132120349">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Waterfall Attenuation" ID="{71301AA2-6D99-41A4-93C1-2443826F7EE3}" WorkUnitID="{7899030E-5AE9-40D5-AD3D-FAB725105335}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Lava" ID="{51F3B566-E7C5-470F-A9B9-CA0D17EA6C1A}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Lava.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="551138507"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Lava" ID="{51F3B566-E7C5-470F-A9B9-CA0D17EA6C1A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Corrupted_Ambience" ID="{19899FF1-ADA7-49EC-9B93-650B1F7BC547}" ShortID="625573113">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="New Attenuation" ID="{5AEE4AC7-59F4-423D-8CA3-78572E938CA1}" WorkUnitID="{7899030E-5AE9-40D5-AD3D-FAB725105335}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Corrupted_Ambience" ID="{AF0AD765-C374-49A5-908B-E5E47329E5B2}">
+							<Language>SFX</Language>
+							<AudioFile>Corrupted_Ambience.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="545220420"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Corrupted_Ambience" ID="{AF0AD765-C374-49A5-908B-E5E47329E5B2}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Earthquake" ID="{A5441FCB-D261-4A95-AC39-BDC6B760DC5A}" ShortID="444479707">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Earthquake" ID="{F808D2B7-6A29-4BE0-8D2F-BF106AC8F3D3}">
+							<Language>SFX</Language>
+							<AudioFile>Earthquake.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1063701142"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Earthquake" ID="{F808D2B7-6A29-4BE0-8D2F-BF106AC8F3D3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

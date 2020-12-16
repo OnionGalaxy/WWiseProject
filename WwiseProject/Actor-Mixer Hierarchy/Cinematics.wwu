@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2C6EDC42-6FD3-46A5-B731-0202CAB0DF21}" SchemaVersion="97" RootDocumentID="{9F9D1B30-200B-4927-8410-CAADE617AD84}">
+	<AudioObjects>
+		<WorkUnit Name="Cinematics" ID="{2C6EDC42-6FD3-46A5-B731-0202CAB0DF21}" OwnerID="{9F9D1B30-200B-4927-8410-CAADE617AD84}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="Intro_Voice" ID="{BCE1EC44-4F30-4082-AAC0-2B3C5D6CD5B2}" ShortID="435846672">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Optimized" ID="{D3F83092-45F7-4792-A4A8-E69C490A9A62}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Voice_Over_Recording_Edit_With_Theme" ID="{D6C76D59-3499-45E5-9D0E-70779EA4338A}">
+							<Language>SFX</Language>
+							<AudioFile>Voice_Over_Recording_Edit_With_Theme.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1054938231"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Voice_Over_Recording_Edit_With_Theme" ID="{D6C76D59-3499-45E5-9D0E-70779EA4338A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

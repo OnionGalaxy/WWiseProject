@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E75870BD-AF29-4B9E-85E7-3A06D13D9EEF}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{E75870BD-AF29-4B9E-85E7-3A06D13D9EEF}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Play_main" ID="{845B4AEA-E786-49F6-BEA8-8BC22C4E0473}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_main" ID="{C5992B2B-2E06-41C9-9A01-DD9553DD2E9F}" WorkUnitID="{EACCB140-2EB0-4CAA-A465-467A47EAAC46}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Menu" ID="{BBEB2095-8A7C-4F26-972D-93B731FC5630}">
+					<ObjectInclusionList>
+						<ObjectRef Name="menu_hover" ID="{DF52756F-C1D5-4224-BFC7-E144BDCCB64D}" WorkUnitID="{779A7A03-D48B-4FA2-A8F4-2B217329329A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="start_game" ID="{0E09D76A-9265-48E9-B305-60A299FF67AF}" WorkUnitID="{779A7A03-D48B-4FA2-A8F4-2B217329329A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="menu_select" ID="{9A5FED0E-6A8D-4DCC-ABB4-5324166797C4}" WorkUnitID="{779A7A03-D48B-4FA2-A8F4-2B217329329A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Menu" ID="{779A7A03-D48B-4FA2-A8F4-2B217329329A}" WorkUnitID="{779A7A03-D48B-4FA2-A8F4-2B217329329A}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Mushdoom" ID="{4CF7CD79-F61C-4D84-8C0D-D45A387F90F1}">
+					<ObjectInclusionList>
+						<ObjectRef Name="play_footstep" ID="{3022FD51-0871-4114-8CD6-F9158481A397}" WorkUnitID="{8EAFBABF-AE2B-436D-A28B-FC0D41986278}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_ground" ID="{0B12E4E8-832E-4268-AE9C-1365DAA2E71E}" WorkUnitID="{8EAFBABF-AE2B-436D-A28B-FC0D41986278}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_receive_hit" ID="{EB45040F-1546-43EC-A12D-2FBA37609B1C}" WorkUnitID="{8EAFBABF-AE2B-436D-A28B-FC0D41986278}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_throw" ID="{761BF9C3-B5AF-4A8D-AF63-7189F8F64C51}" WorkUnitID="{8EAFBABF-AE2B-436D-A28B-FC0D41986278}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_cry" ID="{0BCCD1F0-48AB-4C55-A1C2-D873EADC955F}" WorkUnitID="{8EAFBABF-AE2B-436D-A28B-FC0D41986278}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_make_attack" ID="{4C735559-8731-4E18-B222-956A0E7BE750}" WorkUnitID="{8EAFBABF-AE2B-436D-A28B-FC0D41986278}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_idle" ID="{59E35D39-20B6-4F61-9D66-E809B7D873F0}" WorkUnitID="{8EAFBABF-AE2B-436D-A28B-FC0D41986278}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Player" ID="{55E0B12F-2606-418C-8DD7-9D158BD9D206}">
+					<ObjectInclusionList>
+						<ObjectRef Name="play_light_shield_loop" ID="{904397D5-3D43-4022-A00B-B812934D7120}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_H_Attack_3" ID="{0C3F3E84-1B1F-4108-A5ED-3F4DB3409AA9}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_lightball_return" ID="{8EB732FA-DCB0-424D-A15F-AED4CAC36D4E}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_H_Attack_2" ID="{3A259518-5D09-4264-8829-1BDE9B1855F2}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_dash_player" ID="{E36065F1-A56A-434E-980F-2D15E9BF0FD6}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_H_Attack_1" ID="{DBBC0E6E-29ED-44A7-B633-7895B030AA82}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_footstep_player" ID="{B6727C19-9B65-44B2-896D-D26DA7139257}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_light_shield_cast" ID="{991E758A-CD3D-45E5-9C3C-192FBE17C6E4}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_lightball_cast" ID="{CF113347-24DF-4621-9E90-115883847FFF}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_jump_player" ID="{3AF16392-B28A-464D-8ABB-B7A209A3B24E}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="stop_light_shield_loop" ID="{C54DEBD5-1956-485B-BB96-831656573FB7}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_backflip_player" ID="{BE0841F4-BB2A-48A7-9AA8-6F9A5797DAE6}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_attack_player" ID="{A6C27198-FF9A-4919-B280-151ACEFE059B}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_light_shield_break" ID="{1DB48C7F-837B-49B5-98A5-4CA0A1BAF5EA}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_revive_success" ID="{9D1E4808-71F8-4A9C-90A4-F64B681C7C46}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_lightball" ID="{57A1D5CF-B0BC-4D38-AABE-2303690BC19E}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_revive_cast" ID="{E460E2DF-A127-4F54-B7F9-1252AD626132}" WorkUnitID="{38C3E9A5-4501-4F7C-ADAE-6D2516C05912}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music" ID="{D2E4C95A-FC7D-43AD-975F-1ABA7668354D}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Level2_Sequence" ID="{192AE129-6AC6-4748-BCAA-1C1BFBFA2F58}" WorkUnitID="{EACCB140-2EB0-4CAA-A465-467A47EAAC46}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Level1_Sequence" ID="{A94C92F4-E20B-4C3B-9EE5-19E2A7E21548}" WorkUnitID="{EACCB140-2EB0-4CAA-A465-467A47EAAC46}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="LightOrb" ID="{81CD5A0C-C3B5-4957-AF0D-A3D671166DA9}">
+					<ObjectInclusionList>
+						<ObjectRef Name="play_orbs_dropping" ID="{48310F39-8DF3-4712-A2E8-18756DAC30B1}" WorkUnitID="{787D0490-8C40-4CF9-A4FC-9DB02F96B819}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_orbs_pickup" ID="{1AC24037-69B2-48D3-B94C-4B054375DB48}" WorkUnitID="{787D0490-8C40-4CF9-A4FC-9DB02F96B819}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Ambience" ID="{45149ADC-6302-4674-B001-FDDF4EAE45AE}">
+					<ObjectInclusionList>
+						<ObjectRef Name="play_hole_destruction" ID="{93FF112B-7562-4227-AE0E-9C7A1848FE27}" WorkUnitID="{2A420730-B373-49E5-96F7-D7E2187C606E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_cave_ambient" ID="{95CD2F71-DBEF-4352-89CE-B43074D257E3}" WorkUnitID="{2A420730-B373-49E5-96F7-D7E2187C606E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_gameover_music" ID="{816BE2E9-32DB-4766-BEFC-450E61324696}" WorkUnitID="{2A420730-B373-49E5-96F7-D7E2187C606E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_forest_ambient" ID="{6590CC2D-A411-49EA-A90F-A8B6BEBE5813}" WorkUnitID="{2A420730-B373-49E5-96F7-D7E2187C606E}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Ambience3D" ID="{FA101F8F-8535-499C-9B37-3D3604EFADA5}">
+					<ObjectInclusionList>
+						<ObjectRef Name="3DAmbience" ID="{09DEEA6B-4ADF-4956-B6B6-295B0A023379}" WorkUnitID="{09DEEA6B-4ADF-4956-B6B6-295B0A023379}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Corruption" ID="{AB1E452A-CEF0-472F-8B02-674A8C141BE3}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Corruption" ID="{4C79F4BD-121A-4C60-AF62-008FE780B39E}" WorkUnitID="{4C79F4BD-121A-4C60-AF62-008FE780B39E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Corruption" ID="{A26DB578-E5A7-4CA8-91FC-6E8B6B544C10}" WorkUnitID="{A26DB578-E5A7-4CA8-91FC-6E8B6B544C10}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Necroplant" ID="{1637D4EE-AF42-499F-9F17-716BF397D204}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Necrospawn" ID="{F1CE5918-3F62-40C3-97B4-92189B4EFEC5}" WorkUnitID="{592BD572-9FD0-4CF5-A6C2-4B9B6798220C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Necrotaunt" ID="{C1DFD3DC-362A-41FD-AD10-96684077A955}" WorkUnitID="{592BD572-9FD0-4CF5-A6C2-4B9B6798220C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Necroprojectile_Shoot" ID="{391B45D1-C016-429A-A654-ED6A3DD597B3}" WorkUnitID="{592BD572-9FD0-4CF5-A6C2-4B9B6798220C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Necroprojectile_Hit" ID="{EE2AA974-D5D8-4946-87E2-D30C81AADD0E}" WorkUnitID="{592BD572-9FD0-4CF5-A6C2-4B9B6798220C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Necroburrow" ID="{037AE94C-99CD-4A86-B7A4-78539FB62F83}" WorkUnitID="{592BD572-9FD0-4CF5-A6C2-4B9B6798220C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Necroburrow" ID="{51798041-48C3-4B32-BEC0-C01AA064E9C9}" WorkUnitID="{592BD572-9FD0-4CF5-A6C2-4B9B6798220C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Necrodeath" ID="{AFC5F40A-A43F-4F05-B6CA-35BDE2D877E9}" WorkUnitID="{592BD572-9FD0-4CF5-A6C2-4B9B6798220C}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Boss" ID="{5DFA35EE-0AC6-4039-9FF7-C2718F9E1FD5}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Boss" ID="{46909F47-8101-4230-915E-17CFF4F5C818}" WorkUnitID="{46909F47-8101-4230-915E-17CFF4F5C818}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Boss" ID="{EEFD725C-417A-4D1D-A8A8-DC1024ADB095}" WorkUnitID="{EEFD725C-417A-4D1D-A8A8-DC1024ADB095}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Cave" ID="{2516A87F-9B57-46DC-B246-51FFE35B065F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Cave" ID="{B62F6A83-901A-40CA-9C0F-908A81053768}" WorkUnitID="{B62F6A83-901A-40CA-9C0F-908A81053768}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Cave" ID="{81C2D7D1-C7F4-4DFC-A070-7A72CE4F47D5}" WorkUnitID="{81C2D7D1-C7F4-4DFC-A070-7A72CE4F47D5}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Biter" ID="{952633AF-9791-43C5-9260-00F5A0B07968}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Biter_Idle" ID="{A28441AE-DC89-4137-83BC-0E6A1588ED5E}" WorkUnitID="{E3107D59-9326-47CA-8499-C547D98F00F0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Biter_Death" ID="{C0096771-F135-422C-AB0E-4EC745A785E6}" WorkUnitID="{E3107D59-9326-47CA-8499-C547D98F00F0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Biter_Explosion" ID="{E59AAF5D-73A2-45B4-9CFC-4E4D181D4FD2}" WorkUnitID="{E3107D59-9326-47CA-8499-C547D98F00F0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Biter_Fireloop" ID="{12629D7C-A9B4-4614-BA51-CA1419B5870F}" WorkUnitID="{E3107D59-9326-47CA-8499-C547D98F00F0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Biter_Fireloop" ID="{05FBAD8D-6CC7-4731-9426-A8A891F8962B}" WorkUnitID="{E3107D59-9326-47CA-8499-C547D98F00F0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Biter_Dash" ID="{1B8F272B-0BAE-4969-975D-9B0ACF003DA0}" WorkUnitID="{E3107D59-9326-47CA-8499-C547D98F00F0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Biter_Hit" ID="{B81CC030-8874-4C98-9BA6-B0549C7970EB}" WorkUnitID="{E3107D59-9326-47CA-8499-C547D98F00F0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Biter_BasicAttack" ID="{F22F49C6-D19C-4FFB-8085-897F1B3E0CD6}" WorkUnitID="{E3107D59-9326-47CA-8499-C547D98F00F0}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="New_SoundBank" ID="{F8149D48-D008-4AC4-BD97-C6EB9BD7A6E7}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

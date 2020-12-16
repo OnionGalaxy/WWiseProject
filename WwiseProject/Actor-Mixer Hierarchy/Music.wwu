@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ED528E8E-507D-4625-8185-F13489202DA0}" SchemaVersion="97" RootDocumentID="{9F9D1B30-200B-4927-8410-CAADE617AD84}">
+	<AudioObjects>
+		<WorkUnit Name="Music" ID="{ED528E8E-507D-4625-8185-F13489202DA0}" OwnerID="{9F9D1B30-200B-4927-8410-CAADE617AD84}" PersistMode="Nested">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Level1_Sequence" ID="{520717A7-F119-4B70-9E26-53BED378FEDC}" ShortID="1012437519">
+					<PropertyList>
+						<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Music_TwinlightSouls_StartingCombat" ID="{CF42FEA8-9B65-488C-BC3A-F1F745B321ED}" ShortID="727834616">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Music_TwinlightSouls_StartingCombat" ID="{517B9438-43C3-4B5D-94F0-46AF99B6EBC1}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="13.16438480415"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="8.44735347746405"/>
+										<Property Name="TrimEnd" Type="Real64" Value="118.86101"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Music_TwinlightSouls_StartingCombat.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1015030374"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Music_TwinlightSouls_StartingCombat" ID="{517B9438-43C3-4B5D-94F0-46AF99B6EBC1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Music_TwinlightSouls_Base" ID="{19095B60-9F51-45D0-AEE4-FB90F32F2332}" ShortID="734929012">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Music_TwinlightSouls_Base" ID="{40E47DA3-D8A7-40E6-8AC3-DBE58DD3A076}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.23865588016028"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Music_TwinlightSouls_Base.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="68438454"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Music_TwinlightSouls_Base" ID="{40E47DA3-D8A7-40E6-8AC3-DBE58DD3A076}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="Music_TwinlightSouls_Base" ID="{19095B60-9F51-45D0-AEE4-FB90F32F2332}"/>
+						<ItemRef Name="Music_TwinlightSouls_StartingCombat" ID="{CF42FEA8-9B65-488C-BC3A-F1F745B321ED}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Level2_Sequence" ID="{567EBB76-9F89-4527-A3E5-F27573747139}" ShortID="484360315">
+					<PropertyList>
+						<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Music_TwinlightSouls_Base" ID="{E4EAE206-F102-4B85-943F-8D768480B69D}" ShortID="252855322">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Music_TwinlightSouls_Base" ID="{7B904AFE-7D74-48AB-95AB-44F4FDF6A354}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.23865588016028"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Music_TwinlightSouls_Base.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="68438454"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Music_TwinlightSouls_Base" ID="{7B904AFE-7D74-48AB-95AB-44F4FDF6A354}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Music_TwinlightSouls_CombatClimax" ID="{DA56CA53-935F-430C-9371-4F4E1F1C1AE8}" ShortID="984810512">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D60F9C25-243F-4064-8AB9-9B95CC924549}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13F98237-D64C-445D-8E34-F79BC2D3D933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Music_TwinlightSouls_CombatClimax" ID="{3D63BF6B-47C0-486D-B8B4-7C52E82CC026}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="4.7309507889914"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="2.87970917590782"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Music_TwinlightSouls_CombatClimax.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="536568763"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Music_TwinlightSouls_CombatClimax" ID="{3D63BF6B-47C0-486D-B8B4-7C52E82CC026}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="Music_TwinlightSouls_Base" ID="{E4EAE206-F102-4B85-943F-8D768480B69D}"/>
+						<ItemRef Name="Music_TwinlightSouls_CombatClimax" ID="{DA56CA53-935F-430C-9371-4F4E1F1C1AE8}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

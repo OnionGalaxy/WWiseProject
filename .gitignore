@@ -1,0 +1,6 @@
+## Ignore Wwise settings files
+
+WwiseProject.*.wsettings
+WwiseProject.*.validationcache
+
+
